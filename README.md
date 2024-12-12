@@ -86,3 +86,14 @@ A tutorial (in Spanish, but with subtitles): [YouTube Link](https://www.youtube.
 ## Note
 The files in the KQI3 and KQI2 folders are sourced from the [ScooterHacking Utility](https://github.com/scooterhacking/niu_scooters).
 
+---
+
+### Trick to Increase Speed on KQI3 Sport and KQI3 Pro
+There is a trick to make the KQI3 Sport and KQI3 Pro scooters faster:
+1. Flash the KQI3 Max firmware onto the scooter.
+2. Set the custom mode speed to 38 km/h.
+3. Flash the correct firmware for your scooter back onto the device.
+
+**Important:**
+- Avoid changing the scooter's settings via the app or locking the scooter after using this trick, as this will reset the scooter to its original maximum speed.
+

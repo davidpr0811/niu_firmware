@@ -1,0 +1,15 @@
+{
+    "data": {
+        "items": [
+            {
+                "devicetype": "FOC",
+                "hasnew": true,
+                "version": "KBE38M02",
+                "date": "1659087766962",
+                "size": "29696",
+                "url": "https://github.com/davidpr0811/niu_firmware/raw/main/KQI 300/x/de/KBE38M02.bin",
+                "md5": "f356c2e4fb9a128c1ddf17f7166e57cb"
+            }
+        ]
+    }
+}

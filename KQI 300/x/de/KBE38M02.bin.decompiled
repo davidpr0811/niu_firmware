@@ -1,0 +1,5936 @@
+int32_t sub_2(void* arg1, int32_t arg2, int32_t arg3 @ r5, int32_t arg4 @ r6, int32_t* arg5 @ r12)
+{
+    /* unimplemented  {cdp2 p9, #0, c7, c2, c10, #5} */
+    *(*(arg1 + arg3) + 9);
+    /* unimplemented  {stc p8, c15, [r3], #-0x14} */
+    /* unimplemented  {stc p8, c15, [r3], #-0xcc} */
+    *(arg1 + 4);
+    *(arg1 + 0xc);
+    int32_t* r4_1 = *(arg1 + 8) + 0x2b;
+    r4_1[1];
+    r4_1[2];
+    /* jump -> arg2 + 3 */
+}
+
+int32_t sub_3be(void* arg1, int32_t arg2, int32_t arg3, int32_t arg4, int32_t arg5 @ r6, int32_t* arg6 @ r12)
+{
+    /* unimplemented  {ldc2l p1, c0, [lr, #-8]!} */
+    /* unimplemented  {ldc2l p1, c0, [lr, #-8]!} */
+    /* unimplemented  {ldc2l p1, c0, [lr, #-8]!} */
+    /* unimplemented  {stc2 p0, c0, [r3], #-8} */
+    /* unimplemented  {stc2 p0, c0, [r3], #-8} */
+    /* unimplemented  {ldc2l p1, c0, [lr, #-8]!} */
+    /* unimplemented  {ldc2l p1, c0, [lr, #-8]!} */
+    /* unimplemented  {stc p8, c15, [r3], #-0x14} */
+    /* unimplemented  {stc p8, c15, [r3], #-0xcc} */
+    *(arg1 + 4);
+    *(arg1 + 0xc);
+    int32_t* r4_1 = *(arg1 + 8) + 0x2b;
+    
+    if (arg5 == 0xcf)
+    {
+        /* unimplemented  {stc p8, c15, [r3], #-0x94} */
+        *arg6;
+        r4_1 = arg6[1];
+        arg6[2];
+    }
+    
+    r4_1[1];
+    r4_1[2];
+    /* jump -> arg4 */
+}
+
+void sub_500(int32_t arg1, int32_t arg2 @ r4, void* arg3 @ r5, int32_t arg4, int32_t arg5, int32_t arg6, int32_t arg7, int32_t arg8)
+{
+    if (arg2 != 4)
+        return;
+    
+    /* unimplemented  {smulwb r0, r12, r3} */
+    /* jump -> 0xff9a9d48 */
+}
+
+int32_t* sub_6a6(int32_t* arg1 @ r6, int32_t* arg2 @ r7, int32_t arg3, int32_t arg4, int32_t arg5, int32_t arg6, int32_t arg7, int32_t arg8, int32_t arg9)
+{
+    int32_t* r0 = *arg1;
+    arg1[1];
+    int32_t* r4 = r0;
+    *arg2;
+    arg2[1];
+    
+    if (!r4)
+        return r0;
+    
+    bool v = 0xc0ac2ea + r4;
+    void* r0_2 = *0x979690ec;
+    void* const r5_1 = *0x979690f4;
+    uint32_t r6_2;
+    bool z;
+    
+    if (!r4)
+    {
+        /* unimplemented  {vselge.F32 s6, s6, s20} */
+        r6_2 = r4 >> 0xc;
+        z = !(r4 & 0xfffff000);
+    }
+    else
+    {
+        r6_2 = r4 >> 8;
+        z = !(r4 & 0xffffff00);
+        
+        if (!z)
+        {
+            if (z || r4 >> 8 < 0 != v)
+                return 3;
+            
+            if (z || !TEST_BIT(r4, 7))
+            {
+                if (r6_2 != 0xc9)
+                {
+                    *r4;
+                    r4[1];
+                    r4[2];
+                    r5_1 = r4[3];
+                    r4 = &data_10;
+                }
+                else
+                    r4 = &data_23;
+            }
+            
+            r4[4];
+            0x40400a(*r4, r4[1], r4[2], r5_1);
+            return arg3;
+        }
+    }
+    
+    if (!z)
+    {
+        v = 0x12 - 2;
+        label_70a:
+        
+        if (false == v)
+        {
+            /* unimplemented  {stc2l p14, c1, [r3], #-0x150} */
+            r5_1 = 0xd8f61040;
+        }
+    }
+    else
+    {
+        /* unimplemented  {stc2 p15, c1, [r3, #-0x50]!} */
+        r6_2 = r4 >> 0xe;
+        
+        if (!r6_2)
+        {
+            /* unimplemented  {stc2 p14, c1, [r3], #0x250} */
+            goto label_70a;
+        }
+        
+        r5_1 = 0xd8f61040;
+    }
+    
+    uint32_t* r4_3 = r5_1 << 0xf;
+    
+    if (r4_3)
+    {
+        r6_2 -= 0x63;
+        r4_3 |= 4;
+    }
+    
+    *r4_3 = r6_2;
+    *0x9ec7b070 = r6_2 << 8 >> 0x11;
+    /* unimplemented  {vsubw.U32 q2, q14, d10} */
+    *(r0_2 - 0x61384f90);
+    *0x2002fd03;
+    /* undefined */
+}
+
+int32_t sub_784(int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4, int32_t arg5, int32_t arg6, int32_t arg7) __pure
+{
+    return arg1;
+}
+
+int32_t sub_10c2(int32_t* arg1, int32_t, int32_t, int32_t arg4, int32_t arg5 @ r6)
+{
+    *(arg1 * 2) = arg4;
+    /* unimplemented  {stc2 p5, c0, [r7], #-0x3f0} */
+    /* undefined */
+}
+
+void sub_1110(uint32_t arg1, uint32_t arg2, void* const arg3, uint32_t arg4 @ r4, int32_t arg5 @ r6, uint32_t arg6 @ r7, int32_t arg7 @ r10, int32_t arg8 @ r12, int32_t arg9)
+{
+    uint32_t r3;
+    bool cond:0;
+    
+    if (arg5 + 0x4b <= 0xd3)
+    {
+        r3 = 0x30940;
+        arg1 = 0x63;
+        cond:0 = arg4 - 0x30940 >= 0;
+    }
+    else
+    {
+        r3 = arg1 - 5;
+        cond:0 = (arg6 & ~r3) >= 0;
+        arg6 = *(arg5 - 0x88 + arg1);
+    }
+    
+    if (cond:0)
+        goto label_1186;
+    
+    int32_t* r5_1 = 0x51051c23;
+    void* r6_2 = arg5 - 0x154;
+    
+    if (arg5 - 0x88 > 0xcc)
+    {
+        *(arg6 + 0x40) = arg1;
+        *(arg6 + (arg1 | 0x51051c23));
+    }
+    
+    arg1 = arg6 << 9;
+    
+    if (arg1 < 0 && arg1 < 0)
+    {
+        void* temp5_1 = r6_2;
+        r6_2 -= 0xa4;
+        
+        if (temp5_1 > 0xa4)
+        {
+            r5_1 = 0x3064f;
+            arg3 = 0x280d7653;
+            arg2 = 7;
+        }
+    }
+    
+    arg4 = *(arg3 * 2);
+    int32_t* r5_2 = *r5_1;
+    uint32_t r5_4;
+    void* r6_8;
+    void* r7_1;
+    bool cond:3_1;
+    
+    if (r6_2 <= 0xbb)
+    {
+        r6_8 = r3 << 0xe;
+        *(arg1 + 0x28) = arg2;
+        r7_1 = arg6 - 0x106;
+        *r5_2 = r5_2;
+        *(arg2 + 0x44) = r6_8;
+        r5_4 = r3 << 0x1e;
+        cond:3_1 = r5_4 >= 0;
+        
+        if (r5_4)
+            goto label_1228;
+        
+        goto label_11d8;
+    }
+    
+    arg1 = arg1();
+    label_1186:
+    arg2 = arg6 << 0xe;
+    r7_1 = arg6 - 0x56;
+    int32_t r6_4 = *(&*(data_23 + 1) + arg2);
+    *(arg2 * 2);
+    
+    if (r6_4 != 0xb3 && r6_4 >= 0xb3 && false == r6_4 - 0xb3)
+        return;
+    
+    void* r6_6 = &arg_28c;
+    
+    if (arg2 - 0x30)
+        goto label_121c;
+    
+    *(0x70f3f53d + arg1);
+    label_11d8:
+    *(r7_1 + 0x60) = arg1;
+    r6_6 = &data_4;
+    /* unimplemented  {vrsra.U16 d20, d23, #7} */
+    int32_t r0_2 = 0x113679aa;
+    r7_1 -= 0x39;
+    (*(data_23 + 1)) = 0xfa63;
+    r5_4 = nullptr;
+    arg3 = 0x4829b213;
+    
+    if (arg4 - 0x24 < 0 == arg4 - 1 - 0x23)
+        goto label_123a;
+    
+    *nullptr = 4;
+    arg1 = 0xf0081c24;
+    r7_1 = 0xe120000;
+    label_121c:
+    arg3 = *r6_6;
+    r5_4 = *(r6_6 + 4);
+    r6_8 = r6_6 + 8;
+    void* r6_9;
+    
+    if (false == arg1 - 0x37)
+    {
+        label_1272:
+        arg3 |= arg4;
+        r0_2 = arg9;
+        r6_9 = r6_8 - 0xdb;
+        
+        if (r6_8 >= 0xdb)
+            goto label_129a;
+        
+        *(arg4 + 0xc);
+        /* tailcall */
+        return sub_12bc(*arg4, *(arg4 + 4), arg3, *(arg4 + 8), arg4 + 0x10, r7_1);
+    }
+    
+    r5_4 = sub_2;
+    arg1 = 0xd0;
+    cond:3_1 = arg4 * 0x3ffffff >= 0;
+    label_1228:
+    
+    if (cond:3_1)
+        goto label_1272;
+    
+    r6_6 = r6_8 - 0x63;
+    *(arg3 + 0x12) = arg4;
+    
+    if (r6_8 <= 0x63)
+    {
+        r0_2 = 0x46384849;
+        label_123a:
+        arg9 = r0_2;
+        r6_9 = r6_6 - 0xdb;
+        
+        if (r6_6 >= 0xdb)
+        {
+            *(*(r5_4 + r0_2) + arg7 + 0x64) = *(r6_9 + 0x19);
+            /* undefined */
+        }
+        
+        int32_t* temp0_2 = arg4;
+        r5_4 = temp0_2[1];
+        arg4 += 8;
+        int32_t r3_5 = *temp0_2 << 0x17;
+        
+        if (!r3_5)
+        {
+            arg4 += 0xe1;
+            label_129a:
+            
+            if (r0_2 <= 3)
+            {
+                /* unimplemented  {stc2 p2, c4, [r3], #0x108} */
+                /* tailcall */
+                return sub_12bc(r0_2, sub_2, arg3, *(r6_9 + 0x19), arg4, r7_1);
+            }
+            
+            arg1 = 3;
+            /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+            /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+        }
+        else
+        {
+            *(arg4 + 0x1c) = r3_5;
+            
+            if (!(r5_4 << 4))
+            {
+                *(*(r5_4 + 0x2fa63) + arg7 + 0x64) = *(r6_9 + 0x19);
+                /* undefined */
+            }
+            
+            arg1 = 2;
+            /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+        }
+    }
+    
+    /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+    /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+    /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+    *((arg1 >> 5) + arg4) = r5_4;
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+    /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+    /* undefined */
+}
+
+int32_t sub_113c(int32_t arg1, uint32_t arg2, int32_t** arg3, int32_t* arg4 @ r5, int32_t arg5 @ r6, void* arg6 @ r7, int32_t arg7 @ r10, int32_t arg8 @ r12, int32_t arg9)
+{
+    int32_t r6_1 = arg5 - 0x89;
+    int32_t result;
+    bool cond:0_1;
+    
+    if (arg5 + 0x4b <= 0xd4)
+    {
+        arg4 = *arg3;
+        result = arg6 << 0xa;
+        cond:0_1 = result >= 0;
+        
+        if (result < 0)
+            goto label_115c;
+        
+        label_116a:
+        
+        if (!cond:0_1)
+        {
+            int32_t temp3_1 = r6_1;
+            r6_1 -= 0xa4;
+            
+            if (temp3_1 > 0xa4)
+            {
+                arg4 = 0x3064f;
+                arg3 = 0x280d7653;
+                arg2 = 7;
+            }
+        }
+    }
+    else
+    {
+        *(arg6 + 0x40) = arg1;
+        *(arg6 + (arg1 & ~arg4));
+        label_115c:
+        result = arg6 << 9;
+        cond:0_1 = result >= 0;
+        
+        if (result < 0)
+            goto label_116a;
+    }
+    uint32_t r4 = *(arg3 * 2);
+    int32_t* r5 = *arg4;
+    int32_t r0_2;
+    int32_t (* r5_2)(void* arg1, int32_t arg2, int32_t arg3 @ r5, int32_t arg4 @ r6, int32_t* arg5 @ r12);
+    void* r6_5;
+    void* r6_7;
+    void* r7;
+    bool cond:1_1;
+    
+    if (r6_1 > 0xbb)
+    {
+        uint32_t r3_1;
+        result = result();
+        arg2 = arg6 << 0xe;
+        r7 = arg6 - 0x56;
+        int32_t r6_3 = *(&*(data_23 + 1) + arg2);
+        *(arg2 * 2);
+        
+        if (r6_3 != 0xb3 && r6_3 >= 0xb3 && false == r6_3 - 0xb3)
+            return result;
+        
+        r6_5 = &arg_28c;
+        
+        if (!(arg2 - 0x30))
+        {
+            *(0x70f3f53d + result);
+            *(r7 + 0x60) = result;
+            r6_5 = &data_4;
+            /* unimplemented  {vrsra.U16 d20, d23, #7} */
+            r0_2 = 0x113679aa;
+            r7 -= 0x39;
+            (*(data_23 + 1)) = 0xfa63;
+            r5_2 = nullptr;
+            arg3 = 0x4829b213;
+            
+            if (r4 - 0x24 < 0 == r4 - 1 - 0x23)
+                goto label_123a;
+            
+            *nullptr = 4;
+            result = 0xf0081c24;
+            r7 = 0xe120000;
+        }
+        
+        void** temp0_1 = r6_5;
+        arg3 = *temp0_1;
+        r5_2 = temp0_1[1];
+        r6_7 = r6_5 + 8;
+        
+        if (false == result - 0x37)
+            goto label_1272;
+        
+        r5_2 = sub_2;
+        result = 0xd0;
+        cond:1_1 = r4 * 0x3ffffff >= 0;
+        goto label_1228;
+    }
+    
+    r6_7 = 0x88000;
+    *(result + 0x28) = arg2;
+    r7 = arg6 - 0x106;
+    *r5 = r5;
+    *(arg2 + 0x44) = 0x88000;
+    r5_2 = 0x80000000;
+    cond:1_1 = false;
+    label_1228:
+    void* r6_8;
+    
+    if (cond:1_1)
+    {
+        label_1272:
+        arg3 |= r4;
+        r0_2 = arg9;
+        r6_8 = r6_7 - 0xdb;
+        
+        if (r6_7 < 0xdb)
+        {
+            *(r4 + 0xc);
+            /* tailcall */
+            return sub_12bc(*r4, *(r4 + 4), arg3, *(r4 + 8), r4 + 0x10, r7);
+        }
+    }
+    else
+    {
+        r6_5 = r6_7 - 0x63;
+        *(arg3 + 0x12) = r4;
+        
+        if (r6_7 > 0x63)
+            goto label_12fc;
+        
+        r0_2 = 0x46384849;
+        label_123a:
+        arg9 = r0_2;
+        r6_8 = r6_5 - 0xdb;
+        
+        if (r6_5 >= 0xdb)
+        {
+            *(*(r5_2 + r0_2) + arg7 + 0x64) = *(r6_8 + 0x19);
+            /* undefined */
+        }
+        
+        int32_t* temp0_2 = r4;
+        r5_2 = temp0_2[1];
+        r4 += 8;
+        int32_t r3_6 = *temp0_2 << 0x17;
+        
+        if (r3_6)
+        {
+            *(r4 + 0x1c) = r3_6;
+            
+            if (!(r5_2 << 4))
+            {
+                *(*(r5_2 + 0x2fa63) + arg7 + 0x64) = *(r6_8 + 0x19);
+                /* undefined */
+            }
+            
+            result = 2;
+            label_12f8:
+            /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+            label_12fc:
+            /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+            /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+            /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+            *((result >> 5) + r4) = r5_2;
+            /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+            /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+            /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+            /* undefined */
+        }
+        
+        r4 += 0xe1;
+    }
+    
+    if (r0_2 <= 3)
+    {
+        /* unimplemented  {stc2 p2, c4, [r3], #0x108} */
+        /* tailcall */
+        return sub_12bc(r0_2, sub_2, arg3, *(r6_8 + 0x19), r4, r7);
+    }
+    
+    result = 3;
+    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+    goto label_12f8;
+}
+
+int32_t sub_11c0(int32_t (* arg1)(void* arg1, int32_t arg2, int32_t arg3 @ r5, int32_t arg4 @ r6, int32_t* arg5 @ r12), int32_t arg2, void* arg3, int32_t arg4 @ r4, int32_t* arg5 @ r5, int32_t arg6 @ r7, int32_t arg7 @ r10, int32_t arg8 @ r12, int32_t arg9)
+{
+    uint32_t r1 = *(arg1 + 0x28);
+    void* r4 = arg4 - 4;
+    int32_t r6 = 0x33494000;
+    *(arg1 + 0x28) = r1;
+    void* r7_1 = arg6 - 0x106;
+    *arg5 = arg5;
+    *(r1 + 0x44) = 0x33494000;
+    void* r5 = 0x40000000;
+    int32_t r0;
+    void* r6_2;
+    
+    if (true)
+    {
+        arg3 |= r4;
+        r0 = arg9;
+        r6_2 = r6 - 0xdb;
+        
+        if (r6 >= 0xdb)
+            goto label_129a;
+        
+        *(r4 + 0xc);
+        /* tailcall */
+        return sub_12bc(*r4, *(r4 + 4), arg3, *(r4 + 8), r4 + 0x10, r7_1);
+    }
+    
+    int32_t r6_1 = r6 - 0x63;
+    *(arg3 + 0x12) = r4;
+    
+    if (r6 > 0x63)
+        goto label_12fc;
+    
+    r0 = 0x46384849;
+    arg9 = r0;
+    r6_2 = r6_1 - 0xdb;
+    
+    if (r6_1 >= 0xdb)
+    {
+        *(*(r5 + r0) + arg7 + 0x64) = *(r6_2 + 0x19);
+        /* undefined */
+    }
+    
+    int32_t* temp0_1 = r4;
+    r5 = temp0_1[1];
+    r4 += 8;
+    int32_t r3_6 = *temp0_1 << 0x17;
+    
+    if (!r3_6)
+    {
+        r4 += 0xe1;
+        label_129a:
+        
+        if (r0 <= 3)
+        {
+            /* unimplemented  {stc2 p2, c4, [r3], #0x108} */
+            /* tailcall */
+            return sub_12bc(r0, sub_2, arg3, *(r6_2 + 0x19), r4, r7_1);
+        }
+        
+        arg1 = &*(nullptr + 3);
+        /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+        goto label_12f8;
+    }
+    
+    *(r4 + 0x1c) = r3_6;
+    
+    if (!(r5 << 4))
+    {
+        *(*(r5 + 0x2fa63) + arg7 + 0x64) = *(r6_2 + 0x19);
+        /* undefined */
+    }
+    
+    arg1 = sub_2;
+    label_12f8:
+    /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+    label_12fc:
+    /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+    /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+    /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+    *((arg1 >> 5) + r4) = r5;
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+    /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+    /* undefined */
+}
+
+int32_t sub_1284(void* arg1 @ r6)
+{
+    *(arg1 + 0x19);
+    /* undefined */
+}
+
+int32_t sub_128c(int32_t arg1, void* arg2 @ r6)
+{
+    *(arg2 + 0x19);
+    /* undefined */
+}
+
+int32_t sub_1294(int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4 @ r4, int32_t arg5 @ r5, void* arg6 @ r6, int32_t arg7 @ r7)
+{
+    if (arg1 <= 3)
+    {
+        /* unimplemented  {stc2 p2, c4, [r3], #0x108} */
+        /* tailcall */
+        return sub_12bc(arg1, sub_2, arg3, *(arg6 + 0x19), arg4 + 0xe1);
+    }
+    
+    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+    /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+    /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+    /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+    /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+    *(arg4 + 0xe1) = arg5;
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+    /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+    /* undefined */
+}
+
+int32_t sub_12bc(int32_t arg1, void* arg2, void* arg3, int32_t arg4, int32_t* arg5 @ r4, int32_t* arg6 @ r7, int32_t arg7 @ r10, void* arg8 @ r12, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14, int32_t arg15, int32_t arg16)
+{
+    bool v;
+    
+    if (!v && arg4 << 0x19)
+    {
+        int32_t* temp0_1 = arg5;
+        *temp0_1;
+        arg5 = temp0_1[1];
+        temp0_1[2];
+        void* r6_1 = arg8;
+        
+        if (false != 0x15 - 3)
+            r6_1 -= 0x6c;
+        
+        arg2 = &data_1f;
+        arg6 = 0xffffff38;
+        
+        if (*(r6_1 + 0x19) > 0x1f)
+        {
+            *(arg3 + 0x12) = arg5;
+            /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+            /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+            /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+            /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+            /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+            *arg5 = 0x23;
+            /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+            /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+            /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+            /* undefined */
+        }
+    }
+    
+    uint32_t r4 = *(arg6 + arg3);
+    *(arg2 + 3);
+    *r4;
+    *(r4 + 0x10);
+    *(r4 + 0x18) = r4 + 0x14;
+    return arg9;
+}
+
+int32_t sub_132c(int32_t arg1, void* arg2, void* arg3, void* arg4 @ r4, char arg5 @ r5, int32_t* arg6 @ r7, int32_t arg7 @ r10, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14, int32_t arg15)
+{
+    *(arg4 + 0x1c) = arg5;
+    uint32_t r4 = *(arg6 + arg3);
+    *(arg2 + 3);
+    *r4;
+    *(r4 + 0x10);
+    *(r4 + 0x18) = r4 + 0x14;
+    return arg8;
+}
+
+int32_t sub_141c(void* arg1, int32_t arg2, int32_t arg3, int32_t arg4, int32_t arg5, int32_t arg6, int32_t arg7, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12)
+{
+    *(arg1 + arg3);
+    void* r0;
+    int32_t r2;
+    r0 = 0x40a3ca();
+    *(r0 + r2);
+    0x40a3e6();
+    return arg5;
+}
+
+int32_t sub_1438(int32_t arg1, int32_t arg2, int32_t arg3, void* arg4 @ r5, void* arg5 @ r7)
+{
+    *(arg5 + 4);
+    *(arg5 + 8);
+    
+    if (false == *(arg4 + arg3) - 0x33)
+        /* undefined */
+    
+    int32_t r6 = *(arg4 + 0x13);
+    void* const r6_1 = r6 - 0xb6;
+    
+    if (r6 < 0xb6)
+    {
+        *(r6_1 + 0x10) = 0x90;
+        r6_1 = 0x80000000;
+    }
+    
+    if (false != r6_1 - 0xeb)
+    {
+        data_7d = r6_1;
+        *0xc7b0;
+        *0xc7b4;
+        /* undefined */
+    }
+    
+    if (arg1 <= 3)
+        /* undefined */
+    
+    /* tailcall */
+    return sub_14a2();
+}
+
+int32_t sub_1498(int32_t arg1, int32_t arg2, int32_t arg3 @ r5, void* arg4 @ r7, int32_t arg5)
+{
+    *(arg4 + 6) = arg3;
+    
+    if (arg1 <= 3)
+        /* undefined */
+    
+    /* tailcall */
+    return sub_14a2(arg1, arg2, 0x23);
+}
+
+int32_t sub_14a2(int32_t arg1, int32_t arg2, int32_t arg3, void* arg4, int32_t arg5 @ r12, int32_t arg6)
+{
+    if (arg1 - 0xd > 3)
+    {
+        *(arg4 * 2);
+        bool v_1 = 0x13 - 3;
+        
+        if (!v_1)
+        {
+            if (false != v_1)
+                /* tailcall */
+                return sub_1550();
+            
+            /* tailcall */
+            return sub_14c8();
+        }
+    }
+    
+    void var_5f;
+    
+    if (&arg_8c <= 0xeb || &var_5f >= 0xa5)
+        /* undefined */
+    
+    void var_104;
+    arg_90 = &var_104;
+    0x40a3ca(0x1c);
+    /* undefined */
+}
+
+int32_t sub_14bc(int32_t arg1, int32_t arg2, void* arg3, int32_t arg4)
+{
+    bool v;
+    
+    if (false != v)
+        /* tailcall */
+        return sub_14c8(arg1, arg2, arg3, arg4, &data_37);
+    
+    *(arg3 + arg2 + 0x19);
+    /* tailcall */
+    return sub_1550();
+}
+
+int32_t sub_14c8(void* arg1, int32_t, int32_t arg3, int16_t arg4, int32_t* arg5 @ r4, int32_t arg6)
+{
+    *(arg1 + 0x24) = arg4;
+    *arg5;
+    arg5[1];
+    /* undefined */
+}
+
+int32_t j_sub_16ae()
+{
+    /* tailcall */
+    return sub_16ae();
+}
+
+int32_t sub_1550(int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4, int32_t arg5, int32_t arg6, int32_t arg7, int32_t arg8) __pure
+{
+    return arg1;
+}
+
+int32_t sub_156c(void* arg1 @ r5, int32_t arg2 @ r6)
+{
+    int32_t r3 = *(arg1 + 5);
+    *(r3 * 2);
+    
+    if (arg2 > 0xa5)
+        *(*(r3 + 0x14) + arg1);
+    
+    return 0x6c;
+}
+
+int32_t sub_15e8(int32_t arg1, int32_t arg2, void* arg3, void* arg4 @ r4, void* arg5 @ r5, void* arg6 @ r6, int32_t arg7 @ r8, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14, int32_t arg15)
+{
+    int32_t r7_1 = arg5 + 4;
+    int32_t r4 = *(arg4 + arg2);
+    bool v = arg1 - 4;
+    
+    if (v)
+    {
+        label_1640:
+        arg5 = &data_23;
+        
+        if (false != v)
+            goto label_1646;
+        
+        if (arg1 <= 0x53)
+        {
+            /* unimplemented  {mcrr2 p0, #0, r2, r11, c2} */
+            /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+            /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+            /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+            /* unimplemented  {ldc2l p0, c2, [sp, #8]} */
+            /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+            /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+            /* jump -> arg7 */
+        }
+        
+        uint32_t r4_5 = *(r7_1 + 0xa);
+        int16_t* r1_2 = *(r4_5 + 4);
+        *(r4_5 + 0xc);
+        
+        if (*r4_5 <= 3)
+            /* jump -> arg7 */
+        
+        *(r1_2 * 2) = *(r4_5 + 8);
+        
+        if (9 - 6)
+            /* jump -> arg7 */
+        
+        *(r1_2 + 0x5c);
+        return arg8;
+    }
+    
+    arg1 = 0x2003109b;
+    *0x200310a1 = arg5;
+    
+    if (r4 > 0)
+    {
+        label_1646:
+        *(arg5 + arg1);
+        
+        if (false == arg5 + 0)
+        {
+            *(arg5 + 6) = 0x23 - arg5;
+            
+            if (0x23 > arg5)
+                return arg8;
+            
+            *(arg6 + 6) = arg5;
+            *(&data_23 + arg5);
+        }
+    }
+    else
+    {
+        arg3 = arg2 * 0x2003109b;
+        *(arg6 + 0x70) = *(arg6 + 0x13);
+        int32_t r3_2 = *(arg6 + r4);
+        int32_t r4_2 = arg2 << 0xa;
+        void* r6 = arg6 - 0x6c;
+        *(r3_2 + 0x30) = arg2;
+        
+        if (r3_2 + -(arg2))
+        {
+            *(arg3 + 0x30) = r4_2;
+            r7_1 = r3_2 >> 0x18 | (r3_2 >> 0x10 & 0xff) << 8 | (r3_2 >> 8 & 0xff) << 0x10 | (r3_2 & 0xff) << 0x18;
+            arg1 = 9;
+            *r4_2;
+            arg6 = r6 - 0xab;
+            v = r6 - 0xab;
+            
+            if (r6 - 0xab < 0 != v)
+            {
+                data_2d = *(r3_2 + arg2);
+                uint32_t r4_3 = *(&data_9 + arg3);
+                int32_t r1;
+                int32_t r3;
+                r1 = 0x40a3e6(9, 0xd);
+                arg1 = 0x2002fddd;
+                v = r4_3 + 4;
+                *(0x2002fddd + r1);
+            }
+            
+            goto label_1640;
+        }
+    }
+    
+    /* undefined */
+}
+
+int32_t sub_16ae(int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4 @ r8)
+{
+    /* unimplemented  {mcrr2 p0, #0, r2, r7, c2} */
+    /* unimplemented  {cdp2 p0, #2, c2, c11, c2, #0} */
+    /* unimplemented  {mcrr2 p0, #0, r2, r11, c2} */
+    /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+    /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+    /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+    /* unimplemented  {ldc2l p0, c2, [sp, #8]} */
+    /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+    /* jump -> arg4 */
+}
+
+int32_t sub_1758(int32_t* arg1, void* arg2, int32_t arg3, uint32_t arg4 @ r4, void* arg5 @ r5, int32_t arg6 @ r7, int32_t arg7 @ r8, void* arg8 @ r11, int32_t arg9 @ r12, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14, int32_t arg15)
+{
+    void* r7_1 = arg6 - 0x2d;
+    *arg1 = arg5;
+    
+    if (arg6 <= 0x2d)
+    {
+        *(*(arg2 * 2) + arg2);
+        return arg10;
+    }
+    
+    int32_t* r6_1 = *arg1;
+    *(arg4 + 0x40) = arg4;
+    void* r0_2 = 0x2002fdbb;
+    
+    if (!(r6_1 - 3))
+        /* jump -> arg7 */
+    
+    int32_t r1_1 = arg3 << 0x1b;
+    
+    if (!r1_1)
+        goto label_1894;
+    
+    void* r5_1 = r6_1[2];
+    uint32_t r2 = &r6_1[3];
+    int32_t r1_2 = arg4 << 0xf;
+    int32_t r4_3;
+    int32_t* r6_4;
+    int32_t* sp;
+    
+    if (!r1_2)
+    {
+        *(r7_1 + 8);
+        r7_1 -= 2;
+        int32_t* temp0_2 = arg4;
+        r0_2 = *temp0_2;
+        r1_1 = temp0_2[1];
+        int32_t* r5_3 = temp0_2[4];
+        
+        if (r5_3 << 0xf)
+        {
+            sp = 0x5e641cce;
+            r6_4 = 0x2002fc3b + 0x4f;
+            uint32_t r4_2 = *(temp0_2[2] + 8);
+            /* unimplemented  {ldc2l p2, c4, [lr], #0x26c} */
+            r0_2 = *r4_2;
+            int16_t r2_4 = *(r4_2 + 4);
+            *(r4_2 + 8);
+            r5_3 = *(r4_2 + 0xc);
+            r4_3 = r4_2 + 0x10;
+            
+            if (r1_1 - 0x85 >= 0)
+                goto label_1884;
+            
+            r7_1 -= 0x3d;
+            *(data_82 + 3) = r5_3;
+            r5_3[0xa] = r2_4;
+        }
+        
+        r2 = r5_3[1];
+        r5_1 = r5_3[2];
+        arg4 = *(*r5_3 * 2);
+        r1_2 = 0x2002fc3b;
+    }
+    
+    r1_1 = r1_2 - 0x2f;
+    *(r5_1 + 0x28) = r5_1 - 1;
+    int32_t r5_4 = r2 << 3;
+    r6_1 = r5_1 - 0xb7;
+    
+    if (r5_1 == 0xb7)
+    {
+        *(r1_1 + 0x44) = r5_4;
+        *r5_4 = r5_4;
+        *0x20214299 = r5_4;
+        void* r5_5 = 0x404284aa & ~(r6_1 - 4);
+        r7_1 = *(r5_5 + 0x12) - 0x3d;
+        *((r6_1 - 4) << 0x18) = r5_5;
+        r4_3 = 4;
+        r6_4 = *(r1_1 + 0x34);
+        /* unimplemented  {stc2l p2, c4, [r2, #-0x2f4]!} */
+        label_1884:
+        r0_2 = *r6_4;
+        int32_t r3_5 = r6_4[1];
+        arg5 = r6_4[2];
+        *(r1_1 + 0x3c) = r7_1;
+        arg4 = r4_3 - 4;
+        r6_1 = r3_5 << 1;
+        *r6_1 = arg5;
+        label_1894:
+        r7_1 = *(arg5 + 0x4c);
+        r2 = 4;
+        *(r1_1 + 0x44) = arg4;
+    }
+    
+    uint32_t* r5_8 = r2 << 0x11;
+    *r5_8 = arg4;
+    uint32_t r4_5 = r5_8 >> 0x20;
+    *(r0_2 + 0x19) = r4_5;
+    int32_t r3_6 = r2 >> 0x18 | (r2 >> 0x10 & 0xff) << 8 | (r2 >> 8 & 0xff) << 0x10 | (r2 & 0xff) << 0x18;
+    /* unimplemented  {srsdb sp, #9} */
+    int32_t r1_6 = (r7_1 - 0x34) << 0x12;
+    void* r3_10;
+    
+    if (r1_6)
+    {
+        r5_8 = r4_5 - 4;
+        r4_5 = *(r6_1 + r0_2);
+        label_19e0:
+        r3_10 = r3_6 + r5_8;
+        r0_2 -= 0x2f;
+        *(r4_5 + 0x14);
+    }
+    else
+    {
+        *(r0_2 + 4) = r1_6;
+        void* r7_6 = *(r4_5 + r5_8 + 0x15);
+        r2 = *(r7_6 + 8);
+        r3_6 = 0x22;
+        
+        if (r2 - r7_6 >= 0)
+        {
+            r1_6 = *(0x2002fd33 + 0x4c);
+            goto label_19e0;
+        }
+        
+        *0x2002fc3d = r7_6;
+        
+        if (r2 <= 0x4f)
+        {
+            *0x2002fc0c;
+            *0x2002fc14;
+            *(r7_6 + 2) = r4_5 + *(r7_6 + 2);
+            r0_2 = *0x2002fb37;
+            r2 = *0x2002fb3f;
+            r5_8 = *0x2002fb43 + 0x4f;
+            r1_6 = *(0x2002fb47 + 0x4c);
+            goto label_19e0;
+        }
+        
+        r0_2 = *r5_8;
+        r1_6 = r5_8[1];
+        void* r6_9 = r5_8[2];
+        r5_8 = &r5_8[3];
+        r2 = (r2 - 0x4f) << 0x1d;
+        bool z_1;
+        
+        if (!r2)
+        {
+            r5_8 = *(r1_6 * 2);
+            label_19da:
+            r4_5 = *r5_8;
+            uint32_t* temp6_1 = r5_8;
+            r5_8 <<= 0xf;
+            z_1 = !(temp6_1 & 0x1ffff);
+            label_19de:
+            
+            if (!z_1)
+                goto label_19e0;
+        }
+        else
+        {
+            r4_5 = r2 << 0x1e;
+            
+            if (!r4_5)
+            {
+                r1_6 = 5;
+                void* temp7_1 = r7_6;
+                r7_6 -= 0xad;
+                *r5_8 = r5_8;
+                
+                if (temp7_1 > 0xad)
+                    r7_6 = &data_23;
+                else
+                {
+                    *(r0_2 + 8);
+                    r5_8 = &*(data_23 + 1);
+                    
+                    if (true)
+                    {
+                        r3_6 = 0x2002fc3b;
+                        r7_6 = &data_23;
+                    }
+                    else
+                    {
+                        r1_6 = 0xd;
+                        r3_6 = 2;
+                    }
+                }
+                
+                goto label_19da;
+            }
+            
+            *(r0_2 + 0xc) = r4_5;
+            
+            if (r0_2 > 0xfffffffb)
+                goto label_1a1c;
+            
+            r2 <<= 0x1d;
+            
+            if (r2)
+            {
+                r4_5 = 0x2002fbc1;
+                *0x2002fc3b = r6_9;
+                label_1a1c:
+                /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+                /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+                /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+                *(r4_5 + 0x1c) = r0_2;
+                r5_8 = &*(nullptr + 3);
+                r4_5 = 0x2a;
+                void* r0_5 = *(r6_9 + 0x5c);
+                r1_6 = 0x2002fcff;
+                r7_6 = &data_2a;
+                r3_6 = *(0x2002fcff + r0_5);
+                
+                while (true)
+                {
+                    if (!(r0_5 - 8))
+                    {
+                        /* unimplemented  {stc p8, c15, [r8], #-0x1cc} */
+                        r4_5 = *(*(r4_5 + r1_6) + r1_6);
+                        r5_8 = 0x27f8da79;
+                        /* unimplemented  {stc p8, c15, [r8], #-0x1ec} */
+                        r3_6 = r4_5 << 0xe;
+                        
+                        if (r3_6 >= 0)
+                        {
+                            /* unimplemented  {stc2 p0, c2, [r12, #-0x30]!} */
+                            /* unimplemented  {stc p8, c15, [r8], #-0x17c} */
+                            /* unimplemented  {stc2 p0, c2, [r12, #-0x30]!} */
+                            /* unimplemented  {stc p8, c15, [r8], #-0x12c} */
+                            *(r7_6 + 7) = r3_6;
+                        }
+                        else
+                        {
+                            label_1ab8:
+                            r5_8 += arg9;
+                            r1_6 = 9;
+                            r4_5 = *(r4_5 + 9);
+                            r3_6 = 0xda57;
+                            bool v_3 = r4_5 - 0xf;
+                            
+                            if (v_3)
+                            {
+                                if (r4_5 == 0xf || r4_5 - 0xf < 0 != v_3)
+                                {
+                                    r0_5 = r5_8[0x17];
+                                    continue;
+                                }
+                                
+                                /* tailcall */
+                                return sub_1b28(&data_f, r1_6, 0x81, r3_6);
+                            }
+                            else
+                            {
+                                *0xda66;
+                                *(r4_5 + 0xc) = r4_5;
+                                data_10 = 0x15;
+                            }
+                        }
+                        
+                        /* unimplemented  {smlsd r7, r4, r3, r2} */
+                        /* jump -> r7_6 */
+                    }
+                    
+                    r2 = 0xe;
+                    *(r5_8 + 0xe) = r5_8;
+                    r1_6 = r7_6 - 4;
+                    int32_t r6_13 = *(r1_6 + r3_6);
+                    r6_9 = r6_13 - 0xbd;
+                    bool v_2;
+                    
+                    if (r6_13 != 0xbd)
+                    {
+                        r7_6 = &r5_8[1];
+                        v_2 = r5_8 + 4;
+                        r4_5 = *(r4_5 + r1_6);
+                        r5_8 = &data_23;
+                        z_1 = false;
+                    }
+                    
+                    if (r6_13 != 0xbd && false == v_2)
+                    {
+                        r0_2 = *(r3_6 + 0x16);
+                        *(r7_6 + 8) = r0_2;
+                        
+                        if (false == v_2)
+                            break;
+                        
+                        *(r4_5 + 0x10) = r3_6;
+                        goto label_1ab8;
+                    }
+                    
+                    if (r0_5 > 0xdf)
+                        r4_5 = 0xffffff21;
+                    
+                    /* unimplemented  {stc p8, c15, [r8], #-0x7c} */
+                    r3_6 = *(0xb085ad22 + 0x40a3ca(0xd));
+                    
+                    if (false != r4_5 + 0)
+                        r6_9 -= 0x63;
+                    
+                    void* r2_15;
+                    int16_t r3_15;
+                    r2_15 = 0x93ca(r3_6, 0xb085ad22);
+                    /* unimplemented  {stc p8, c15, [r8], #-0x1c} */
+                    *(r6_9 + 0xe) = r3_15;
+                    *(r2_15 + 0x17);
+                    sp[1];
+                    sp[2];
+                    sp[3];
+                    sp[4];
+                    sp[5];
+                    return *sp;
+                }
+                
+                goto label_19de;
+            }
+            
+            r7_6 = *(r4_5 + 0x70);
+            r0_2 = r5_8;
+        }
+        *(r2 + 8) = r0_2 << 3;
+        *r0_2 = r7_6;
+        r3_10 = r0_2 << 0x11;
+    }
+    
+    *r5_8 = r4_5;
+    /* tailcall */
+    return sub_20ea(r0_2, r1_6, r2, r3_10);
+}
+
+int32_t sub_1780(int32_t arg1, void* arg2, void* arg3 @ r4, int32_t arg4 @ r7)
+{
+    /* unimplemented  {vaddl.U8 q0, d0, d2} */
+    /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+    (*(data_28 + 1)) = arg4;
+    *(arg3 + 0x40) = *(arg2 * 2) + 4;
+    /* jump -> 0x7f5109 */
+}
+
+int32_t sub_1910(int32_t arg1, char arg2, int32_t arg3, void* arg4, void* arg5 @ r4, int32_t arg6 @ r6)
+{
+    *(arg4 + 0x14) = arg2;
+    int32_t r0_1 = *(arg6 - 0x2f) - 0x2f;
+    *(arg5 + 0x14);
+    *(*(arg6 - 0x23) + 0x4f) = arg5;
+    /* tailcall */
+    return sub_20ea(r0_1);
+}
+
+int32_t sub_1924(char* arg1, int32_t arg2, void* const arg3, void** arg4, int32_t* arg5 @ r5, void* arg6 @ r6, void* arg7 @ r7, int32_t arg8 @ r11, int32_t arg9 @ r12, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14, int32_t arg15)
+{
+    int32_t r1 = arg7 << 0xf;
+    bool cond:0 = r1 < 0;
+    
+    if (!r1)
+    {
+        label_19ca:
+        
+        if (!cond:0)
+        {
+            *arg5 = arg5;
+            r1 = 0xffffffd6;
+            arg7 = arg5[0x12];
+        }
+    }
+    else
+    {
+        r1 = arg1 << 4;
+        cond:0 = r1 < 0;
+        
+        if (r1 < 0)
+            goto label_19ca;
+        
+        *(arg4 + 0x13) = r1;
+        arg1 = *arg5;
+        arg5[1];
+        arg5[2];
+        arg5 = &arg5[3];
+        arg3 = 0x80000000;
+        r1 = 5;
+        void* temp2_1 = arg7;
+        arg7 -= 0xad;
+        *arg5 = arg5;
+        
+        if (temp2_1 > 0xad)
+        {
+            *arg4;
+            arg7 = &data_23;
+        }
+        else
+        {
+            arg1[8];
+            arg5 = &*(data_23 + 1);
+            
+            if (true)
+            {
+                arg4 = 0x2002fc3b;
+                *arg4;
+                arg7 = &data_23;
+            }
+            else
+            {
+                r1 = 0xd;
+                arg4 = sub_2;
+            }
+        }
+    }
+    
+    int32_t r4_1 = *arg5;
+    int32_t* temp1_1 = arg5;
+    arg5 <<= 0xf;
+    int32_t r3_2;
+    
+    if (!(temp1_1 & 0x1ffff))
+    {
+        *(arg3 + 8) = arg1 << 3;
+        *arg1 = arg7;
+        r3_2 = arg1 << 0x11;
+    }
+    else
+    {
+        r3_2 = arg4 + arg5;
+        arg1 -= 0x2f;
+        *(r4_1 + 0x14);
+    }
+    
+    *arg5 = r4_1;
+    /* tailcall */
+    return sub_20ea(arg1, r1, arg3, r3_2);
+}
+
+int32_t sub_1a18(int32_t arg1, int32_t arg2, int16_t arg3, void* arg4 @ r4, void* arg5 @ r6, void* arg6 @ r7, int32_t arg7 @ r11, int32_t arg8 @ r12, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14)
+{
+    /* unimplemented  {cdp2 p0, #4, c0, c9, c2, #0} */
+    /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+    /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+    /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+    *(arg4 + 0x1c) = arg3;
+    int32_t r5 = 3;
+    int32_t r4 = 0x2a;
+    char* r0_1 = *(arg5 + 0x5c);
+    void* r1_1 = 0x2002fcff;
+    arg6 = &data_2a;
+    int32_t r3_1 = *(0x2002fcff + r0_1);
+    
+    while (true)
+    {
+        if (!(r0_1 - 8))
+        {
+            /* unimplemented  {stc p8, c15, [r8], #-0x1cc} */
+            r4 = *(*(r4 + r1_1) + r1_1);
+            r5 = 0x27f8da79;
+            /* unimplemented  {stc p8, c15, [r8], #-0x1ec} */
+            r3_1 = r4 << 0xe;
+            
+            if (r3_1 >= 0)
+            {
+                /* unimplemented  {stc2 p0, c2, [r12, #-0x30]!} */
+                /* unimplemented  {stc p8, c15, [r8], #-0x17c} */
+                /* unimplemented  {stc2 p0, c2, [r12, #-0x30]!} */
+                /* unimplemented  {stc p8, c15, [r8], #-0x12c} */
+                *(arg6 + 7) = r3_1;
+                break;
+            }
+        }
+        else
+        {
+            *(r5 + 0xe) = r5;
+            r1_1 = arg6 - 4;
+            int32_t r6 = *(r1_1 + r3_1);
+            void* r6_1 = r6 - 0xbd;
+            bool v_2;
+            
+            if (r6 != 0xbd)
+            {
+                arg6 = r5 + 4;
+                v_2 = r5 + 4;
+                r4 = *(r4 + r1_1);
+                r5 = &data_23;
+            }
+            
+            if (r6 == 0xbd || false != v_2)
+            {
+                if (r0_1 > 0xdf)
+                    r4 = 0xffffff21;
+                
+                /* unimplemented  {stc p8, c15, [r8], #-0x7c} */
+                r3_1 = *(0xb085ad22 + 0x40a3ca(0xd));
+                
+                if (false != r4 + 0)
+                    r6_1 -= 0x63;
+                
+                void* r2_3;
+                int16_t r3_4;
+                r2_3 = 0x93ca(r3_1, 0xb085ad22);
+                /* unimplemented  {stc p8, c15, [r8], #-0x1c} */
+                *(r6_1 + 0xe) = r3_4;
+                *(r2_3 + 0x17);
+                return arg9;
+            }
+            
+            uint32_t r0_2 = *(r3_1 + 0x16);
+            *(arg6 + 8) = r0_2;
+            
+            if (false == v_2)
+            {
+                *(r4 + 0x14);
+                data_23 = r4;
+                /* tailcall */
+                return sub_20ea(r0_2 - 0x2f);
+            }
+            
+            *(r4 + 0x10) = r3_1;
+        }
+        
+        r5 += arg8;
+        r1_1 = &data_9;
+        r4 = *(r4 + 9);
+        r3_1 = 0xda57;
+        bool v_3 = r4 - 0xf;
+        
+        if (!v_3)
+        {
+            *0xda66;
+            *(r4 + 0xc) = r4;
+            data_10 = 0x15;
+            break;
+        }
+        
+        if (r4 != 0xf && r4 - 0xf < 0 == v_3)
+            /* tailcall */
+            return sub_1b28(&data_f, r1_1, 0x81, r3_1);
+        
+        r0_1 = *(r5 + 0x5c);
+    }
+    
+    /* unimplemented  {smlsd r7, r4, r3, r2} */
+    /* jump -> arg6 */
+}
+
+int32_t sub_1afe(void* arg1, int32_t arg2, int32_t arg3 @ r5, int32_t arg4, int32_t arg5, int32_t arg6, int32_t arg7, int32_t arg8, int32_t arg9)
+{
+    *(0x20031113 + arg2);
+    
+    if (false != arg3 + 4)
+        /* tailcall */
+        return sub_1b28();
+    
+    /* tailcall */
+    return sub_1b28();
+}
+
+int32_t sub_1b28(char* arg1, void* arg2, void* arg3, int32_t* arg4 @ r4, void* arg5 @ r6, int32_t* arg6 @ r7, int32_t arg7 @ r11, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13)
+{
+    while (true)
+    {
+        int32_t r3_1;
+        bool v;
+        
+        if (false != v)
+        {
+            r3_1 = 0x23;
+            
+            if (false == v)
+                arg5 -= 0x63;
+            else
+            {
+                label_1b56:
+                
+                if (arg1 > 0xdf)
+                    arg4 = 0xffffff21;
+                
+                /* unimplemented  {stc p8, c15, [r8], #-0x7c} */
+                r3_1 = *(0xb085ad22 + 0x40a3ca(0xd));
+                
+                if (false != arg4 + 0)
+                    arg5 -= 0x63;
+            }
+            
+            void* r2;
+            int16_t r3_3;
+            r2 = 0x93ca(r3_1);
+            /* unimplemented  {stc p8, c15, [r8], #-0x1c} */
+            *(arg5 + 0xe) = r3_3;
+            *(r2 + 0x17);
+            return arg8;
+        }
+        
+        /* unimplemented  {stc p8, c15, [r8], #-0x94} */
+        arg4 = arg6;
+        uint32_t r5_2 = arg3 + 1;
+        void* const r3_2;
+        int32_t r12_1;
+        arg1 = 0x40a3e6(0x35);
+        label_1a44:
+        int32_t* r5_1;
+        
+        if (arg1 - 8)
+        {
+            *(r5_2 + 0xe) = r5_2;
+            arg2 = arg6 - 4;
+            int32_t r6_3 = *(arg2 + r3_2);
+            arg5 = r6_3 - 0xbd;
+            
+            if (r6_3 != 0xbd)
+            {
+                arg6 = r5_2 + 4;
+                bool v_3 = r5_2 + 4;
+                arg4 = *(arg4 + arg2);
+                r5_1 = &data_23;
+                
+                if (false == v_3)
+                {
+                    char* r0_5 = *(r3_2 + 0x16);
+                    arg6[2] = r0_5;
+                    
+                    if (false != v_3)
+                    {
+                        arg4[4] = r3_2;
+                        goto label_1ab8;
+                    }
+                    
+                    arg4[5];
+                    data_23 = arg4;
+                    /* tailcall */
+                    return sub_20ea(r0_5 - 0x2f);
+                }
+            }
+            
+            goto label_1b56;
+        }
+        
+        /* unimplemented  {stc p8, c15, [r8], #-0x1cc} */
+        arg4 = *(*(arg4 + arg2) + arg2);
+        r5_1 = 0x27f8da79;
+        /* unimplemented  {stc p8, c15, [r8], #-0x1ec} */
+        r3_1 = arg4 << 0xe;
+        
+        if (r3_1 >= 0)
+        {
+            /* unimplemented  {stc2 p0, c2, [r12, #-0x30]!} */
+            /* unimplemented  {stc p8, c15, [r8], #-0x17c} */
+            /* unimplemented  {stc2 p0, c2, [r12, #-0x30]!} */
+            /* unimplemented  {stc p8, c15, [r8], #-0x12c} */
+            *(arg6 + 7) = r3_1;
+            /* unimplemented  {smlsd r7, r4, r3, r2} */
+            /* jump -> arg6 */
+        }
+        
+        label_1ab8:
+        r5_2 = r5_1 + r12_1;
+        arg2 = &data_9;
+        arg4 = *(arg4 + 9);
+        arg1 = &data_f;
+        r3_2 = 0xda57;
+        v = arg4 - 0xf;
+        
+        if (v)
+        {
+            if (arg4 != 0xf && arg4 - 0xf < 0 == v)
+            {
+                arg3 = &data_81;
+                continue;
+            }
+            
+            arg1 = *(r5_2 + 0x5c);
+            break;
+        }
+        else
+        {
+            *0xda66;
+            arg4[3] = arg4;
+            data_10 = 0x15;
+        }
+        
+        /* unimplemented  {smlsd r7, r4, r3, r2} */
+        /* jump -> arg6 */
+    }
+    
+    goto label_1a44;
+}
+
+int32_t sub_1d02(void* arg1, int32_t arg2, int32_t arg3, int32_t arg4, uint32_t arg5 @ r4, void* arg6 @ r7, int32_t arg7 @ r9, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14)
+{
+    *(arg5 + 0xc);
+    uint32_t lr;
+    arg5 = lr;
+    *(arg6 + 0x5c) = arg1;
+    arg6 -= 0x65;
+    void* r1 = &data_90;
+    void* const r0_2;
+    void* r6_2;
+    bool cond:1;
+    
+    if (false == 0xfffffffd + 0x26)
+    {
+        r6_2 = arg4;
+        *(arg1 + 4) = r6_2;
+        r0_2 = 0x2f06b;
+        *(arg5 + 0x40) = arg4;
+        cond:1 = arg4 > r1;
+    }
+    else
+    {
+        *(arg4 + 0x1c);
+        /* unimplemented  {ldc2l p2, c4, [r9, #-0x2f4]} */
+        char r3 = *(arg5 + 0xc);
+        arg5 = &data_23;
+        arg6 = &data_23;
+        char r2 = *(arg6 + 4);
+        void* r5_1 = *(arg6 + 8);
+        arg6 += 0xc;
+        data_4 = r3;
+        *(r5_1 + 0x1c) = r2;
+        r0_2 = 0x3e683;
+        int32_t r5_2 = *(0x3e683 + 0x4067b2(3));
+        r1 = arg6;
+        arg4 = *0x3e6a6;
+        r6_2 = r5_1 - 0xa5;
+        
+        if (r5_1 != 0xa5)
+            cond:1 = arg4 > r1;
+        else
+            cond:1 = r5_2 > arg7;
+    }
+    
+    void* r5_3 = *(r6_2 + 4);
+    void* r6_8 = r6_2 + 8;
+    *(r5_3 + 0x1d) = *r6_2;
+    
+    if (cond:1)
+        goto label_1e28;
+    
+    *(r0_2 + 0xe) = arg5;
+    r1 = 0x24046464;
+    void* r6_6 = r6_8 - 0xab;
+    
+    if (r6_8 <= 0xab)
+        goto label_1df4;
+    
+    r6_6 = arg4 + 5;
+    *(r5_3 + 0x36) = arg5;
+    bool cond:3_1;
+    
+    if (arg4 > 0xfffffffb)
+    {
+        label_1e3c:
+        r6_8 = r6_6 - 0xa4;
+        cond:3_1 = r6_6 <= 0xa4;
+        label_1e3e:
+        
+        if (!cond:3_1)
+        {
+            *(r1 + 0x16) = arg4;
+            return arg8;
+        }
+        
+        *(r6_8 + 0x34) = r1;
+    }
+    else
+    {
+        arg5 = r5_3 >> 0x20;
+        *(r5_3 + 0x36) = arg5;
+        label_1df4:
+        /* unimplemented  {cdp2 p12, #6, c0, c3, c2, #0} */
+        *0x2404647e = arg4;
+        *(arg5 + 0x1e);
+        
+        if (false != 0x23 + 2)
+        {
+            r0_2 = &data_7d+3;
+            /* unimplemented  {stc2l p15, c8, [r3, #-0xac]!} */
+            
+            if (r6_6 > 0xa4)
+            {
+                *0x2404647e = 0x940;
+                *(r5_3 + 0x3a);
+                /* unimplemented  {stc2l p6, c8, [r3], #0x2a8} */
+            }
+            
+            r1 = arg6;
+            arg4 = *(&data_23 + r0_2);
+            r6_8 = r6_6 - 0x149;
+            cond:3_1 = r6_6 - 0xa4 <= 0xa5;
+            
+            if (r6_6 == 0x149)
+                goto label_1e3e;
+            
+            r1 = &data_d5;
+            arg6 -= 0x6b;
+            arg4 = r0_2 >> 8;
+            label_1e28:
+            *(r1 + 0x1a) = arg4;
+            arg4 = (*(r5_3 + 0x38) + 2) << 4;
+            r6_6 = r6_8 - 0xa4;
+            
+            if (r6_8 <= 0xa4)
+                goto label_1e3c;
+            
+            *(r1 + 0x1a) = arg4;
+            return arg8;
+        }
+    }
+    /* unimplemented  {stc2l p0, c2, [r7], {2}} */
+    /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+    void* r2_3;
+    int16_t r3_6;
+    r2_3 = 0x93ca();
+    /* unimplemented  {stc p8, c15, [r8], #-0x1c} */
+    *((arg6 >> 0x11) + 0xe) = r3_6;
+    *(r2_3 + 0x17);
+    return arg8;
+}
+
+int32_t sub_1da4(uint32_t arg1 @ r4, void* arg2 @ r7, int32_t arg3 @ r9, int32_t arg4, int32_t arg5, int32_t arg6, int32_t arg7, int32_t arg8, int32_t arg9, int32_t arg10)
+{
+    void* r5 = *(arg2 + 8);
+    void* r7 = arg2 + 0xc;
+    data_4 = 0x24;
+    *(r5 + 0x1c) = *(arg2 + 4);
+    int32_t r5_1 = *(0x3e683 + 0x4067b2(3));
+    void* r1 = r7;
+    int32_t r3 = *(arg1 + 0x3e683);
+    bool cond:0;
+    
+    if (r5 != 0xa5)
+        cond:0 = r3 > r1;
+    else
+        cond:0 = r5_1 > arg3;
+    
+    void* r5_2 = *(r5 - 0xa1);
+    void* r6_2 = r5 - 0x9d;
+    *(r5_2 + 0x1d) = *(r5 - 0xa5);
+    
+    if (cond:0)
+        goto label_1e28;
+    
+    *0x3e691 = arg1;
+    r1 = 0x24046464;
+    void* r6_3 = r6_2 - 0xab;
+    
+    if (r6_2 <= 0xab)
+        goto label_1df4;
+    
+    r6_3 = r3 + 5;
+    *(r5_2 + 0x36) = arg1;
+    bool cond:2_1;
+    
+    if (r3 > 0xfffffffb)
+    {
+        label_1e3c:
+        r6_2 = r6_3 - 0xa4;
+        cond:2_1 = r6_3 <= 0xa4;
+        label_1e3e:
+        
+        if (!cond:2_1)
+        {
+            *(r1 + 0x16) = r3;
+            return arg4;
+        }
+        
+        *(r6_2 + 0x34) = r1;
+    }
+    else
+    {
+        arg1 = r5_2 >> 0x20;
+        *(r5_2 + 0x36) = arg1;
+        label_1df4:
+        /* unimplemented  {cdp2 p12, #6, c0, c3, c2, #0} */
+        *0x2404647e = r3;
+        *(arg1 + 0x1e);
+        
+        if (false != 0x23 + 2)
+        {
+            /* unimplemented  {stc2l p15, c8, [r3, #-0xac]!} */
+            
+            if (r6_3 > 0xa4)
+            {
+                *0x2404647e = 0x940;
+                *(r5_2 + 0x3a);
+                /* unimplemented  {stc2l p6, c8, [r3], #0x2a8} */
+            }
+            
+            r1 = r7;
+            r3 = (&data_23)[0x20];
+            r6_2 = r6_3 - 0x149;
+            cond:2_1 = r6_3 - 0xa4 <= 0xa5;
+            
+            if (r6_3 == 0x149)
+                goto label_1e3e;
+            
+            r1 = &data_d5;
+            r7 -= 0x6b;
+            r3 = 0x80 >> 8;
+            label_1e28:
+            *(r1 + 0x1a) = r3;
+            r3 = (*(r5_2 + 0x38) + 2) << 4;
+            r6_3 = r6_2 - 0xa4;
+            
+            if (r6_2 <= 0xa4)
+                goto label_1e3c;
+            
+            *(r1 + 0x1a) = r3;
+            return arg4;
+        }
+    }
+    /* unimplemented  {stc2l p0, c2, [r7], {2}} */
+    /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+    void* r2_3;
+    int16_t r3_6;
+    r2_3 = 0x93ca();
+    /* unimplemented  {stc p8, c15, [r8], #-0x1c} */
+    *((r7 >> 0x11) + 0xe) = r3_6;
+    *(r2_3 + 0x17);
+    return arg4;
+}
+
+int32_t sub_1e38(int32_t arg1, void* arg2, int32_t arg3, int16_t arg4, int32_t arg5 @ r6, int32_t arg6 @ r7, int32_t arg7, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13)
+{
+    *(arg2 + 0x16);
+    
+    if (arg5 > 0xa4)
+    {
+        *(arg2 + 0x16) = arg4;
+        return arg7;
+    }
+    
+    *(arg5 - 0x70) = arg2;
+    /* unimplemented  {stc2l p0, c2, [r7], {2}} */
+    /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+    void* r2;
+    int16_t r3_1;
+    r2 = 0x93ca();
+    /* unimplemented  {stc p8, c15, [r8], #-0x1c} */
+    *((arg6 >> 0x11) + 0xe) = r3_1;
+    *(r2 + 0x17);
+    return arg7;
+}
+
+int32_t sub_1e84(int32_t arg1, int32_t arg2, int32_t arg3 @ r8, int32_t arg4, int32_t arg5, int32_t arg6, int32_t arg7, int32_t arg8, int32_t arg9, int32_t arg10, char arg11)
+{
+    int32_t r4_9 = arg2 >> 0x20;
+    *(r4_9 + 0x44) = r4_9;
+    *0x5008fc27 = 4;
+    *0x5008fc27 = *0x5008fc27;
+    int32_t* r4_1 = *0x5008fc43;
+    *0x5008fc43 = r4_1;
+    void* r0 = *r4_1;
+    void* r4_3 = r4_1[1] - 0x2d;
+    *(r0 + 0x11) = r0;
+    
+    if (!(r4_3 << 0xf))
+        *0x48175f6d = arg11 | r4_3;
+    else
+    {
+        uint32_t r5_2 = *0x48175f6d;
+        *(r5_2 + 0x11) = r5_2;
+        
+        if (r4_3 << 0xd < 0)
+            *0x48175f6d |= r4_3;
+    }
+    
+    *0x48175f6d ^= 0x6b;
+    void* r1;
+    void* r2;
+    r1 = 0x406ebe();
+    *(r2 + 0x28) = r4_3 + 0x63;
+    *(r1 + 0xe) = (r4_3 + 0x63) >> 0x12;
+    *(r4_3 + 0xa7) = r4_3 + 0x63;
+    uint16_t r4_5 = *(r2 + 0x17);
+    *(r2 + 0x26) = r4_5;
+    *0x20031033 = r4_5 + (r1 + 0x63);
+    int32_t r5_3 = 0x10018;
+    *(r1 + 0x63) = 0x3a;
+    void* r4_7 = 0 - r2;
+    int32_t r0_1;
+    int32_t r2_1;
+    r0_1 = 0x409eea(0x2002fc47, 0x2002fc43);
+    uint32_t r3_6 = *0x10018;
+    int32_t* r6_1 = arg3 - 0xb3;
+    
+    if (arg3 <= 0xb3)
+    {
+        *0x20044568 = r3_6;
+        *r6_1;
+        r2_1 = r6_1[1];
+        r6_1 = r6_1[2];
+        r3_6 = *(r6_1 + 1);
+        r4_7 = &data_23;
+    }
+    
+    *(r3_6 + 0x1d) = r3_6;
+    
+    if (r0_1 - 4 >= 0)
+        goto label_1fbc;
+    
+    *(r4_7 + 0x4c) = r6_1;
+    /* unimplemented  {ldc2 p0, c6, [lr, #0x314]!} */
+    int32_t r7_1 = *(r3_6 + 0x74);
+    *(r4_7 + 0x40) = r3_6 >> 6;
+    
+    if (!(r3_6 << 0x1b))
+        goto label_1fd4;
+    
+    int32_t r6_3 = *0x10018;
+    
+    if (r6_3 > 0xb6)
+    {
+        *(r4_7 + 0x40) = 0x10018;
+        r7_1 -= 0x3d;
+        *0x47736f2b = 0x10018;
+        *(r4_7 + 0x40) = 0x10018;
+        r5_3 = r2_1 << 0x1a;
+    }
+    
+    if (r6_3 <= 0xb6 || r5_3)
+    {
+        r5_3 = *r5_3;
+        
+        if (r6_3 - 0xb6 >= 0xad)
+        {
+            /* unimplemented  {stc2 p0, c4, [r3], #-0x50} */
+            r5_3 &= r2_1;
+            *0x8ee6de56 = r6_3 - 0x163;
+            label_1fbc:
+            /* unimplemented  {stc2 p0, c5, [r3], #-0x20} */
+            /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+            /* unimplemented  {ldc2 p0, c2, [r7], {2}} */
+            /* unimplemented  {cdp2 p0, #2, c2, c11, c2, #0} */
+            label_1fd4:
+            /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+            /* unimplemented  {mcrr2 p0, #0, r2, r7, c2} */
+            /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+            /* unimplemented  {stc2 p0, c2, [r5], #-8} */
+        }
+        else
+        {
+            *(r4_7 + 0x40) = r4_7;
+            *0x47736f2b = r4_7;
+            
+            if (r7_1 <= 0x34)
+            {
+                *(r6_3 - 0x162) = r7_1 - 0x34;
+                
+                if (r7_1 <= 0x34)
+                    return arg4;
+            }
+        }
+    }
+    
+    *(r5_3 + 0x70);
+    return 4;
+}
+
+int32_t sub_1ffc(int32_t arg1, int32_t* arg2, int32_t arg3, int32_t arg4, int32_t arg5 @ r4, int32_t arg6 @ r5, uint32_t arg7 @ r6, int32_t* arg8 @ r7, int32_t arg9, int32_t arg10, int32_t arg11)
+{
+    void* const r0;
+    int32_t* r3;
+    
+    if (arg4 <= arg2)
+    {
+        arg2 = arg8;
+        r0 = 0x30834;
+        r3 = arg5 - 0x43;
+        r3[0xc] = *(arg8 + arg3);
+        arg6 = *(arg8 + arg7);
+        *arg2 = arg6;
+        arg6 = *(arg6 + arg3);
+        arg2[4] = arg6;
+    }
+    else
+    {
+        r0 = 0x2803dc25;
+        arg7 = arg6 >> 1;
+        r3 = 0x2803dc25;
+        
+        if (0x2803dc25 <= arg2)
+        {
+            arg6 = *(arg6 + arg3);
+            arg2[4] = arg6;
+        }
+        else
+        {
+            r3 = arg2;
+            
+            if (0x2803dc25 <= arg2 && !(0x2803dc25 - 3))
+                return 3;
+        }
+    }
+    
+    r3[7] = arg5;
+    r3[2] = arg5;
+    r3[4] = *(arg8 + r3);
+    int32_t r4_3 = *(*((arg2 << 0xd) + r0) + arg7);
+    *(r0 + 0x10) = arg6;
+    /* unimplemented  {cdp2 p2, #0xc, c6, c4, c3, #4} */
+    *(r0 + 0xc) = r4_3;
+    *(r4_3 + 0x4c) = r4_3;
+    *(r0 + 0xc) = r4_3;
+    *(r4_3 + arg7);
+    void* r4_4 = *(r0 + 0x20);
+    *(r0 + 0x20) = r4_4;
+    *(r4_4 + 0x40) = r4_4;
+    return arg9;
+}
+
+int32_t sub_20ea(int32_t arg1, void* arg2, int32_t arg3, int32_t arg4, int32_t arg5 @ r4, int32_t* arg6 @ r6, uint32_t arg7 @ r7, int32_t arg8 @ r8, int32_t arg9 @ r9, int32_t arg10 @ r10)
+{
+    *(arg2 + 8) = arg4;
+    int32_t r2 = 0x884d8e23;
+    void* sp;
+    
+    if (arg5 <= 0)
+    {
+        void* r1 = *arg6;
+        *(arg6[2] + 0x50) = arg7;
+        int32_t r3 = arg6[4];
+        uint32_t r4 = arg6[5];
+        *(r1 + 8) -= 0xbf;
+        arg6[7];
+        
+        if (r3)
+            /* undefined */
+        
+        if (!r3)
+        {
+            /* unimplemented  {stc2 p0, c5, [r3], #-0xc} */
+            *(&*(nullptr + 3) + arg6[6]) = 3;
+            /* undefined */
+        }
+        
+        r2 = 0x2002fdbb;
+        void var_48;
+        sp = &var_48;
+        *(r4 + 0x30);
+        *(r1 + 6);
+        *(*(r4 + 0x30) + 0x30);
+        arg7 = *(*(r1 + 8) + 0x28);
+    }
+    
+    uint32_t r1_1 = 0x103e823;
+    uint32_t r5_5 = *(*(0x103e823 + r2) + 5);
+    *(sp + 0x24) = 5;
+    *(r5_5 + 0x28);
+    void* r2_2 = *0xfefc17e0;
+    *(*0xfefc17e4 + 0x20);
+    void* r0_1 = *(arg7 + 0x40);
+    void* r5_7 = r2_2 + 1;
+    *(arg7 + 0x11) = 1;
+    *0x103e823 = 1;
+    uint32_t r4_3 = r5_7 + 0x103e823;
+    void* r3_3 = r0_1 + 1;
+    void* r6_4 = sp + 0x38c;
+    
+    if (r0_1 == 0xb)
+        r3_3 = r0_1 << 4;
+    else
+    {
+        r2_2 = r6_4 + 4;
+        /* unimplemented  {stc p8, c15, [r3], #-0x1e4} */
+        r4_3 = 0x23;
+        /* unimplemented  {cdp2 p0, #2, c2, c11, c2, #0} */
+        /* unimplemented  {mcrr2 p0, #0, r2, r11, c2} */
+        r5_7 = *(r3_3 + 0x103e823);
+        r1_1 = r3_3 >> 9;
+        r0_1 = &*(nullptr + 3);
+        /* unimplemented  {srsdb sp!, #3} */
+    }
+    
+    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+    
+    if (!r3_3)
+        goto label_21cc;
+    
+    0x406ca2(r0_1, r1_1, r2_2, r3_3);
+    r0_1 = 0x2002fc43;
+    r3_3 = *0x2002fc43;
+    r4_3 = 0x2002fdc9;
+    void* temp1_1 = r6_4;
+    r6_4 -= 0xab;
+    
+    if (temp1_1 < 0xab)
+    {
+        *0xd0053ee9 = r3_3;
+        label_21cc:
+        arg7 -= 0x2b;
+        *r5_7 = r3_3;
+        *(r0_1 + 0x44) = r3_3;
+        *(r5_7 + 4);
+        int32_t r2_3;
+        r0_1 = 0x40810e();
+        uint32_t r3_4 = r4_3 << 0xc;
+        
+        if (r3_4 < 0)
+        {
+            *(r4_3 + 0x20) = r3_4;
+            *(r6_4 + 8);
+            sub_7236(0x304f4, *r6_4, *(r6_4 + 4));
+            /* undefined */
+        }
+    }
+    
+    int32_t* r5_10 = &data_8;
+    int32_t* r0_2 = 0xc80bdc24;
+    void* r2_6 = r6_4;
+    data_48 = 0x380000;
+    
+    if ((0x380000 | r2_6) > 0)
+    {
+        *r2_6 = 0x82;
+        /* tailcall */
+        return (&*(nullptr + 3))(0xb2cc1a6c);
+    }
+    
+    int32_t r3_6 = *0xb2cc1a6c;
+    uint32_t temp3_1 = arg7;
+    arg7 -= 0xb3;
+    *0xb2cc1a6c = r3_6;
+    
+    if (!r3_6)
+    {
+        /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+        r2_6 = r6_4 << 0xf;
+        /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+        /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+        r0_2 = &*(nullptr + 3);
+    }
+    
+    /* unimplemented  {stc2 p0, c2, [r3], #8} */
+    /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+    uint32_t r1_4 = arg7;
+    int32_t r4_4 = r6_4 << 0x13;
+    /* unimplemented  {stc2 p0, c2, [r3], #-8} */
+    /* unimplemented  {stc2 p0, c0, [r3, #-8]!} */
+    /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+    
+    if (!r0_2 || r0_2 < 0 != temp3_1 - 0xb3)
+    {
+        *r0_2;
+        r0_2[1];
+        r0_2[2];
+        breakpoint();
+    }
+    
+    void* r0_5;
+    void* r6_7;
+    bool n_3;
+    bool z_2;
+    bool v_1;
+    
+    while (true)
+    {
+        *(sp + 0xc) = r0_2;
+        *(arg7 + 0x50) = r4_4 + r1_4;
+        int16_t* r3_14 = *(r6_4 + 4);
+        int32_t* r4_5 = *(r6_4 + 8);
+        r0_5 = *(sp + 0xc);
+        r6_7 = r6_4 - 0x9f;
+        bool z_1;
+        
+        if (r6_4 + 0xc < 0xab)
+        {
+            label_22c8:
+            r6_7 = r4_5;
+            z_1 = !r4_5;
+            v_1 = r4_5 + 0;
+            *(sp + 0xc) = r0_5;
+            
+            if (z_1 || r4_5 < 0 != v_1)
+            {
+                *(sp + 0xc) = arg7;
+                arg7 = r0_5 + r5_10;
+                r0_5 = r6_7 + 4;
+                label_22d4:
+                *(sp + 0x90) = r4_5;
+                r4_4 = r4_5[8];
+                *(sp + 0x10);
+                
+                if (r6_7 < 0xd3)
+                {
+                    *(sp + 0x8c) = r4_4;
+                    *(r6_7 - 0xd3);
+                    r5_10 = *(r6_7 - 0xcf);
+                    r6_4 = r6_7 - 0xcb;
+                    r0_2 = *(sp + 0xc);
+                    continue;
+                }
+                
+                *(arg7 + 0x48) = r0_5 + 1;
+                *(arg7 + 2);
+                *(sp + 4);
+                *(sp + 8);
+                *(sp + 0xc);
+                *(sp + 0x10);
+                *(sp + 0x14);
+                *(sp + 0x18);
+                *(sp + 0x1c);
+                return *sp;
+            }
+        }
+        else
+        {
+            r5_10 = r4_5;
+            z_1 = !r4_5;
+            v_1 = r4_5 + 0;
+            *(sp + 0xc) = r0_5;
+            
+            if (z_1 || r4_5 < 0 != v_1)
+            {
+                r3_14 = *r4_5;
+                void* temp5_1 = r6_7;
+                r6_7 -= 0xa5;
+                
+                if (temp5_1 == 0xa5)
+                    goto label_22d4;
+                
+                goto label_22c8;
+            }
+        }
+        
+        if (z_1)
+        {
+            n_3 = false;
+            z_2 = false;
+            break;
+        }
+        
+        n_3 = r2_6 - 0x26 < 0;
+        z_2 = r2_6 == 0x26;
+        v_1 = r2_6 - 0x26;
+        
+        if (z_2)
+            break;
+        
+        if (r2_6 == 0x27)
+        {
+            uint32_t r5_13 = *(r1_4 + 0x15);
+            uint32_t r4_8 = *(r1_4 + 0x16);
+            *(arg7 + 0x20) = *r3_14;
+            *(r5_13 + 0xc) = r0_5 - 0x2fc2f;
+            *(r0_5 - 0x2fc0f) = r5_13;
+            *(arg7 + 2) = r4_8;
+            
+            if (r2_6 <= 3)
+            {
+                r6_7 = sp + 0x29;
+                r4_5 = sp;
+                *(r5_13 + 2) = r0_5 - 0x2fc2f;
+            }
+            else
+            {
+                r6_7 = r2_6;
+                
+                if (r2_6 > 3)
+                {
+                    r4_5 = sp;
+                    *(r5_13 + 2) = r0_5 - 0x2fc2f;
+                }
+                else
+                {
+                    int32_t r6_13 = r0_5 << 0x1d;
+                    int32_t r5_16 = *(r0_5 + r2_6);
+                    uint32_t* r4_10 = *(r4_8 + r1_4);
+                    
+                    if (r6_13 < 0)
+                    {
+                        *(r1_4 + r4_10);
+                        /* unimplemented  {cdp2 p6, #9, c4, c9, c3, #0} */
+                        /* jump -> *(r1_4 + 0x11) */
+                    }
+                    
+                    if (r6_13)
+                    {
+                        *(r4_10 + 0x2a) = *r0_5;
+                        int32_t r2_10 = 0x50;
+                        uint32_t r1_10 = arg7 << 0xe;
+                        
+                        if (r0_5 * *(r2_6 + r4_10) <= 0xd6)
+                        {
+                            r2_10 = 0x4664802b;
+                            *(r5_16 + 0x40) = r1_10;
+                        }
+                        
+                        uint32_t r6_18 = *(r1_10 + 0x11);
+                        void* r7_5 = 0x416d5235;
+                        uint32_t r6_14 = r6_18 - 0xde;
+                        
+                        if (r6_18 > 0xde)
+                            *(r2_10 + 0x11);
+                        else if (r6_18 < 0xde)
+                            *(r2_10 + 0x11);
+                        
+                        int32_t r3_28 = (r1_10 * *(r0_5 * 2)) >> 0x18;
+                        *r3_28 = r3_28;
+                        int32_t r2_16 = 0x9809952a;
+                        bool v_7;
+                        
+                        if (r3_28 <= r6_14)
+                        {
+                            v_7 = r6_14 - 0xbd;
+                            
+                            if (r6_14 - 0xbd < 0 != v_7)
+                            {
+                                *(r1_10 + 0x12);
+                                v_7 = 0x38fef + 0x1b;
+                            }
+                        }
+                        else
+                        {
+                            *r4_10 = r1_10;
+                            
+                            if (r3_28 > r6_14)
+                                v_7 = r2_16 + 0x1b;
+                            else if (r3_28 - 0x1036866)
+                                v_7 = r2_16 + 0x1b;
+                            else
+                            {
+                                *r4_10 = r1_10;
+                                *(r1_10 + 0x28) = r3_28;
+                                *0x416d5244;
+                                r1_10 = 0x548d4000;
+                                
+                                if (sp + 0x8c <= 0xd5)
+                                    /* jump -> arg10 */
+                                
+                                r5_16 = *0x548d4012;
+                                r7_5 = 0x200310d3;
+                                int32_t r6_21 = *(sp + 0x20031086);
+                                v_7 = r6_21 - 0xad;
+                                
+                                if (r6_21 == 0xad || r6_21 - 0xad < 0 != v_7)
+                                    v_7 = 0x38fef + 0x1b;
+                                else
+                                    r4_10 = *0x548d4012;
+                            }
+                        }
+                        
+                        void* r2_19 = r1_10 * *(r7_5 * 2);
+                        bool z_4 = !(r2_19 >> 0x18);
+                        bool c_1 = /* bool c_1 = unimplemented  {asrs r3, r2, #0x18} */;
+                        *(r2_19 + 4) = r2_19 >> 0x18;
+                        /* unimplemented  {vhsub.U32 d4, d28, d10} */
+                        
+                        if (z_4 || !c_1)
+                        {
+                            r5_16 += arg8;
+                            r1_10 = 3;
+                            *(&*(nullptr + 3) + r2_19);
+                        }
+                        else
+                        {
+                            *(r2_19 + 4) = r4_10;
+                            
+                            if (z_4 || r2_19 >> 0x18 < 0 != v_7)
+                            {
+                                *(r1_10 + r2_19);
+                                /* undefined */
+                            }
+                        }
+                        
+                        uint32_t r4_15 = r5_16 >> 0x1f;
+                        *r5_16 = r4_15;
+                        *(r1_10 + 0x30) = *(r4_15 + 4 + r1_10);
+                        *0xce3c5d;
+                        /* unimplemented  {cdp2 p6, #9, c4, c9, c3, #0} */
+                        /* jump -> r7_5 - 0x64 */
+                    }
+                    
+                    r4_5 = r5_16 >> 0x12;
+                    *(r5_16 + 0xa) = r4_5;
+                    int32_t r0_9;
+                    int32_t r1_9;
+                    int16_t* r3_23;
+                    r0_9 = arg7();
+                    r6_7 = *r3_23 - 0x63;
+                    *(r6_7 + 2) = r4_5;
+                }
+            }
+        }
+        else
+            *(r1_4 + 6) = r5_10[5];
+        
+        r4_5[1];
+        r4_5[4];
+        *(r6_7 + *r4_5);
+        /* jump -> r4_5[2] */
+    }
+    
+    bool cond:4;
+    
+    if (z_2 || n_3 != v_1)
+        cond:4 = r2_6 > 3;
+    else
+        cond:4 = (r1_4 & r6_7) > 0;
+    
+    int16_t r3_22;
+    
+    if (cond:4)
+    {
+        int32_t r5_15 = r6_7 >> 0x10;
+        *(r5_15 + 8) = r5_15;
+        *(arg7 + 0x20) = r6_7;
+        r3_22 = r5_15 >> 0x10;
+        *(r5_15 + 0xa) = r3_22;
+        *r5_15 = r5_15;
+        *(r1_4 + 0x22) = r3_22;
+    }
+    else
+    {
+        r3_22 = 0 - r0_5;
+        *(r1_4 + 0x20) = r3_22;
+    }
+    
+    bool v_8 = arg7 - 0x8c;
+    
+    if (false != v_8)
+    {
+        *(r2_6 + 6) = r3_22;
+        *(sp + 4);
+        *(sp + 8);
+        *(sp + 0xc);
+        *(sp + 0x10);
+        *(sp + 0x14);
+        *(sp + 0x18);
+        return *sp;
+    }
+    
+    uint32_t r3_37 = r0_5;
+    uint32_t r4_19 = 0x23;
+    
+    if (false != v_8)
+    {
+        r3_37 = r0_5;
+        &*(data_28 + 1);
+        r4_19 = r1_4 << 4;
+    }
+    
+    /* unimplemented  {stc p9, c15, [r3], #-0x3ac} */
+    *(r3_37 + 0x19) = r3_37;
+    *(r4_19 + 0x19);
+    *(sp + 4);
+    *(sp + 8);
+    *(sp + 0xc);
+    *(sp + 0x10);
+    *(sp + 0x14);
+    *(sp + 0x18);
+    return *sp;
+}
+
+int32_t sub_2764(int32_t arg1, void* arg2, int32_t arg3 @ r6)
+{
+    *(arg2 + 0x19);
+    /* undefined */
+}
+
+int32_t sub_276a(int32_t arg1, int32_t arg2, int32_t arg3, void* arg4, void* arg5 @ r6)
+{
+    *(arg4 + arg1);
+    *(arg5 + 3);
+    /* jump -> arg1 */
+}
+
+int32_t sub_27cc(uint32_t arg1 @ r4, void* arg2 @ r7, int32_t arg3 @ r8, int32_t arg4 @ r9, int32_t arg5 @ r10, int32_t arg6 @ r12, int32_t arg7, int32_t* arg8, int32_t arg9, int32_t arg10, int32_t arg11, char* const arg12, char arg13, int16_t arg14)
+{
+    uint32_t r5_1 = *(arg1 + 0x28);
+    int32_t r0;
+    arg_10 = r0;
+    char* const r0_1 = &data_7;
+    void* r1 = r5_1 - 4;
+    int32_t r3 = *(r1 + 7);
+    uint32_t r6 = *(r5_1 + r3);
+    int32_t r2;
+    int32_t r3_2;
+    
+    if (r3 <= r3)
+    {
+        /* unimplemented  {vrshr.U64 d20, d12, #2} */
+        label_28c4:
+        uint32_t r3_5 = *(r5_1 + r0_1);
+        r1 = 0x37c24;
+        r6 -= 0x6c;
+        
+        if (r3_5 <= 0x37c24)
+            goto label_291a;
+        
+        if (&result <= r1)
+            goto label_2932;
+        
+        r3_2 = &result;
+        label_28fa:
+        
+        if (r3_2 <= r1)
+            0xffc2501e(r0_1, r1);
+        else
+        {
+            label_2914:
+            r0_1 = 0xffc25002(r0_1, r1, r2, r6);
+            label_291a:
+            *(r1 + 0x28) = r3_5;
+            arg2 = &data_1d;
+            void* r1_2;
+            int32_t r3_6;
+            r1_2 = 0xffc25002(r0_1);
+            *(r1_2 + 0x38) = r3_6;
+            r0_1 = &data_1f;
+            label_2932:
+            arg12 = r0_1;
+            int32_t r0_4;
+            int32_t r1_3;
+            r0_4 = 0xffc25002(r0_1);
+            0xffc2501e(0xffc2501e(r0_4, r1_3 + 0x43), arg13);
+        }
+    }
+    else
+    {
+        arg1 = &data_7;
+        int32_t r4;
+        
+        if (r6 <= r1)
+        {
+            *(arg1 + 4);
+            *(arg1 + 8);
+            r4 = arg1 + 0xc;
+            r0_1 = *arg1 - 0x31;
+            label_2886:
+            *(r3 + 0x18) = r3;
+            r3_2 = r6 >> 0x10;
+            void** temp0_2 = arg2;
+            r1 = *temp0_2;
+            r2 = temp0_2[1];
+            r5_1 = temp0_2[2];
+            arg2 += 0xc;
+            r6 += 0x31;
+            *(r1 + 0x1a) = r1;
+            
+            if (r3_2 > r1)
+                goto label_28fa;
+            
+            void** temp0_3 = r4;
+            r0_1 = *temp0_3;
+            temp0_3[1];
+            *(r1 + 0x1a) = r1;
+            uint32_t r3_3 = (r4 + 0xc) >> 1;
+            void* r1_1 = *(r6 - 0x31);
+            r2 = *(r6 - 0x2d);
+            r5_1 = *(r6 - 0x29);
+            r6 -= 0x25;
+            r1 = r1_1 + 0x31;
+            *(r0_1 + 0x1c) = r4 + 0xc;
+            
+            if (r3_3 <= r1)
+            {
+                r2 = *(r4 + 0x10);
+                r5_1 = *(r4 + 0x14);
+                *(*(r4 + 0xc) + 0x1c) = r4 + 0x18;
+                r0_1 = &data_1b;
+                goto label_28c4;
+            }
+            
+            if (r3_3 < r1)
+            {
+                *(r0_1 + 0x1c) = arg2;
+                r6 = 0x1b;
+                r1 = &data_8e4;
+            }
+            
+            goto label_2914;
+        }
+        
+        r4 = r3;
+        
+        if (r6 > r1 || r6 - 7)
+            goto label_2886;
+        
+        *((r4 >> 0x11) + 0x20) = 3;
+        *0xfffc83fb = 0x83e3;
+        &*(nullptr + 3);
+        data_1d = 3;
+        arg_b4 = arg2;
+        *(arg2 + 0x1e);
+        *(arg2 + 0x10) = &result;
+    }
+    int32_t* r2_3 = 0xffc2501e(arg12);
+    *r2_3 = r2_3;
+    uint32_t r3_7 = *(r5_1 + &result);
+    void* const r2_4 = 0x200310c3;
+    arg_9c = &result;
+    int32_t* r0_6 = *arg2;
+    int32_t* r5_2 = *(arg2 + 4);
+    uint16_t* r6_2 = *(arg2 + 8);
+    void* r7 = arg2 + 0xc;
+    
+    if (0x3026d != -(r0_6) && 0x3026d + r0_6 < 0x3026d)
+    {
+        *r6_2 = 0x26d;
+        *0x200310e5 = 0x10c3;
+        r5_2[5] = &arg_4;
+        
+        if (&result > 0xfffffffc)
+            goto label_29d6;
+        
+        *r6_2 = 0x10c3;
+        *0x200310e5 = 0x26d;
+        r5_2 = &arg_4;
+        arg10 = &result;
+        uint32_t r4_2 = *(r6_2 + 0x23);
+        int16_t* r1_7;
+        
+        if (r3_7 <= 0x23)
+        {
+            arg10 = r7;
+            r6_2 += arg4;
+            *(r4_2 + r7);
+            label_29d6:
+            r1_7 = &*(data_23 + 2);
+            uint32_t r4_4 = *(r6_2 + 0x25);
+            r2_4 = 0x200310c5;
+            
+            if (r3_7 <= 0x25)
+            {
+                label_2a36:
+                r1_7[3] = *(r1_7 + r0_6);
+                *(r2_4 + 0xc) = arg3;
+                *(0x76631c24 + r1_7);
+                /* undefined */
+            }
+            
+            bool v_3 = r4_4 + 0xad;
+            *0x30289 = r3_7;
+            uint16_t* r2_5 = r6_2;
+            int32_t r3_19 = (r4_4 + 0xad) << 0xe;
+            
+            if (r3_19)
+            {
+                r5_2[0x10] = r3_19;
+                
+                if ((r3_19 | r2_5) > 0)
+                {
+                    *r2_5 = 0x82;
+                    /* tailcall */
+                    return (&*(nullptr + 3))(0xb2cc1a6c);
+                }
+                
+                r3_19 = *0xb2cc1a6c;
+                void* temp3_1 = r7;
+                r7 -= 0xb3;
+                v_3 = temp3_1 - 0xb3;
+                *0xb2cc1a6c = r3_19;
+            }
+            
+            if (!r3_19)
+            {
+                /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+                r2_5 = r6_2 << 0xf;
+                /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+                /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+                r0_6 = &*(nullptr + 3);
+            }
+            
+            /* unimplemented  {stc2 p0, c2, [r3], #8} */
+            /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+            void* r1_10 = r7;
+            uint32_t r4_13 = r6_2 << 0x13;
+            /* unimplemented  {stc2 p0, c2, [r3], #-8} */
+            /* unimplemented  {stc2 p0, c0, [r3, #-8]!} */
+            /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+            
+            if (!r0_6 || r0_6 < 0 != v_3)
+            {
+                *r0_6;
+                r0_6[1];
+                r0_6[2];
+                breakpoint();
+            }
+            
+            int32_t* r0_9;
+            void* r6_11;
+            bool n_3;
+            bool z_3;
+            bool v_6;
+            
+            while (true)
+            {
+                *(r7 + 0x50) = r4_13 + r1_10;
+                int16_t* r3_27 = *(r6_2 + 4);
+                int32_t* r4_14 = *(r6_2 + 8);
+                r0_9 = r0_6;
+                r6_11 = r6_2 - 0x9f;
+                bool z_2;
+                
+                if (&r6_2[6] < 0xab)
+                {
+                    label_22c8:
+                    r6_11 = r4_14;
+                    z_2 = !r4_14;
+                    v_6 = r4_14 + 0;
+                    arg8 = r0_9;
+                    
+                    if (z_2 || r4_14 < 0 != v_6)
+                    {
+                        arg8 = r7;
+                        r7 = r0_9 + r5_2;
+                        r0_9 = r6_11 + 4;
+                        label_22d4:
+                        arg_90 = r4_14;
+                        r4_13 = r4_14[8];
+                        
+                        if (r6_11 >= 0xd3)
+                        {
+                            *(r7 + 0x48) = r0_9 + 1;
+                            *(r7 + 2);
+                            return result;
+                        }
+                        
+                        arg_8c = r4_13;
+                        *(r6_11 - 0xd3);
+                        r5_2 = *(r6_11 - 0xcf);
+                        r6_2 = r6_11 - 0xcb;
+                        r0_6 = arg8;
+                        continue;
+                    }
+                }
+                else
+                {
+                    r5_2 = r4_14;
+                    z_2 = !r4_14;
+                    v_6 = r4_14 + 0;
+                    arg8 = r0_9;
+                    
+                    if (z_2 || r4_14 < 0 != v_6)
+                    {
+                        r3_27 = *r4_14;
+                        void* temp5_1 = r6_11;
+                        r6_11 -= 0xa5;
+                        
+                        if (temp5_1 == 0xa5)
+                            goto label_22d4;
+                        
+                        goto label_22c8;
+                    }
+                }
+                
+                if (z_2)
+                {
+                    n_3 = false;
+                    z_3 = false;
+                    break;
+                }
+                
+                n_3 = r2_5 - 0x26 < 0;
+                z_3 = r2_5 == 0x26;
+                v_6 = r2_5 - 0x26;
+                
+                if (z_3)
+                    break;
+                
+                if (r2_5 == 0x27)
+                {
+                    uint32_t r5_9 = *(r1_10 + 0x15);
+                    uint32_t r4_17 = *(r1_10 + 0x16);
+                    *(r7 + 0x20) = *r3_27;
+                    *(r5_9 + 0xc) = r0_9 - 0x2fc2f;
+                    *(r0_9 - 0x2fc0f) = r5_9;
+                    *(r7 + 2) = r4_17;
+                    
+                    if (r2_5 <= 3)
+                    {
+                        r6_11 = &arg_29;
+                        r4_14 = &result;
+                        *(r5_9 + 2) = r0_9 - 0x2fc2f;
+                    }
+                    else
+                    {
+                        r6_11 = r2_5;
+                        
+                        if (r2_5 > 3)
+                        {
+                            r4_14 = &result;
+                            *(r5_9 + 2) = r0_9 - 0x2fc2f;
+                        }
+                        else
+                        {
+                            int32_t r6_16 = r0_9 << 0x1d;
+                            int16_t* r5_12 = *(r0_9 + r2_5);
+                            int32_t* r4_18 = *(r4_17 + r1_10);
+                            
+                            if (r6_16 < 0)
+                            {
+                                *(r1_10 + r4_18);
+                                /* unimplemented  {cdp2 p6, #9, c4, c9, c3, #0} */
+                                /* jump -> *(r1_10 + 0x11) */
+                            }
+                            
+                            if (r6_16)
+                            {
+                                *(r4_18 + 0x2a) = *r0_9;
+                                int32_t r2_9 = 0x50;
+                                int32_t r1_16 = r7 << 0xe;
+                                
+                                if (r0_9 * *(r2_5 + r4_18) <= 0xd6)
+                                {
+                                    r2_9 = 0x4664802b;
+                                    *(r5_12 + 0x40) = r1_16;
+                                }
+                                
+                                uint32_t r6_21 = *(r1_16 + 0x11);
+                                void* r7_8 = 0x416d5235;
+                                void* r6_17 = r6_21 - 0xde;
+                                
+                                if (r6_21 > 0xde)
+                                    *(r2_9 + 0x11);
+                                else if (r6_21 < 0xde)
+                                    *(r2_9 + 0x11);
+                                
+                                int32_t r3_40 = (r1_16 * *(r0_9 * 2)) >> 0x18;
+                                *r3_40 = r3_40;
+                                int32_t r2_15 = 0x9809952a;
+                                bool v_12;
+                                
+                                if (r3_40 <= r6_17)
+                                {
+                                    v_12 = r6_17 - 0xbd;
+                                    
+                                    if (r6_17 - 0xbd < 0 != v_12)
+                                    {
+                                        *(r1_16 + 0x12);
+                                        v_12 = 0x38fef + 0x1b;
+                                    }
+                                }
+                                else
+                                {
+                                    *r4_18 = r1_16;
+                                    
+                                    if (r3_40 > r6_17)
+                                        v_12 = r2_15 + 0x1b;
+                                    else if (r3_40 - 0x1036866)
+                                        v_12 = r2_15 + 0x1b;
+                                    else
+                                    {
+                                        *r4_18 = r1_16;
+                                        *(r1_16 + 0x28) = r3_40;
+                                        *0x416d5244;
+                                        r1_16 = 0x548d4000;
+                                        
+                                        if (&arg_8c <= 0xd5)
+                                            /* jump -> arg5 */
+                                        
+                                        r5_12 = *0x548d4012;
+                                        r7_8 = 0x200310d3;
+                                        int32_t r6_22 = arg14;
+                                        v_12 = r6_22 - 0xad;
+                                        
+                                        if (r6_22 == 0xad || r6_22 - 0xad < 0 != v_12)
+                                            v_12 = 0x38fef + 0x1b;
+                                        else
+                                            r4_18 = *0x548d4012;
+                                    }
+                                }
+                                
+                                void* r2_18 = r1_16 * *(r7_8 * 2);
+                                bool z_5 = !(r2_18 >> 0x18);
+                                bool c_1 = /* bool c_1 = unimplemented  {asrs r3, r2, #0x18} */;
+                                *(r2_18 + 4) = r2_18 >> 0x18;
+                                /* unimplemented  {vhsub.U32 d4, d28, d10} */
+                                
+                                if (z_5 || !c_1)
+                                {
+                                    r5_12 += arg3;
+                                    r1_16 = 3;
+                                    *(&*(nullptr + 3) + r2_18);
+                                }
+                                else
+                                {
+                                    *(r2_18 + 4) = r4_18;
+                                    
+                                    if (z_5 || r2_18 >> 0x18 < 0 != v_12)
+                                    {
+                                        *(r1_16 + r2_18);
+                                        /* undefined */
+                                    }
+                                }
+                                
+                                uint32_t r4_23 = r5_12 >> 0x1f;
+                                *r5_12 = r4_23;
+                                *(r1_16 + 0x30) = *(r4_23 + 4 + r1_16);
+                                *0xce3c5d;
+                                /* unimplemented  {cdp2 p6, #9, c4, c9, c3, #0} */
+                                /* jump -> r7_8 - 0x64 */
+                            }
+                            
+                            r4_14 = r5_12 >> 0x12;
+                            r5_12[5] = r4_14;
+                            int32_t r0_16;
+                            int32_t r1_15;
+                            int16_t* r3_35;
+                            r0_16 = r7();
+                            r6_11 = *r3_35 - 0x63;
+                            *(r6_11 + 2) = r4_14;
+                        }
+                    }
+                }
+                else
+                    *(r1_10 + 6) = r5_2[5];
+                
+                r4_14[1];
+                r4_14[4];
+                *(r6_11 + *r4_14);
+                /* jump -> r4_14[2] */
+            }
+            
+            bool cond:10;
+            
+            if (z_3 || n_3 != v_6)
+                cond:10 = r2_5 > 3;
+            else
+                cond:10 = (r1_10 & r6_11) > 0;
+            
+            int16_t r3_12;
+            
+            if (cond:10)
+            {
+                int32_t r5_11 = r6_11 >> 0x10;
+                *(r5_11 + 8) = r5_11;
+                *(r7 + 0x20) = r6_11;
+                r3_12 = r5_11 >> 0x10;
+                *(r5_11 + 0xa) = r3_12;
+                *r5_11 = r5_11;
+                *(r1_10 + 0x22) = r3_12;
+            }
+            else
+            {
+                r3_12 = 0 - r0_9;
+                *(r1_10 + 0x20) = r3_12;
+            }
+            
+            bool v_4 = r7 - 0x8c;
+            
+            if (false != v_4)
+            {
+                r2_5[3] = r3_12;
+                return result;
+            }
+            
+            uint32_t r3_14 = r0_9;
+            int32_t r4_10 = 0x23;
+            
+            if (false != v_4)
+            {
+                r3_14 = r0_9;
+                &*(data_28 + 1);
+                r4_10 = r1_10 << 4;
+            }
+            
+            /* unimplemented  {stc p9, c15, [r3], #-0x3ac} */
+            *(r3_14 + 0x19) = r3_14;
+            *(r4_10 + 0x19);
+            return result;
+        }
+        
+        *0x200310e5 = r4_2;
+        *r6_2 = r3_7;
+        *data_28 = r3_7;
+        
+        if (6 - 0x200310c3)
+        {
+            data_f3 = r7;
+            r0_6 = 0x2002fddd;
+            arg10 = 0xd2;
+            data_f9 = 0xd2;
+            r1_7 = 0x2002fdaf;
+            goto label_2a36;
+        }
+        
+        *0x30289 = 6;
+    }
+    
+    r5_2[5] = r3_7;
+    return result;
+}
+
+void sub_2ac4(int32_t arg1, int32_t arg2, int32_t arg3, void* arg4 @ r4, int32_t arg5 @ r5, int32_t arg6 @ r7)
+{
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    void* r4 = arg4 + arg5;
+    uint32_t r5 = *(r4 + arg1);
+    *(r4 + 0x40) = r5;
+    *0x51050c23 = r5;
+    *0x51050c23;
+    *(r4 + 0x40) = *(r4 + 0x51050c23);
+    *(r4 + 0x77637143);
+}
+
+int32_t sub_2dc2(int32_t arg1, int16_t* arg2, uint32_t* arg3, int32_t arg4 @ r5, void* arg5 @ r6, uint32_t arg6 @ r7, int32_t arg7 @ r9, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14)
+{
+    uint32_t r3 = *(arg4 + 7);
+    &*(data_32 + 3);
+    *(arg5 + 0x40) = r3;
+    arg2 = &*(data_82 + 1);
+    *arg3 = r3;
+    int32_t* r0 = 0x13 + arg7;
+    int32_t* const r4 = *r0;
+    arg6 -= 0x187;
+    *r0 = r4;
+    *(arg3 + 0x11) = r3;
+    int32_t r3_1 = r0 << 0x1b;
+    
+    if (!r3_1)
+    {
+        arg4 = *(arg2 + arg3);
+        arg3 = &r4[1];
+    }
+    else
+    {
+        r0 = 0x2002fcfb;
+        r4[0x10] = r3_1;
+    }
+    
+    r0 += 0x33;
+    void* temp2_1 = arg5;
+    arg5 -= 0xa5;
+    
+    if (temp2_1 > 0xa5)
+        return arg8;
+    
+    while (true)
+    {
+        uint32_t r3_3 = r0;
+        uint32_t r4_2 = *arg2;
+        void* r6_1 = arg5 - 0xab;
+        
+        if (arg5 < 0xab)
+        {
+            arg3 = r4_2 - 4;
+            r3_3 = 0x30214;
+        }
+        
+        arg2 = 0x4a28cd29;
+        arg5 = r6_1 - 0xbb;
+        
+        if (r6_1 > 0xbb)
+        {
+            arg5 = &arg_28c;
+            /* unimplemented  {vrsra.U32 q2, q5, #2} */
+            *(arg4 + 0x11);
+        }
+        else if (r6_1 == 0xbb)
+        {
+            uint32_t r0_3;
+            
+            if (r0 - 4 >= 0)
+                r0_3 = 2;
+            else
+            {
+                arg3 = &data_68;
+                
+                if (arg6 < 0x73)
+                {
+                    *0x4a28cd2b = r3_3;
+                    /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+                    /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+                    /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+                    /* unimplemented  {ldc2l p0, c2, [sp, #8]} */
+                    arg2 = (arg6 - 0x73) >> 9;
+                    /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+                    arg3 = r4_2;
+                    r3_3 = 3;
+                    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+                }
+                
+                arg6 = r3_3 << 0x19;
+                r0_3 = r4_2 << 9;
+                /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+                /* unimplemented  {stc2l p0, c2, [r3], #8} */
+            }
+            
+            uint32_t r5_3 = r0_3;
+            /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+            int32_t r3_7 = arg3 >> 4;
+            /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+            /* unimplemented  {stc2l p0, c2, [r7], #8} */
+            /* unimplemented  {stc2l p0, c2, [r5], #8} */
+            /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+            
+            if (r3_7)
+            {
+                arg2 = 0x2002fe35;
+                *(r5_3 + 0x1c) = r5_3;
+                *r5_3;
+                r3_7 = *(r5_3 + 4);
+                r5_3 = *(r5_3 + 8);
+                *(arg5 + 0x4c) = arg5;
+                /* unimplemented  {ldc2 p0, c6, [lr, #0x354]!} */
+                *0x2002fe41 = r5_3;
+                arg3 = &*(nullptr + 3);
+                *(r5_3 + 0xd) = r5_3;
+                *0x2002fe4e = r5_3;
+                *(r5_3 + 0xa) = r5_3;
+                *0x2002fe50 = r5_3;
+                *(r5_3 + 0xc) = r5_3;
+                *0x2002fe44 = r5_3;
+            }
+            
+            int32_t r5_4 = *(r5_3 + 0x78);
+            arg2[8] = r5_4;
+            *(arg6 + 6) = r5_4;
+            *(r3_7 - 0x43) = r5_4;
+            uint16_t r5_5 = *(arg6 * 2);
+            *(r3_7 - 0xd) = r5_5;
+            *(arg6 + 0x1a) = r5_5;
+            arg2[6] = r5_5;
+            *(*(arg3 + 0x11) + 0x1f) = 0xaa;
+            void* r6_3 = 0x6254462b;
+            (*(data_40 + 2)) = *(r4_2 + 0xc);
+            int32_t r4_4 = 0x23;
+            void* r1_3 = 0xd3fc3ec1;
+            void* r7_4 = arg6 - 0x125;
+            data_44 = *(&data_22 + *(r4_2 + 4)) - 1;
+            char* r5_6 = *(r7_4 + 2);
+            data_46 = r5_6;
+            r5_6[7] = 0x22;
+            *(r5_6 + 0x19) = 0x22;
+            
+            if (true)
+            {
+                *(r5_6 + 0x19) = 0x22;
+                *(r1_3 + 0x16) = 0x22;
+                r4_4 = 0x27;
+                *(r6_3 + 0x54) = 0x138000;
+            }
+            
+            *(r1_3 + 0x3a) = arg3[0xa];
+            /* unimplemented  {stc2 p0, c5, [r3], #-0x24} */
+            int32_t r3_12 = arg3 >> 3;
+            uint32_t r0_7 = 3;
+            
+            if (r3_12)
+            {
+                r1_3 = 0x24041f23;
+                *0x24041f23 = r3_12;
+                /* unimplemented  {stc p15, c15, [r3], #-0xfc} */
+            }
+            
+            void* sp;
+            
+            if (!r3_12 || !r3_12)
+            {
+                /* unimplemented  {ldc2l p0, c2, [r2], #2} */
+                
+                if (arg3)
+                    r5_6 = &arg_88;
+                
+                void var_14;
+                sp = &var_14;
+            }
+            
+            char* r3_15 = r4_4 - 4;
+            /* unimplemented  {vminnm.f32 s3, s14, s13} */
+            void* r4_5 = 0xfdadf420;
+            
+            if (r7_4 > 0xfffffffd)
+                goto label_3010;
+            
+            r0_7 = *(r1_3 + r3_15);
+            void* r6_4 = r6_3 - 0xc8;
+            
+            if (r6_3 == 0xc8)
+                goto label_2fd4;
+            
+            r6_4 = r7_4 >> 0x11;
+            bool n_1 = 0x2fce - r3_15 < 0;
+            bool z_1 = 0x2fce == r3_15;
+            bool v_1 = 0x2fce + -(r3_15);
+            
+            if (!n_1)
+                goto label_3008;
+            
+            r4_5 = &*(nullptr + 3);
+            r1_3 -= arg3;
+            uint32_t lr;
+            r0_7 = lr;
+            label_2fd4:
+            /* unimplemented  {stc2l p1, c5, [r10], {0xf0}} */
+            bool c_1 = r5_6 >= 2;
+            
+            if (r5_6 - 2)
+                goto label_3020;
+            
+            bool cond:4_1 = ~c_1;
+            r7_4 = r5_6 - r5_6;
+            
+            if (!(r5_6 - r5_6) || (r5_6 - r5_6 >= r5_6 && (r5_6 - r5_6 != r5_6 || !c_1)))
+            {
+                r6_4 = &*(nullptr + 3);
+                
+                if (false == r5_6 - r5_6 < r5_6 == !r5_6)
+                    goto label_3048;
+                
+                *(r1_3 + 3);
+            }
+            
+            r7_4 = r4_5 + 1;
+            r1_3 = &r3_15[*(r1_3 + 0x44)];
+            v_1 = r1_3 + -(r4_5);
+            
+            if (r1_3 == r4_5)
+            {
+                0xffc23b96();
+                r4_5 += 4;
+                r0_7 = 0xb;
+                label_3048:
+                r0_7 = 0xffc23b96(r0_7);
+                r5_6 = r4_5 + 4;
+                0xffc23b96(r0_7, r1_3);
+                r0_7 = 0xffc23b96(8);
+            }
+            else
+            {
+                r3_15 = &*(nullptr + 3);
+                n_1 = false;
+                z_1 = false;
+                label_3008:
+                
+                if (z_1 || n_1 != v_1)
+                {
+                    arg3 = *r3_15;
+                    r5_6 = r6_4 + r1_3;
+                    *r5_6 = arg3;
+                    label_3010:
+                    r7_4 = r0_7 + arg3;
+                    r1_3 = r7_4 + 1;
+                    r6_4 = r7_4 + r1_3;
+                    
+                    if (r6_4 != r1_3)
+                    {
+                        label_3020:
+                        0xffc2527a(r0_7, r1_3, arg3, r3_15);
+                        *(sp - 4);
+                        *sp;
+                        *(sp + 4);
+                        *(sp + 8);
+                        *(sp + 0xc);
+                        return *(sp - 8);
+                    }
+                    
+                    0xffc23b96(r0_7, r1_3);
+                    r0_7 = 0xffc23b96(8);
+                }
+            }
+            
+            void* r4_8 = r4_5;
+            *r0_7 = 0x62;
+            *0xffc23b7e(7) = 0x6e;
+            void* r0_10;
+            void* r1_5;
+            void* r3_16;
+            r0_10 = 0xffc23b7e(8);
+            
+            if (r3_16)
+                goto label_3088;
+            
+            r3_16 = r0_10;
+            
+            if (r3_16)
+            {
+                r5_6[0x11] = r3_16;
+                r5_6 = r0_10 + 1;
+                *0x2002fc48 = r5_6;
+                label_3088:
+                *(r4_8 + 0x40) = r3_16;
+                r6_4 = sp + 0x90;
+                int16_t r3_17;
+                r0_10 = 0xffc23d22(0x2002fdbb);
+                *(r1_5 + 2) = r3_17;
+                r5_6 = *(r5_6 + 5);
+                r4_8 = 0x2003109b;
+            }
+            
+            uint16_t r3_18 = r4_8 >> 0x20;
+            *r4_8 = r3_18;
+            *(*(r0_10 + 2) + 0x13) = r3_18;
+            *(((r1_5 + r7_4 - 0x73) << 8) + 4) = r5_6 >> 0x10;
+            *(0xffc23d22(r0_10 + r6_4 + 0x4b) + 0x16);
+            /* undefined */
+        }
+        
+        &*(data_23 + 1);
+    }
+}
+
+int32_t sub_30e6(void* arg1 @ r5, int32_t arg2, int32_t arg3, int32_t arg4, int32_t arg5, int32_t arg6)
+{
+    *(arg1 + 0x17);
+    return arg2;
+}
+
+int32_t sub_3120(int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4 @ r4, void* arg5 @ r7, int32_t arg6 @ r9)
+{
+    uint32_t r4 = arg4 + 0x39;
+    void* r0 = &*(nullptr + 3);
+    int32_t r5 = arg3 + 2;
+    uint32_t r3 = *(arg5 + 0x10);
+    void* r1;
+    char* r2;
+    bool v_1;
+    bool c_1;
+    
+    do
+    {
+        r2 = r0 + 3;
+        r0 = r3 + 4;
+        r3 = r2[0x11];
+        r1 = r4 + 4;
+        c_1 = r5 + r1 < r5;
+        v_1 = r5 + r1;
+        r4 = r1;
+        r5 = 0x2c;
+    } while (!c_1);
+    int32_t r7_1 = r1 >> 0x20;
+    uint32_t r4_1 = r4 << 0xd;
+    int32_t r0_1 = 0x2002fccb;
+    uint32_t r5_1 = 0x23;
+    
+    if (false != v_1)
+    {
+        *(r4_1 + 0xe);
+        int32_t r3_2 = *(r5_1 + 4);
+        *(*r5_1 + 0xc);
+        uint32_t r4_3 = r1 << 1;
+        r0_1 = 3;
+        *(&arg_1b0 + 3) = r3_2;
+        r7_1 = 0x23;
+        
+        if (false == r1 - 3)
+        {
+            char r3_3 = r3_2 + 0x66;
+            r7_1 = 0xe9;
+            
+            if (r3_2 < 0xffffff9a)
+            {
+                *r2 = r4_3 >> 0x11;
+                r4_3 = r1 << 2;
+                r3_3 = 0;
+            }
+            
+            *r2 = r3_3;
+        }
+        
+        r1 = 0x682a4479;
+        *(r4_3 + 1);
+        r4_1 = *0x682a4487;
+    }
+    
+    int16_t r3_6 = *((r4_1 ^ r0_1) + 8);
+    *0x9ec7b074 = r3_6;
+    int16_t r3_7 = r3_6 & 0x4f8f;
+    *0x9ec7b070 = r3_7;
+    *0x9ec7b072 = r3_7 & 0x4f8f;
+    /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+    void* r0_3 = &*(nullptr + 3);
+    /* unimplemented  {stc2 p0, c2, [r10, #8]} */
+    /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+    /* unimplemented  {stc2l p0, c2, [r11], {2}} */
+    r1 += &data_31e4;
+    *0x2002fe55 = 0xb070;
+    r5_1 = 4;
+    void* r3_10;
+    uint32_t r4_6;
+    
+    if (false != 0x4f90 + 0)
+    {
+        &*(data_7d + 2);
+        r3_10 = &data_7a;
+        r4_6 = 0x2a;
+        data_7b = 3;
+        goto label_3328;
+    }
+    
+    *(&data_2f + 0x13) = 0x23 + r1;
+    r3_10 = 0x22076624;
+    
+    if (&data_32fa - r7_1 < 0)
+    {
+        *(r3_10 + 0xa) = r5_1;
+        r4_6 = *(r0_3 + r1);
+        r0_3 = &data_6;
+        (&data_7)[1] = r3_10;
+        label_3328:
+        void** r4_7 = r4_6 << 0xd;
+        
+        if (r4_7 < 0)
+        {
+            *r4_7 = r3_10;
+            r0_3 += r5_1;
+            *(r4_7 + 0x16) = r4_7;
+        }
+        
+        *(r0_3 + 0x26) = r4_7;
+        /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+        /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+        /* unimplemented  {ldc2l p0, c2, [sp, #8]} */
+        /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+        /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+        /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+        /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+        &*(nullptr + 3);
+        /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+    }
+    
+    /* unimplemented  {stc p8, c15, [r3], #-0xd4} */
+    /* undefined */
+}
+
+int32_t sub_343c(uint32_t* arg1, uint32_t arg2, int32_t arg3, void* arg4 @ r4, int32_t arg5 @ r5, void* arg6 @ r7, int32_t arg7, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, char arg12)
+{
+    *(arg1 * 2) = arg4 >> 0x10;
+    *(arg1 + arg4) = arg5;
+    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+    /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+    int32_t r0_1;
+    void* r5_3;
+    uint32_t r6_1;
+    
+    do
+    {
+        *(arg2 + 0x48) = arg3;
+        int32_t* r5 = *(arg4 + 4);
+        r5[0x13] = *(arg2 * 2);
+        /* unimplemented  {stc2 p0, c6, [r3, #0x328]!} */
+        *0x27037754 = arg6;
+        *(arg6 + 0x11) = 0x53;
+        char* r3_3 = r5[3];
+        *r3_3 = arg6;
+        *(arg6 + 0x10) = r3_3;
+        int32_t r0 = r5[5];
+        int32_t r4 = r5[9];
+        arg2 = *(&*(data_40 + 2) + r4);
+        *(arg2 + 0x38) = arg6;
+        arg3 = r4 << 0xa;
+        
+        if (r4 << 0xa >= 0 && TEST_BIT(r4, 0x16))
+        {
+            *(arg3 + 0x38) = arg3;
+            data_82 = 0x4d;
+        }
+        else
+        {
+            data_82 = r4;
+            /* unimplemented  {stc2 p12, c1, [r3], #0x108} */
+            *(&*(data_40 + 2) + r0);
+        }
+        
+        char* r3_6 = r5[0xa];
+        r5_3 = r5[0xc];
+        *(arg3 + 0x38) = arg2;
+        arg6 = *(arg6 + 0x40);
+        uint32_t r3_7 = *r3_6;
+        arg4 = &data_23;
+        *(r5_3 + 0x4c) = r3_7;
+        uint32_t r3_9 = *(r5_3 + (r3_7 | 0x42));
+        r0_1 = 3;
+        data_82 = 0x42;
+        r6_1 = r3_9 << 0x19;
+        
+        if (r6_1)
+        {
+            arg2 = *r5_3;
+            arg3 = *(r5_3 + 4);
+            arg4 = *(r5_3 + 8);
+            arg6 = *(r5_3 + 0xc);
+            r5_3 += 0x10;
+            r0_1 = 0x2002fe35;
+        }
+        else
+        {
+            r3_9 = 0x23 + arg3;
+            *arg3 = r3_9;
+            
+            if (0x23 <= -(arg3))
+            {
+                *(arg3 + 0x38) = arg3;
+                *(r5_3 + 0x4c) = 4;
+                /* unimplemented  {stc2 p0, c6, [r3, #0x328]!} */
+                return result;
+            }
+        }
+        
+        *(arg4 + 0x10) = r3_9;
+    } while (!(r0_1 << 0x1d));
+    
+    bool c_2 = TEST_BIT(arg4, 0x19);
+    
+    if (arg4 << 7 >= 0)
+    {
+        r5_3 += &result;
+        c_2 = TEST_BIT(arg4, 0x17);
+        
+        if (arg4 << 9 >= 0)
+            /* jump -> &result */
+    }
+    
+    while (true)
+    {
+        *(arg2 + 0xa) = arg3;
+        *(r6_1 + 0xc);
+        
+        if (!c_2)
+        {
+            r5_3 += 0x34;
+            int32_t* temp0_6 = arg6;
+            int32_t* r2_1 = *temp0_6;
+            arg6 += 8;
+            int32_t r3_15 = temp0_6[1] << 7;
+            
+            if (r3_15 >= 0)
+            {
+                int32_t r3_17 = *r2_1;
+                uint32_t r4_4 = arg2 << 0xd;
+                *r2_1 = r3_17;
+                
+                if (arg6 < 0xab)
+                {
+                    *(arg2 + 2) = r3_17;
+                    /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+                    /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+                    /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+                    /* unimplemented  {ldc2l p0, c2, [sp, #8]} */
+                    arg2 = (arg6 - 0xab) >> 9;
+                    /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+                    r2_1 = r4_4;
+                    r3_17 = 3;
+                    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+                }
+                
+                int32_t r7_2 = r3_17 << 0x19;
+                /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+                /* unimplemented  {stc2l p0, c2, [r3], #8} */
+                uint32_t r5_5 = r4_4 << 9;
+                /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+                int32_t r3_18 = r2_1 >> 4;
+                /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+                /* unimplemented  {stc2l p0, c2, [r7], #8} */
+                /* unimplemented  {stc2l p0, c2, [r5], #8} */
+                /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+                
+                if (r3_18)
+                {
+                    arg2 = 0x2002fe35;
+                    *(r5_5 + 0x1c) = r5_5;
+                    *r5_5;
+                    r3_18 = *(r5_5 + 4);
+                    r5_5 = *(r5_5 + 8);
+                    *(r6_1 + 0x4c) = r6_1;
+                    /* unimplemented  {ldc2 p0, c6, [lr, #0x354]!} */
+                    *0x2002fe41 = r5_5;
+                    r2_1 = &*(nullptr + 3);
+                    *(r5_5 + 0xd) = r5_5;
+                    *0x2002fe4e = r5_5;
+                    *(r5_5 + 0xa) = r5_5;
+                    *0x2002fe50 = r5_5;
+                    *(r5_5 + 0xc) = r5_5;
+                    *0x2002fe44 = r5_5;
+                }
+                
+                int32_t r5_6 = *(r5_5 + 0x78);
+                *(arg2 + 0x10) = r5_6;
+                *(r7_2 + 6) = r5_6;
+                *(r3_18 - 0x43) = r5_6;
+                uint16_t r5_7 = *(r7_2 * 2);
+                *(r3_18 - 0xd) = r5_7;
+                *(r7_2 + 0x1a) = r5_7;
+                *(arg2 + 0xc) = r5_7;
+                *(*(r2_1 + 0x11) + 0x1f) = 0xaa;
+                void* r6_3 = 0x6254462b;
+                (*(data_40 + 2)) = *(r4_4 + 0xc);
+                int32_t r4_5 = 0x23;
+                void* r1_2 = 0xd3fc3ec1;
+                void* r7_3 = r7_2 - 0x125;
+                data_44 = *(&data_22 + *(r4_4 + 4)) - 1;
+                char* r5_8 = *(r7_3 + 2);
+                data_46 = r5_8;
+                r5_8[7] = 0x22;
+                *(r5_8 + 0x19) = 0x22;
+                
+                if (true)
+                {
+                    *(r5_8 + 0x19) = 0x22;
+                    *(r1_2 + 0x16) = 0x22;
+                    r4_5 = 0x27;
+                    *(r6_3 + 0x54) = 0x138000;
+                }
+                
+                *(r1_2 + 0x3a) = r2_1[0xa];
+                /* unimplemented  {stc2 p0, c5, [r3], #-0x24} */
+                int32_t r3_23 = r2_1 >> 3;
+                uint32_t r0_7 = 3;
+                
+                if (r3_23)
+                {
+                    r1_2 = 0x24041f23;
+                    *0x24041f23 = r3_23;
+                    /* unimplemented  {stc p15, c15, [r3], #-0xfc} */
+                }
+                
+                void* sp;
+                
+                if (!r3_23 || !r3_23)
+                {
+                    /* unimplemented  {ldc2l p0, c2, [r2], #2} */
+                    
+                    if (r2_1)
+                        r5_8 = &arg_88;
+                    
+                    void var_14;
+                    sp = &var_14;
+                }
+                
+                char* r3_26 = r4_5 - 4;
+                /* unimplemented  {vminnm.f32 s3, s14, s13} */
+                void* r4_6 = 0xfdadf420;
+                
+                if (r7_3 > 0xfffffffd)
+                    goto label_3010;
+                
+                r0_7 = *(r1_2 + r3_26);
+                void* r6_4 = r6_3 - 0xc8;
+                
+                if (r6_3 == 0xc8)
+                    goto label_2fd4;
+                
+                r6_4 = r7_3 >> 0x11;
+                bool n_4 = 0x2fce - r3_26 < 0;
+                bool z_1 = 0x2fce == r3_26;
+                bool v_1 = 0x2fce + -(r3_26);
+                
+                if (!n_4)
+                    goto label_3008;
+                
+                r4_6 = &*(nullptr + 3);
+                r1_2 -= r2_1;
+                uint32_t lr;
+                r0_7 = lr;
+                label_2fd4:
+                /* unimplemented  {stc2l p1, c5, [r10], {0xf0}} */
+                bool c_4 = r5_8 >= 2;
+                
+                if (r5_8 - 2)
+                    goto label_3020;
+                
+                bool cond:4_1 = ~c_4;
+                r7_3 = r5_8 - r5_8;
+                
+                if (!(r5_8 - r5_8) || (r5_8 - r5_8 >= r5_8 && (r5_8 - r5_8 != r5_8 || !c_4)))
+                {
+                    r6_4 = &*(nullptr + 3);
+                    
+                    if (false == r5_8 - r5_8 < r5_8 == !r5_8)
+                        goto label_3048;
+                    
+                    *(r1_2 + 3);
+                }
+                
+                r7_3 = r4_6 + 1;
+                r1_2 = &r3_26[*(r1_2 + 0x44)];
+                v_1 = r1_2 + -(r4_6);
+                
+                if (r1_2 == r4_6)
+                {
+                    0xffc23b96();
+                    r4_6 += 4;
+                    r0_7 = 0xb;
+                    label_3048:
+                    r0_7 = 0xffc23b96(r0_7);
+                    r5_8 = r4_6 + 4;
+                    0xffc23b96(r0_7, r1_2);
+                    r0_7 = 0xffc23b96(8);
+                }
+                else
+                {
+                    r3_26 = &*(nullptr + 3);
+                    n_4 = false;
+                    z_1 = false;
+                    label_3008:
+                    
+                    if (z_1 || n_4 != v_1)
+                    {
+                        r2_1 = *r3_26;
+                        r5_8 = r6_4 + r1_2;
+                        *r5_8 = r2_1;
+                        label_3010:
+                        r7_3 = r0_7 + r2_1;
+                        r1_2 = r7_3 + 1;
+                        r6_4 = r7_3 + r1_2;
+                        
+                        if (r6_4 != r1_2)
+                        {
+                            label_3020:
+                            0xffc2527a(r0_7, r1_2, r2_1, r3_26);
+                            *(sp - 4);
+                            *sp;
+                            *(sp + 4);
+                            *(sp + 8);
+                            *(sp + 0xc);
+                            return *(sp - 8);
+                        }
+                        
+                        0xffc23b96(r0_7, r1_2);
+                        r0_7 = 0xffc23b96(8);
+                    }
+                }
+                
+                void* r4_9 = r4_6;
+                *r0_7 = 0x62;
+                *0xffc23b7e(7) = 0x6e;
+                void* r0_10;
+                void* r1_4;
+                void* r3_27;
+                r0_10 = 0xffc23b7e(8);
+                
+                if (r3_27)
+                    goto label_3088;
+                
+                r3_27 = r0_10;
+                
+                if (r3_27)
+                {
+                    r5_8[0x11] = r3_27;
+                    r5_8 = r0_10 + 1;
+                    *0x2002fc48 = r5_8;
+                    label_3088:
+                    *(r4_9 + 0x40) = r3_27;
+                    r6_4 = sp + 0x90;
+                    int16_t r3_28;
+                    r0_10 = 0xffc23d22(0x2002fdbb);
+                    *(r1_4 + 2) = r3_28;
+                    r5_8 = *(r5_8 + 5);
+                    r4_9 = 0x2003109b;
+                }
+                
+                uint16_t r3_29 = r4_9 >> 0x20;
+                *r4_9 = r3_29;
+                *(*(r0_10 + 2) + 0x13) = r3_29;
+                *(((r1_4 + r7_3 - 0x73) << 8) + 4) = r5_8 >> 0x10;
+                *(0xffc23d22(r0_10 + r6_4 + 0x4b) + 0x16);
+                /* undefined */
+            }
+            
+            *(r6_1 + 0x40) = r3_15;
+            c_2 = /* c_2 = unimplemented  {bics r3, r1} */;
+            *(r6_1 + r0_1);
+        }
+        
+        arg3 = *(r6_1 + 0x11);
+        *(arg3 + 4) = arg3;
+    }
+}
+
+int32_t sub_3882(int16_t* arg1, int32_t arg2, uint32_t* arg3, int32_t arg4, int16_t** arg5 @ r5, void* arg6 @ r6, int32_t arg7 @ r7, int32_t arg8 @ r8, int32_t arg9 @ r9, int16_t arg10)
+{
+    uint32_t r4;
+    void* r6;
+    
+    if (2 + -(arg4))
+    {
+        int32_t r0;
+        r0 = 0xffc25f72();
+        data_1b = arg4;
+        arg1 = r0 - 0x43;
+        *(data_48 + 2) = 2;
+        arg3 = &data_7;
+        *(arg1 + 8) = 2;
+        *(data_48 + 2) = 2;
+        r6 = 0x1c00000;
+        *(arg1 + 8) = 2;
+        *(data_48 + 2) = 2;
+        r4 = 0x11;
+    }
+    else
+    {
+        r4 = *(arg6 + arg1);
+        r6 = arg6 - 0xb4;
+        
+        if (arg6 > 0xb4)
+        {
+            *arg3 = r4 << 0x13;
+            /* undefined */
+        }
+    }
+    
+    if (arg4 <= arg2)
+    {
+        if (arg4 != arg2)
+            /* undefined */
+        
+        arg1 = 0x79de();
+        *(r4 + 0x1d);
+    }
+    else
+    {
+        uint32_t r3_1 = *(r4 + 0x15);
+        
+        if (arg4 < arg2)
+        {
+            arg1[3] = arg1 + 2;
+            label_3944:
+            
+            if (r6 >= 0xab)
+                /* undefined */
+            
+            *(r6 - 0x71) = arg1[3];
+            arg3[7] *= arg5;
+            /* undefined */
+        }
+        
+        bool v_1 = r3_1 + -(arg2);
+        
+        if (!v_1)
+        {
+            arg1[3] = arg1 - 1;
+            arg1 = &data_3d;
+            *(arg3 + arg2);
+            goto label_3944;
+        }
+        
+        if (!v_1)
+        {
+            *data_44 = r6;
+            *(r3_1 + 0x21) = r3_1 - 1;
+            /* undefined */
+        }
+    }
+    
+    *(arg1 + 0x5bb43) = *0x5bb47;
+    /* jump -> arg8 */
+}
+
+int32_t sub_3cd4(int32_t arg1, void* arg2, int32_t arg3, char arg4, uint32_t arg5 @ r4, void* arg6 @ r6, uint32_t arg7 @ r7, int32_t arg8 @ r8, int32_t arg9 @ r9, int32_t arg10 @ r10, void* arg11 @ r11, int32_t arg12 @ r12, int32_t arg13, int32_t arg14, int32_t arg15, int16_t* arg16, int32_t arg17, int32_t arg18, char arg19, char arg20, int32_t* arg21, int16_t arg22, int32_t* arg23, char arg24, int32_t arg25)
+{
+    *(arg2 + 0x1c) = arg4;
+    *(arg6 + 4);
+    void* r5 = *(arg6 + 8);
+    char r3 = *(arg2 + 0x70);
+    *(arg5 + 0x1a) = r3;
+    *(r5 + 0xc) = r3;
+    /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+    /* unimplemented  {stc2l p0, c2, [r7], {2}} */
+    /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {stc2 p8, c0, [r3], #-8} */
+    /* unimplemented  {cdp2 p0, #2, c0, c6, c2, #0} */
+    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+    /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+    /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+    /* jump -> arg9 */
+}
+
+int32_t sub_3e14(void* arg1 @ r4)
+{
+    *(arg1 + 0x12);
+}
+
+int32_t sub_3f2e(uint32_t arg1, uint32_t arg2, void* const arg3, uint32_t* arg4 @ r4, int32_t arg5 @ r6, int32_t arg6 @ r8, int32_t arg7 @ r9, int32_t arg8 @ r10, void* arg9 @ r11, int32_t arg10 @ r12, int32_t arg11, int32_t arg12, int32_t arg13, int16_t* arg14, int32_t arg15, int32_t arg16, char arg17, char arg18, uint32_t arg19, int16_t arg20, int32_t* arg21, char arg22, int32_t arg23)
+{
+    uint32_t r3_1 = arg1 >> 0x1f;
+    /* unimplemented  {cdp2 p5, #6, c2, c6, c3, #0} */
+    *(arg1 + 0x44) = r3_1;
+    *(arg5 + 0x40) = arg5;
+    uint32_t r6 = r3_1 << 0xa;
+    /* unimplemented  {ldc2 p3, c4, [r0], {0xaa}} */
+    *arg4 = r3_1;
+    *(r6 + 0x40) = r6;
+    *(arg3 + 0x44) = (r3_1 >> 0x1e) + 0x33;
+    arg4[8];
+    /* unimplemented  {cdp2 p1, #4, c5, c3, c5, #6} */
+    *(arg3 + 0x19);
+    /* jump -> &data_5b1 */
+}
+
+int32_t sub_423e(int32_t arg1, int32_t arg2, void* arg3 @ r6, void* arg4 @ r7, int32_t arg5, int32_t arg6, int32_t arg7, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11)
+{
+    uint32_t r4_1 = *((arg2 << 8) + 0x18);
+    *(arg4 + 0x38) = *(arg3 + 4) >> 0x10;
+    *(arg4 + 0x34) = r4_1;
+    *r4_1 = r4_1;
+    return arg5;
+}
+
+int32_t sub_44aa(int32_t arg1, uint32_t arg2, uint32_t arg3, uint32_t arg4, uint32_t arg5 @ r4, int32_t* const arg6 @ r5, void** arg7 @ r6, uint32_t arg8 @ r7, int32_t arg9 @ r8, int32_t arg10 @ r9, int32_t arg11 @ r10, void* arg12 @ r11, int32_t arg13 @ r12, int32_t arg14, int32_t arg15, int32_t arg16, int16_t* arg17, int32_t arg18, int32_t arg19, char arg20, char arg21, uint32_t arg22, int16_t arg23, int32_t* arg24, char arg25, int32_t arg26)
+{
+    void* const r0 = sub_2;
+    /* unimplemented  {stc2 p0, c0, [r5], #-0x18} */
+    /* unimplemented  {stc2 p0, c2, [pc], {2}} */
+    bool v;
+    
+    if (false != v)
+    {
+        /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+        /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+        /* unimplemented  {stc2 p8, c0, [r3], #-8} */
+        /* unimplemented  {cdp2 p0, #2, c0, c6, c2, #0} */
+        /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+        /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+        /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+        /* jump -> arg10 */
+    }
+    
+    *(arg2 + 0x78) = arg5;
+    int32_t r4 = r0 << 0x11;
+    
+    if (r4)
+    {
+        r4 = arg6 >> 0x14;
+        arg6[8] = r4;
+        r0 = &data_4514;
+        
+        if (r4 - arg3 < 0)
+        {
+            /* unimplemented  {vsubw.U32 q2, q6, d10} */
+            arg4 = *(arg3 + 4);
+            r0 = 0x30260;
+            *0x3026d = 0;
+            *(r0 + 0x10) = arg6 >> 0x18;
+            (*(nullptr + 1)) = 0;
+            arg3 = 0x2002fcd3;
+            arg8 = 4;
+            int32_t r4_1 = *0x2002fcd8;
+            arg6 = &data_23;
+            
+            if (false != 0 + 4)
+            {
+                arg7 -= 0x6c;
+                arg6 = nullptr;
+                *(r4_1 + 2) = 0;
+                *(r0 + 0x13) = r4_1;
+            }
+            
+            *0x2002fd17 = 4;
+            uint32_t r4_2 = r4_1 >> 0x18;
+            *(r4_2 + 4) = r4_2;
+            uint32_t r4_3 = r4_2 >> 0x10;
+            *(r4_3 + 5) = r4_3;
+            uint32_t r4_4 = r4_3 >> 8;
+            *(r4_4 + 6) = r4_4;
+            *(r0 + 0x17) = 4;
+            arg2 = 0x34;
+            arg7[0x10] = 0x2002fcd3;
+            data_8 = 0;
+            r4 = 0;
+        }
+    }
+    
+    *(r4 + 9) = r4;
+    uint32_t r4_5 = arg8 >> 8;
+    *(r4_5 + 0xa) = r4_5;
+    *(arg2 + 0x1b) = arg3;
+    arg6[0x10] = r4_5;
+    *(r4_5 + 0xc) = (arg2 + 0x33) >> 0x18;
+    *(r4_5 + 0xd) = (arg2 + 0x33) >> 0x10;
+    int32_t r5_3 = (arg2 + 0x33) >> 8;
+    *(r4_5 + 0xe) = r5_3;
+    *(r0 + 0x1f) = r4_5;
+    *(arg2 + 0x117) = arg4;
+    void* r0_1;
+    char* r1_2;
+    int32_t r12;
+    r0_1 = sub_2dc2(r0, arg2 + 0x9f, r4_5, r5_3, arg7, arg8, arg10, arg4, arg14, arg15, arg16, arg17, arg18, arg19);
+    void* sp = &arg_1c;
+    uint32_t r4_6 = r0_1;
+    *(r0_1 + 0x13) = r1_2 >> 8;
+    *(r4_6 + 4) = r4_6;
+    int32_t r4_7 = arg7 >> 0x11;
+    *(r4_7 + 5) = r1_2 >> 0x18;
+    *(r4_7 + 6) = r1_2 >> 0x10;
+    uint32_t r5_7 = r1_2 >> 8;
+    *(r4_7 + 7) = r5_7;
+    *(r0_1 + 0x18) = r4_7;
+    /* unimplemented  {stc2l p3, c4, [r3, #0x24]!} */
+    void* r4_8 = r4_7 + arg10;
+    uint32_t r2_1 = *(r5_7 + r0_1 + 0x2f);
+    void* r7_1 = (0x30260 & ~(r0_1 + 0x2f)) - 0x27;
+    *arg7 = r7_1;
+    void* r3_2 = 0 - ((r0_1 + 0x2f) >> 0x1b);
+    *(r4_8 + 0x1c) = r4_8;
+    *((r1_2 << 8) + 0x1d) = r5_7;
+    *(r5_7 + 0xe) = r2_1 + r1_2;
+    bool z_1 = r1_2 == 0xcb;
+    bool c_1 = r1_2 >= 0xcb;
+    
+    if (r1_2 - 0xcb < 0)
+    {
+        *(r5_7 + 0xe) = 0x9e9c;
+        r5_7 += 4;
+        sub_2dc2();
+        sp = &arg_38;
+        r7_1 -= 0x6b;
+        /* unimplemented  {mcr2 p9, #5, r4, c3, c7, #0} */
+        int32_t r0_3;
+        void* r1_3;
+        r0_3 = 0xffc23582();
+        *(r5_7 + 0x10) = -0x60f1 + r1_3;
+        r3_2 = r1_3 + r0_3;
+        c_1 = r1_3 + r0_3 < r1_3;
+        r1_2 = 0x7046062e;
+        z_1 = false;
+    }
+    
+    if (!z_1 && c_1)
+    {
+        *(r3_2 + 6) = r7_1;
+        uint32_t r3_4 = *r1_2;
+        *(r3_4 + 7) = r3_4;
+        *(sp + 4);
+        *(sp + 8);
+        *(sp + 0xc);
+        *(sp + 0x10);
+        *(sp + 0x14);
+        *(sp + 0x18);
+        return *sp;
+    }
+    
+    *r1_2 = r3_2;
+    *r1_2 = r3_2 >> 0x18 | (r3_2 >> 0x10 & 0xff) << 8 | (r3_2 >> 8 & 0xff) << 0x10 | (r3_2 & 0xff) << 0x18;
+    /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+    /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+    /* unimplemented  {ldc2l p0, c2, [r3], #2} */
+    uint32_t r1_5 = 0;
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    uint32_t r7_4 = r2_1;
+    /* unimplemented  {stc2 p0, c2, [r11, #8]} */
+    int32_t* r2_2 = 0x6fc23;
+    data_601 = r5_7 << 0x18;
+    data_603 = r5_7 << 0x18;
+    uint32_t r4_12 = *0x6fc2f;
+    uint32_t r3_8 = r5_7 << 4;
+    bool z_2;
+    bool v_2;
+    
+    if (r3_8 >= 0)
+    {
+        z_2 = r3_8 == 3;
+        v_2 = r3_8 - 3;
+    }
+    else
+    {
+        z_2 = !r4_12;
+        v_2 = r4_12 + 0;
+    }
+    
+    if (!v_2)
+    {
+        if (r5_7 << 7 < 0 && r5_7 << 8 >= 0)
+        {
+            if (r5_7 << 0xd >= 0)
+                goto label_46d4;
+            
+            goto label_46cc;
+        }
+        
+        uint32_t r6_7;
+        
+        if (r5_7 << 9 >= 0 || r5_7 << 0xd < 0)
+        {
+            label_46cc:
+            r7_4 -= 0x3b;
+            r6_7 = r1_5 << 0x1b;
+            
+            if (!r6_7)
+                goto label_46d4;
+            
+            uint32_t r5_20;
+            bool c_2;
+            
+            if (r5_7 << 6 < 0)
+            {
+                r7_4 -= 0x33;
+                label_4726:
+                r5_20 = r1_5 << 0x1d;
+                c_2 = TEST_BIT(r1_5, 3);
+                
+                if (r1_5 & 7)
+                    goto label_4778;
+                
+                r2_2 = &data_4;
+            }
+            
+            *r2_2;
+            uint32_t r1_6 = r7_4 << 6;
+            bool cond:6_1 = r1_6 >= 0;
+            
+            if (r1_6 < 0)
+                goto label_4746;
+            
+            if (r6_7 << 5 >= 0)
+            {
+                label_474c:
+                r7_4 -= 0x33;
+                
+                if (r1_6 << 0x15)
+                    /* undefined */
+            }
+            else
+            {
+                r7_4 -= 0x43;
+                cond:6_1 = r6_7 << 1 >= 0;
+                label_4746:
+                
+                if (!cond:6_1)
+                    goto label_474c;
+            }
+            
+            if (r6_7 << 7 < 0)
+            {
+                r7_4 -= 0x33;
+                r5_20 = r1_6 << 0x14;
+            }
+            
+            if (r6_7 << 7 < 0 && r5_20)
+            {
+                uint32_t r3_19 = sp;
+                *(r3_19 + 0x28) = 0xff7;
+                int32_t r4_17 = r1_6 + 1;
+                uint32_t temp10_1 = r6_7;
+                r6_7 -= 0xa4;
+                
+                if (temp10_1 < 0xa4)
+                {
+                    r3_19 = r4_17 - r1_6;
+                    *(r7_4 + 6) = r3_19;
+                    r4_17 = *sp;
+                }
+                
+                *sp = r4_17;
+                *sp = *sp;
+                *((r3_19 >> 0x18 | (r3_19 >> 0x10 & 0xff) << 8 | (r3_19 >> 8 & 0xff) << 0x10 | (r3_19 & 0xff) << 0x18) + 0x11) = r6_7;
+            }
+            else
+            {
+                r5_20 = r6_7 << 6;
+                c_2 = TEST_BIT(r5_20, 0x14);
+                
+                if (r5_20 << 0xc < 0)
+                {
+                    c_2 = r7_4 >= 0x2b;
+                    label_4778:
+                    *(r5_20 + 0x1c) = r6_7;
+                }
+                
+                *0xd0ff2423;
+                
+                if (!c_2)
+                    /* jump -> arg12 */
+            }
+            
+            *(*(r5_20 + 4) + 0x68) = *(r5_20 + 0x10);
+            void* r1_10 = *0x6fc27;
+            void* r2_6 = *0x6fc2b;
+            int32_t r3_21 = *(r1_10 + r2_6);
+            uint32_t r4_19 = *(r6_7 + *0x6fc23);
+            *(r6_7 + 2) = r6_7;
+            *(r3_21 + 0x12) = r4_19;
+            *(r6_7 + 3) = r4_19;
+            *(r3_21 + 0x13) = r4_19;
+            *(r6_7 + 4) = r4_19;
+            *(r3_21 + 0x14) = r4_19;
+            *(r6_7 + 5) = r4_19;
+            *(r3_21 + 0x15) = r4_19;
+            *(r6_7 + 6) = r4_19;
+            *(r3_21 + 0x16) = r4_19;
+            *(r6_7 + 7) = r4_19;
+            uint32_t r4_20 = r4_19 >> 8;
+            *(r6_7 + 8) = r4_20;
+            uint32_t r4_21 = r4_20 >> 0x20;
+            *(r6_7 + 9) = r4_21;
+            *(r6_7 + 0xa) = r4_21 << 0x18;
+            *(r2_6 + 1) = *0x2002fdc8;
+            *(r2_6 + 2) = *0x2002fdc9;
+            *(r2_6 + 3) = *0x2002fdcb;
+            *(r2_6 + 4) = *0x2002fdcc;
+            *(r2_6 + 5) = *0x2002fdca;
+            *0x6fc33 = r6_7;
+            void* r4_27 = r1_10 + 1;
+            bool c_3;
+            
+            do
+            {
+                c_3 = r4_27 + r1_10 < r4_27;
+                r4_27 = &data_39;
+            } while (!c_3);
+            (*(data_73 + 2)) = 0x6e;
+            (*(data_73 + 3)) = 3;
+            *(sp + 4);
+            *(sp + 8);
+            *(sp + 0xc);
+            *(sp + 0x10);
+            *(sp + 0x14);
+            *(sp + 0x18);
+            return *sp;
+        }
+        
+        label_46d4:
+        r7_4 -= 0x3b;
+        r6_7 = r1_5 << 0x1a;
+        
+        if (r6_7)
+            goto label_4726;
+        
+        r4_12 = r5_7 << 0xc;
+        
+        if (r4_12 < 0)
+        {
+            r7_4 -= 0x2b;
+            r4_12 = *0x6fc23;
+        }
+        
+        z_2 = !(r5_7 & 0x1ffff);
+    }
+    
+    if (!z_2)
+        *(r7_4 + 0xd) = 0x37e11800;
+    
+    *r4_12;
+    *(r4_12 + 8);
+    /* undefined */
+}
+
+void sub_4884(void* arg1, void* arg2 @ r4, void* arg3 @ r5, int32_t arg4 @ r7)
+{
+    *(arg2 + 0x74) = arg2;
+    *(arg1 + 0x34) = arg2;
+    *(arg2 + 0x70) = arg2;
+    *(arg1 + 0x30) = arg2;
+    *(arg3 + 0xe);
+}
+
+int32_t sub_4922(int32_t arg1, int32_t arg2, void* const arg3, int16_t* arg4, void* arg5 @ r7, int32_t arg6 @ r9, int32_t arg7 @ r12)
+{
+    if (*arg4 <= 0xde)
+        /* jump -> arg6 */
+    
+    int32_t* r4 = *(arg5 + 8);
+    void* const r6_1 = *(arg5 + 0x10);
+    int32_t r7 = *(arg5 + 0x14);
+    int32_t r3 = r4 << 5;
+    
+    if (r3 >= 0)
+    {
+        *(r6_1 + 0x4c) = r3;
+        *(arg3 + 0xc) = 0x42;
+        r4[2];
+        int32_t* r5_1 = r4[5];
+        *r5_1;
+        r5_1[1];
+        void* r5_2 = r5_1[3];
+        *(*(r5_2 + 8) + 1) = *(r5_2 + 4);
+        *(r5_2 + 0x25) = r6_1;
+        *(r5_2 + 0x14);
+        void* r1_2 = *(r5_2 + 0x18);
+        *(r7 + 5) = r6_1;
+        *(r1_2 + 0x44) = 0xffffb135;
+        arg2 = 0x5f2c5833;
+        arg3 = 0x16fee081;
+        r6_1 = 0x49979690;
+        *0x16fee08d;
+    }
+    
+    *(*(r6_1 + 0xb40) + 0x10) = arg2;
+    int16_t* r6_2 = r6_1 & arg3;
+    /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+    data_5a = r6_2;
+    /* unimplemented  {stc2 p0, c2, [r5], #-8} */
+    /* unimplemented  {ldc2 p0, c2, [sp], {2}} */
+    /* unimplemented  {ldc2 p0, c2, [pc], #2} */
+    /* unimplemented  {stc2 p0, c2, [r1], #8} */
+    void* r5_6 = 0x16800000 & arg3;
+    /* unimplemented  {stc2 p0, c2, [r3], #8} */
+    void* const r2_3 = &*(nullptr + 3);
+    int32_t r0_3 = 0x2d + arg7;
+    *(r0_3 + 4);
+    
+    if (r5_6 << 7 < 0)
+        goto label_4af4;
+    
+    uint32_t r3_6 = *r5_6;
+    *(r3_6 + 0x44) = *(r5_6 + r3_6);
+    uint32_t r7_2 = 0x2002fc9f;
+    r6_2 = &*(nullptr + 3);
+    int32_t r1_4 = *(r5_6 + 3);
+    int32_t* r5_7 = 0x20031113;
+    r2_3 = &data_23;
+    data_4 = r1_4;
+    uint32_t r3_8;
+    void* r4_3;
+    
+    while (true)
+    {
+        *(r2_3 + 0x12) = r1_4;
+        r2_3 = r5_7[2];
+        r4_3 = r5_7[4];
+        *(r2_3 + 0x22) = *r5_7;
+        r1_4 = 0x4819d529;
+        int16_t r0_7 = *r6_2;
+        r6_2 = r7_2 >> 0x15;
+        *(r2_3 + 0x22) = r0_7;
+        r7_2 = r4_3 + 0x4831b213;
+        r3_8 = *0x4831b217;
+        r5_6 = 0x2002fc9f;
+        *(r2_3 + 0x44) = *0x4831b213;
+        r0_3 = r6_2 << 0x19;
+        
+        if (!r0_3)
+            break;
+        
+        r5_7 = &data_22;
+        
+        if (r0_3 >= 0xffffffff)
+        {
+            r1_4 = *(r2_3 + 0x22);
+            
+            if (r1_4 - 2 >= 0)
+                goto label_4b3a;
+            
+            r0_3 = 0x28036463;
+            uint32_t r5_8 = *(r4_3 + 0x12);
+            *0x28036469 = r7_2 >> 0x20;
+            /* unimplemented  {cdp2 p12, #4, c0, c7, c6, #1} */
+            r7_2 = *(r4_3 + 0x14);
+            r6_2 = 0x2002fc43;
+            r3_8 = r5_8 << 0xc;
+            bool z_1;
+            bool c_2;
+            
+            if (r3_8 >= 0)
+            {
+                r0_3 = r1_4 + r7_2;
+                r6_2 = 0x2002fb76;
+                z_1 = false;
+                c_2 = true;
+            }
+            else
+            {
+                z_1 = r3_8 == 0xfffffffe;
+                c_2 = r3_8 >= 0xfffffffe;
+            }
+            
+            if (!z_1 && c_2)
+                goto label_4ad0;
+            
+            r2_3 = *r7_2;
+            r3_8 = *(r7_2 + 4);
+            r5_6 = *(r7_2 + 8);
+            goto label_4aae;
+        }
+    }
+    
+    label_4aae:
+    
+    if (r6_2 - r5_6 >= 0)
+    {
+        int16_t* temp3_1 = r6_2;
+        r6_2 -= 0xdd;
+        
+        if (temp3_1 >= 0xdd)
+        {
+            int16_t* temp4_1 = r6_2;
+            r6_2 -= 0xcf;
+            
+            if (temp4_1 <= 0xcf)
+            {
+                r1_4 = *(r6_2 + 4);
+                r3_8 = *(r6_2 + 0xc);
+                r6_2 = &r6_2[0xa];
+                r0_3 = 0x2002fc9f;
+                *(r4_3 + 0x40) = r4_3;
+                r2_3 = &data_5;
+            }
+        }
+        
+        label_4ad0:
+        /* unimplemented  {stc2 p3, c2, [r12], #0x38} */
+        r5_6 = *((r1_4 >> 0x1e) + r0_3);
+        *r6_2 = r3_8;
+        label_4af4:
+        /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+        /* unimplemented  {stc2 p0, c2, [r5], #-8} */
+        *(r0_3 * 2) = r6_2 & r2_3;
+        /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+    }
+    
+    /* unimplemented  {ldc2 p0, c2, [sp], {2}} */
+    /* unimplemented  {ldc2 p0, c2, [pc], #2} */
+    /* unimplemented  {stc2 p0, c2, [r1], #8} */
+    /* unimplemented  {cdp2 p0, #2, c2, c11, c2, #0} */
+    int32_t r4_5 = r5_6 << 0x10;
+    *(r4_5 + 0x44) = r2_3;
+    *r4_5;
+    r5_7 = *(r4_5 + 0xc);
+    void* r0_9 = *0x2002fc29;
+    r7_2 = 0x40150c3b;
+    *(r0_9 + 4) = r0_9;
+    label_4b3a:
+    *0x2002fca4 = r7_2;
+    *(r5_7 + 0x11) = 0x42;
+    void* r2_4 = r5_7[2];
+    int32_t* r4_6 = r5_7[4];
+    *(r2_4 + 0xc) = *(r2_4 + 0xc);
+    r4_6[2];
+    int32_t* r5_9 = r4_6[5];
+    *r5_9;
+    char* r1_6 = r5_9[1];
+    r5_9[2];
+    *r1_6;
+    *r1_6;
+    /* undefined */
+}
+
+int32_t sub_4e82(int32_t arg1, int32_t arg2, int16_t arg3, int16_t* arg4, int16_t arg5 @ r4, int32_t* arg6 @ r5, int32_t arg7 @ r6, void* arg8 @ r7, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14, int32_t arg15, int32_t arg16, int32_t* arg17, int32_t arg18, int32_t arg19, int32_t arg20, void* arg21, int32_t arg22, int32_t arg23)
+{
+    void* r0 = *arg6;
+    int32_t r1 = arg6[1];
+    int32_t r5 = arg6[2];
+    arg4[1] = arg5;
+    *(r0 + 0x24) = arg3;
+    uint32_t r4 = *arg4;
+    
+    if (arg7 > 0xb2)
+        r4 = *(arg8 + 0x11);
+    
+    uint32_t r5_1;
+    
+    if (arg7 > 0xb2 && arg7 != 0x18f)
+    {
+        *(arg8 + 0x22) = r5;
+        r5_1 = 4;
+        /* unimplemented  {vqsub.U16 d4, d16, d3} */
+    }
+    else
+    {
+        *(r0 + 0x44) = r5;
+        r5_1 = *(r0 + r1);
+    }
+    
+    void* r1_1 = *r5_1;
+    *(r5_1 + 4);
+    void* r5_2 = *(r5_1 + 8);
+    int32_t* r4_1 = *r4;
+    uint8_t r7 = arg8 + 0x34;
+    *r4_1 = r4_1;
+    
+    if (arg8 <= 0xcc)
+    {
+        int32_t* r4_2 = *r4_1;
+        *r4_2 = r4_2;
+        *(r5_2 + 1) = r7 - 0x4c;
+        *(r1_1 + 0x12) = r0 << 0x19;
+        *(r5_2 + 3) = arg15 >> 0x10;
+        uint8_t r7_4 = arg18 >> 9;
+        *(r1_1 + 0x14) = r7_4;
+        *(r1_1 + 0x15) = r7_4;
+        *(r5_2 + 6) = arg15 >> 8;
+        *(r1_1 + 0x17) = arg19 >> 1;
+        uint8_t r7_7 = arg16 >> 0x18;
+        *(r5_2 + 8) = r7_7;
+        *(r5_2 + 9) = r7_7;
+        *(r1_1 + 0x1a) = arg19 << 0x19;
+        *(r5_2 + 0xb) = arg17 >> 0x10;
+        r4_1 = arg17;
+        r7 = arg20 >> 9;
+        *(r1_1 + 0x1c) = r7;
+    }
+    
+    *(r1_1 + 0x1d) = r7;
+    *(r5_2 + 0xe) = r4_1 >> 8;
+    uint32_t r7_11 = arg21 >> 1;
+    *(r1_1 + 0x1f) = r7_11;
+    arg21 = r5_2;
+    *(*((r1_1 >> 0x18) + 0x40) + 0x20) = arg4;
+    /* unimplemented  {cdp2 p8, #2, c1, c3, c2, #2} */
+    *0x781b77 = *(r7_11 + 0x13);
+    /* unimplemented  {cdp2 p8, #2, c1, c3, c2, #2} */
+    *(r7_11 + 0x11);
+    arg_bc = arg23;
+    *0x3028f = arg23 << 0x18;
+    return arg9;
+}
+
+int32_t sub_4ea0(int32_t, int32_t arg2, int32_t* arg3 @ r4, int32_t arg4)
+{
+    *arg3 = arg2;
+    /* undefined */
+}
+
+int32_t sub_4ea6(int32_t* arg1, void* arg2, void* arg3, char arg4 @ r4, int32_t arg5 @ r5, int16_t* arg6 @ r6, int32_t arg7 @ r7, void* arg8 @ r8, int32_t arg9 @ r10, int32_t* arg10 @ r12, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14, int32_t arg15)
+{
+    int32_t r3_1 = 0x2b;
+    arg6[3] = arg6;
+    *(arg3 + 0x15) = arg4;
+    void* r1_4 = arg2 + 4;
+    *arg1 = arg5;
+    uint32_t r4_1 = *(arg1 + 2);
+    *arg1 = r4_1;
+    
+    if (arg7 > 0xad)
+    {
+        *(arg3 + 0x24) = 0x2b;
+        int16_t r3 = *arg6;
+        
+        if (arg6 >= 0xab)
+        {
+            *(arg3 + 0x36) = r3;
+            
+            if (arg1 > 0xffffffff)
+            {
+                arg_8c = arg6 - 0xab;
+                0x40a3ca(8, arg1 + 1);
+                /* undefined */
+            }
+            
+            *(arg6 - 0x95) = r3;
+            arg1 = 0x46232123;
+        }
+        
+        *(r4_1 + 0x48) = arg5;
+        arg1[2] = arg5;
+        *(r4_1 + 0x48) = arg5;
+        arg1[2] = arg5;
+        *(r4_1 + 0x48) = arg5;
+        return arg11;
+    }
+    
+    void* r7_3 = 0x2002fdbb;
+    uint32_t r4_2 = *(arg6 + r1_4);
+    uint32_t r2_1 = 0x2002fcfb;
+    data_6f = 0x2b;
+    *0x2002fcfb;
+    uint32_t r6_2 = r4_2 << 0xc;
+    
+    if (r6_2 < 0)
+        goto label_5712;
+    
+    uint32_t r6_3 = r6_2 << 9;
+    
+    if (r6_3 >= 0)
+        goto label_5712;
+    
+    /* unimplemented  {vrshl.U32 d13, d13, d5} */
+    int32_t r5_2 = 0x5f;
+    
+    if (false == r1_4 * 2 + arg8 + -(r1_4))
+    {
+        arg_8c = r6_3;
+        arg1 = 0x40a3ca(0xd);
+    }
+    else
+    {
+        arg1 = *(r1_4 + 0x12);
+        r4_2 = 0x23;
+    }
+    
+    *arg1 = r4_2;
+    r3_1 = *(r2_1 + 0x2002fdbb);
+    r1_4 = &data_4;
+    *(r3_1 + 0x44) = r3_1;
+    r4_2 = 0x1000;
+    r7_3 = 0x2002fd90;
+    bool z_1 = false;
+    *0x2002fd90 = r3_1;
+    
+    if (false == 0x2002fdbb - 0x2b)
+        goto label_57f6;
+    
+    int32_t r6_4 = arg1 << 0xc;
+    bool n_2;
+    bool cond:4_1;
+    
+    if (!r6_4)
+    {
+        r2_1 = &data_4;
+        label_5712:
+        r5_2 = r2_1 << 0x13;
+        void* temp3_1 = r7_3;
+        r7_3 -= 0xb3;
+        z_1 = temp3_1 == 0xb3;
+        *r1_4 = r3_1;
+        
+        if (!z_1 && temp3_1 - 0xb3 < 0 == temp3_1 - 0xb3)
+            goto label_57f6;
+        
+        int32_t* r5_3 = *arg10;
+        void** r4_3 = *r5_3;
+        r5_3[1];
+        *(r7_3 + 0x20) = r2_1 << 0x1b;
+        r6_4 = arg10 << 0x1f;
+        r1_4 = *r4_3;
+        r4_3[2];
+        r4_2 = &r4_3[3];
+        r3_1 = 0x2803463d;
+        *(r7_3 + 0x40) = r6_4;
+        r2_1 = r4_2 << 0x1a;
+        cond:4_1 = !r2_1;
+        
+        if (r2_1)
+            goto label_5780;
+        
+        r2_1 = r4_2 << 0x19;
+        
+        if (!r2_1)
+            goto label_5784;
+        
+        r6_4 = 0x31e80000;
+        label_57c8:
+        r3_1 = *(r2_1 + 0x58);
+        r1_4 = 0x2002fd03;
+        r5_2 = r6_4 + 0x2002fd03;
+        
+        if (r2_1 - 5 < 0)
+            goto label_5820;
+        
+        r3_1 = *(r2_1 + 0x58);
+        bool v_5 = r5_2 + 4;
+        r4_2 = *0x4005f93e;
+        r5_2 = 0x23;
+        n_2 = false;
+        
+        if (false != v_5)
+        {
+            *(r2_1 + 0x16) = r3_1;
+            r3_1 = *(r2_1 + 0x58);
+            *(r4_2 + 0x1c) = r4_2;
+            n_2 = r1_4 - 4 < 0;
+        }
+        
+        goto label_57f0;
+    }
+    
+    data_1022 = 0x1000;
+    r4_2 = *0x491eb197;
+    /* unimplemented  {mcr2 p3, #5, r6, c11, c2, #5} */
+    arg1 = 0x491eb193 + arg9;
+    r2_1 = 4;
+    *(r4_2 + 0x40) = r4_2;
+    r5_2 = 0x1000;
+    r7_3 = 0x2002fd5c;
+    z_1 = false;
+    *arg1 = r4_2;
+    
+    if (false == 0x2002fd90 - 0x34)
+        goto label_57f6;
+    
+    r3_1 = arg1 << 0x1c;
+    cond:4_1 = !r3_1;
+    label_5780:
+    
+    if (cond:4_1)
+    {
+        label_57f2:
+        r4_2 = *(r4_2 + 0xa);
+        r5_2 = 0x23;
+        z_1 = false;
+        label_57f6:
+        
+        if (!z_1)
+            goto label_5814;
+        
+        *(r2_1 + 0x16) = r4_2;
+        
+        if (r1_4 - 0x66 >= 0)
+            goto label_5852;
+        
+        r1_4 = &data_4;
+        r4_2 = *(r4_2 + 0x70);
+        /* unimplemented  {cdp2 p8, #0xa, c6, c12, c4, #0} */
+        *0x2002fdbb = r5_2;
+        r3_1 = 0x2002fdbb;
+        /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+        label_5814:
+        /* unimplemented  {ldc2l p0, c2, [sp, #8]} */
+        /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+        /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+        label_5820:
+        /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+        /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+        /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+        /* unimplemented  {stc2 p0, c0, [r7], #-8} */
+    }
+    else
+    {
+        r3_1 = *(r6_4 + 0x16);
+        label_5784:
+        /* unimplemented  {stc p8, c15, [r3], #-0x23c} */
+        *(arg1 + 0x26) = r3_1;
+        *(r6_4 + 0x16) = r3_1;
+        arg1[9] = r3_1;
+        r2_1 = 0xf3f53d16;
+        r5_2 = 0x9ec7b070;
+        r4_2 = 0x2b;
+        *(r7_3 + 5) = arg1;
+        
+        if (arg1 <= 3)
+        {
+            r3_1 = *(r6_4 + 5);
+            r4_2 = 0xeb;
+            n_2 = false;
+            
+            if (arg1 < 3)
+                goto label_57c8;
+            
+            label_57f0:
+            
+            if (!n_2)
+                goto label_5852;
+            
+            goto label_57f2;
+        }
+    }
+    
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+    int32_t r3_2 = r3_1 >> 2;
+    /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+    /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+    
+    if (!r3_2)
+        goto label_586c;
+    
+    r1_4 = 0x2002fd77;
+    *(r5_2 + 0x24) = r3_2;
+    *0x2002fd79 = r3_2;
+    r2_1 = *r4_2;
+    *(r4_2 + 4);
+    r5_2 = *(r4_2 + 8);
+    r4_2 += 0xc;
+    label_5852:
+    r3_2 = *r2_1;
+    
+    if (r4_2 << 0xe >= 0)
+    {
+        label_586c:
+        *(r5_2 + 0x26) = r3_2;
+        *(r1_4 + 2) = r3_2;
+        *(r5_2 + 0x22) = r3_2;
+    }
+    else
+        r3_2 = 0x100;
+    
+    r7_3 = r5_2;
+    int32_t r5_5 = *(&data_23 + r2_1);
+    
+    if (false == r5_2 + 0)
+    {
+        *(0x40a3ca(0x2002fd84 + 1) + r7_3);
+        return arg11;
+    }
+    
+    *(r2_1 + 0x24) = r3_2;
+    *data_23 = r3_2;
+    *(r5_5 + r7_3);
+    return arg11;
+}
+
+int32_t sub_4eae(int32_t arg1, int32_t arg2, int32_t arg3, int16_t arg4, int32_t* arg5 @ r4, int32_t arg6 @ r7, int32_t arg7, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13, int32_t arg14, int32_t* arg15, int32_t arg16, int32_t arg17, int32_t arg18, int32_t arg19, int32_t arg20, int32_t arg21)
+{
+    int32_t r5_2 = *arg5;
+    *arg5 = r5_2;
+    *(arg6 - 0x2b) = r5_2;
+    /* unimplemented  {vqsub.U16 d4, d16, d3} */
+    int32_t* r4 = *arg5;
+    uint8_t r7_1 = (arg6 - 0x4d) + 0x34;
+    *r4 = r4;
+    
+    if (arg6 - 0x4d <= 0xcc)
+    {
+        int32_t* r4_1 = *r4;
+        *r4_1 = r4_1;
+        *0x4eb0b2b6 = r7_1 - 0x4c;
+        *0x113679bc = arg1 << 0x19;
+        *0x4eb0b2b8 = arg13 >> 0x10;
+        uint8_t r7_5 = arg16 >> 9;
+        *0x113679be = r7_5;
+        *0x113679bf = r7_5;
+        *0x4eb0b2bb = arg13 >> 8;
+        *0x113679c1 = arg17 >> 1;
+        uint8_t r7_8 = arg14 >> 0x18;
+        *0x4eb0b2bd = r7_8;
+        *0x4eb0b2be = r7_8;
+        *0x113679c4 = arg17 << 0x19;
+        *0x4eb0b2c0 = arg15 >> 0x10;
+        r4 = arg15;
+        r7_1 = arg18 >> 9;
+        *0x113679c6 = r7_1;
+    }
+    
+    *0x113679c7 = r7_1;
+    *0x4eb0b2c3 = r4 >> 8;
+    uint32_t r7_12 = arg19 >> 1;
+    *0x113679c9 = r7_12;
+    arg19 = 0x4eb0b2b5;
+    *0x4421314f = arg4;
+    /* unimplemented  {cdp2 p8, #2, c1, c3, c2, #2} */
+    *0x781b77 = *(r7_12 + 0x13);
+    /* unimplemented  {cdp2 p8, #2, c1, c3, c2, #2} */
+    *(r7_12 + 0x11);
+    arg_bc = arg21;
+    *0x3028f = arg21 << 0x18;
+    return arg7;
+}
+
+int32_t sub_4f92(int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4, int32_t arg5 @ r5, void* arg6 @ r6)
+{
+    *(arg6 + 0x4c) = arg5;
+    int16_t r4;
+    /* tailcall */
+    return sub_4fe6(3, arg4 >> 9, r4);
+}
+
+int32_t sub_4fe6(int32_t arg1, uint32_t arg2, int16_t arg3 @ r4)
+{
+    int32_t r1;
+    void* r2;
+    r1 = sub_44aa(arg1, arg2, 0x3026d);
+    *(r2 + 0x22) = arg3;
+    sub_44aa();
+    void* r0;
+    int32_t r12;
+    r0 = 0xffc24c6a();
+    *(*(r0 + 0x11) + 8) = *(r0 + 0x12);
+    *0x2002fdd5;
+    /* undefined */
+}
+
+int32_t sub_5048(int32_t arg1, void* arg2, void* arg3, int32_t arg4, void* arg5 @ r5, void* arg6 @ r6, int32_t arg7, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13)
+{
+    *(arg2 + 0x14) = arg4;
+    uint32_t r3 = *(arg6 + arg1);
+    *r3 = r3;
+    uint16_t r3_1 = *(arg5 + 0x13);
+    *0x2002fc47 = r3_1;
+    *(arg3 + 0xc) = r3_1;
+    *(arg3 + 0x10) = *(arg6 + 0x13);
+    return arg7;
+}
+
+int32_t sub_50e8(int32_t arg1, void* arg2, int32_t arg3, char arg4, void* arg5 @ r7, int32_t arg6, int32_t arg7, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12)
+{
+    *(arg2 + 0x11) = arg4;
+    *(arg5 + 4);
+    return arg6;
+}
+
+int32_t sub_5414(int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4 @ r5)
+{
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+    /* unimplemented  {stc2l p0, c2, [r11], #-8} */
+    /* unimplemented  {stc2l p0, c5, [r3], #0x44} */
+    /* unimplemented  {stc2 p0, c4, [r3], #-0x30} */
+    *((arg4 & arg2) + 0x70);
+    return 4;
+}
+
+int32_t sub_5480(int32_t arg1 @ r12)
+{
+    /* jump -> arg1 */
+}
+
+int32_t sub_56c4(int16_t* arg1, int32_t arg2, int32_t arg3, void* const arg4 @ r4, int32_t arg5 @ r7, int32_t arg6 @ r10, int32_t* arg7 @ r12, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12)
+{
+    void* r5 = &data_9b;
+    bool v;
+    bool c;
+    
+    if (false == v)
+    {
+        r5 = &data_9f;
+        *(arg4 + 2) = arg4;
+        arg4 = &data_4f8;
+    }
+    else if (c)
+        /* undefined */
+    *arg1 = arg4;
+    int32_t r3 = *(arg3 + arg5);
+    void* r1_1 = &data_4;
+    *(r3 + 0x44) = r3;
+    void* r4 = &data_1000;
+    void* r7 = arg5 - 0x2b;
+    bool z = arg5 == 0x2b;
+    *r7 = r3;
+    
+    if (!z && arg5 - 0x2b < 0 == arg5 - 0x2b)
+        goto label_57f6;
+    
+    int32_t r6_1 = arg1 << 0xc;
+    bool n_3;
+    bool cond:4_1;
+    
+    if (!r6_1)
+    {
+        arg3 = &data_4;
+        r5 = 0x200000;
+        void* temp3_1 = r7;
+        r7 -= 0xb3;
+        z = temp3_1 == 0xb3;
+        *data_4 = r3;
+        
+        if (!z && temp3_1 - 0xb3 < 0 == temp3_1 - 0xb3)
+            goto label_57f6;
+        
+        int32_t* r5_1 = *arg7;
+        int32_t* r4_1 = *r5_1;
+        r5_1[1];
+        *(r7 + 0x20) = 0;
+        r6_1 = arg7 << 0x1f;
+        r1_1 = *r4_1;
+        r4_1[2];
+        r4 = &r4_1[3];
+        r3 = 0x2803463d;
+        *(r7 + 0x40) = r6_1;
+        arg3 = r4 << 0x1a;
+        cond:4_1 = !arg3;
+        
+        if (arg3)
+            goto label_5780;
+        
+        arg3 = r4 << 0x19;
+        
+        if (!arg3)
+            goto label_5784;
+        
+        r6_1 = 0x31e80000;
+        label_57c8:
+        r3 = *(arg3 + 0x58);
+        r1_1 = 0x2002fd03;
+        r5 = r6_1 + 0x2002fd03;
+        
+        if (arg3 - 5 < 0)
+            goto label_5820;
+        
+        r3 = *(arg3 + 0x58);
+        bool v_5 = r5 + 4;
+        r4 = *0x4005f93e;
+        r5 = &data_23;
+        n_3 = false;
+        
+        if (false != v_5)
+        {
+            *(arg3 + 0x16) = r3;
+            r3 = *(arg3 + 0x58);
+            *(r4 + 0x1c) = r4;
+            n_3 = r1_1 - 4 < 0;
+        }
+        
+        goto label_57f0;
+    }
+    
+    data_1022 = 0x1000;
+    r4 = *0x491eb197;
+    /* unimplemented  {mcr2 p3, #5, r6, c11, c2, #5} */
+    arg1 = 0x491eb193 + arg6;
+    arg3 = 4;
+    *(r4 + 0x40) = r4;
+    r5 = &data_1000;
+    void* temp2_1 = r7;
+    r7 -= 0x34;
+    z = temp2_1 == 0x34;
+    *arg1 = r4;
+    
+    if (!z && temp2_1 - 0x34 < 0 == temp2_1 - 0x34)
+        goto label_57f6;
+    
+    r3 = arg1 << 0x1c;
+    cond:4_1 = !r3;
+    label_5780:
+    
+    if (cond:4_1)
+    {
+        label_57f2:
+        r4 = *(r4 + 0xa);
+        r5 = &data_23;
+        z = false;
+        label_57f6:
+        
+        if (!z)
+            goto label_5814;
+        
+        *(arg3 + 0x16) = r4;
+        
+        if (r1_1 - 0x66 >= 0)
+            goto label_5852;
+        
+        r1_1 = &data_4;
+        r4 = *(r4 + 0x70);
+        /* unimplemented  {cdp2 p8, #0xa, c6, c12, c4, #0} */
+        *0x2002fdbb = r5;
+        r3 = 0x2002fdbb;
+        /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+        label_5814:
+        /* unimplemented  {ldc2l p0, c2, [sp, #8]} */
+        /* unimplemented  {ldc2l p0, c2, [r7, #-8]!} */
+        /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+        label_5820:
+        /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+        /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+        /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+        /* unimplemented  {stc2 p0, c0, [r7], #-8} */
+    }
+    else
+    {
+        r3 = *(r6_1 + 0x16);
+        label_5784:
+        /* unimplemented  {stc p8, c15, [r3], #-0x23c} */
+        arg1[0x13] = r3;
+        *(r6_1 + 0x16) = r3;
+        arg1[0x12] = r3;
+        arg3 = 0xf3f53d16;
+        r5 = 0x9ec7b070;
+        r4 = &data_2b;
+        *(r7 + 5) = arg1;
+        
+        if (arg1 <= 3)
+        {
+            r3 = *(r6_1 + 5);
+            r4 = &data_eb;
+            n_3 = false;
+            
+            if (arg1 < 3)
+                goto label_57c8;
+            
+            label_57f0:
+            
+            if (!n_3)
+                goto label_5852;
+            
+            goto label_57f2;
+        }
+    }
+    
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+    int32_t r3_1 = r3 >> 2;
+    /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+    /* unimplemented  {stc2 p0, c2, [r3, #-8]} */
+    
+    if (!r3_1)
+        goto label_586c;
+    
+    r1_1 = 0x2002fd77;
+    *(r5 + 0x24) = r3_1;
+    *0x2002fd79 = r3_1;
+    arg3 = *r4;
+    *(r4 + 4);
+    r5 = *(r4 + 8);
+    r4 += 0xc;
+    label_5852:
+    r3_1 = *arg3;
+    
+    if (r4 << 0xe >= 0)
+    {
+        label_586c:
+        *(r5 + 0x26) = r3_1;
+        *(r1_1 + 2) = r3_1;
+        *(r5 + 0x22) = r3_1;
+    }
+    else
+        r3_1 = 0x100;
+    
+    int32_t r5_3 = *(&data_23 + arg3);
+    
+    if (false == r5 + 0)
+    {
+        *(0x40a3ca(0x2002fd84 + 1) + r5);
+        return arg8;
+    }
+    
+    *(arg3 + 0x24) = r3_1;
+    *data_23 = r3_1;
+    *(r5_3 + r5);
+    return arg8;
+}
+
+int32_t sub_58d4(int32_t* arg1, int32_t arg2, int32_t arg3, int32_t arg4, void* arg5 @ r4, int32_t arg6 @ r6, void* arg7 @ r7, int32_t arg8, int32_t arg9, int32_t arg10, int32_t arg11, int32_t arg12, int32_t arg13)
+{
+    int32_t r4 = *(arg5 + arg2);
+    int32_t r5 = 0 - arg1;
+    int32_t r2 = arg3 + 0xd;
+    
+    if (arg4 > 0x2002fc25)
+    {
+        int32_t r4_1 = r5 << 4;
+        
+        if (r4_1 >= 0)
+        {
+            arg7 = &data_19;
+            *(arg6 * 2) = 0xfc25;
+            int32_t temp1_1 = arg6;
+            arg6 -= 0xe1;
+            
+            if (temp1_1 != 0xe1)
+            {
+                arg6 = *(0x2002fc25 + arg4);
+                arg7 = &data_37;
+            }
+            
+            if (temp1_1 != 0xe1 && false == r4_1 - 4)
+            {
+                arg6 = r4_1;
+                goto label_591a;
+            }
+            
+            if (arg1 - 0x21 < 0)
+            {
+                arg1 = &data_21;
+                *(r4_1 + 0x2002fc25);
+                /* unimplemented  {stc p9, c15, [r4], #-0x114} */
+                *0x2002fc69 = arg4;
+                goto label_591e;
+            }
+            
+            /* unimplemented  {ldc2l p0, c2, [sp, #8]} */
+            /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+            /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+            arg1 = &*(nullptr + 3);
+            /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+            r4 = 0x2b + arg7;
+            arg4 = 0x5239497a;
+        }
+        else
+        {
+            arg4 = r4_1;
+            label_591a:
+            /* unimplemented  {vst3.16 {d22, d23, d24}, [r5], r11} */
+            label_591e:
+            r4 = arg1 << 0x15;
+            
+            if (!r4)
+            {
+                void* r1_1 = &data_9;
+                arg1[0x191528f];
+                *0x6454a45;
+                
+                if (arg6 < 0xad)
+                {
+                    *(arg1 + 0x16);
+                    r1_1 = &data_4;
+                    /* unimplemented  {cdp2 p3, #0xa, c4, c12, c10, #4} */
+                }
+                
+                *(r1_1 * 2);
+                return arg8;
+            }
+        }
+        
+        r2 = 0x683742a7;
+        r5 = arg1 << 0x19;
+        *0x683742eb = arg4;
+        arg7 -= 0x2b;
+    }
+    
+    bool n = r2 - 3 < 0;
+    bool c = r2 >= 3;
+    bool v_2 = r2 - 3;
+    
+    if (!v_2)
+    {
+        /* unimplemented  {stc p8, c15, [r4], #-0x1ec} */
+        /* unimplemented  {stc p8, c15, [r4], #-0x3cc} */
+        arg4 = arg1;
+        n = r4 - 0x23 < 0;
+        c = r4 >= 0x23;
+        v_2 = r4 - 0x23;
+        *(arg1 + r4) = r5;
+        /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+    }
+    else
+    {
+        *arg6 = arg4;
+        
+        if (r2 == 3 || n != v_2)
+        {
+            *(r5 + 0x20) = r4;
+            r4 = 0xe1f80000;
+            n = true;
+            c = TEST_BIT(0x2002fc3f, 0xd);
+        }
+    }
+    
+    /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {stc2 p0, c2, [r5], #-8} */
+    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+    
+    if (arg4)
+    {
+        int32_t* temp0_1 = r5;
+        *temp0_1;
+        temp0_1[1];
+        temp0_1[2];
+        arg4 = temp0_1[3];
+        r4 = temp0_1[4];
+        r5 = temp0_1[5];
+        goto label_59fe;
+    }
+    
+    while (true)
+    {
+        int32_t* sp;
+        
+        if (!n)
+        {
+            *(r4 + 0x40) = arg4;
+            int32_t r2_1;
+            int32_t lr;
+            r2_1 = sub_3f2e(0x495db21b);
+            sp = &sp[5];
+            /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+            /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+            /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+            /* unimplemented  {stc2 p0, c2, [r3], #8} */
+            *0x2002fc4f = r5 >> 0x12;
+            arg7 = 0x2002fe35;
+            v_2 = (r5 >> 0xc) - 4;
+            c = TEST_BIT(arg6, 0x1f);
+            arg6 = lr;
+        }
+        
+        *arg7;
+        
+        if (!c)
+        {
+            &*(data_28 + 1);
+            
+            if (false != v_2)
+                /* undefined */
+            
+            goto label_5bfe;
+        }
+        
+        uint32_t r7_3 = *0xffffff4e;
+        int32_t* temp0_2 = r7_3;
+        *temp0_2;
+        arg4 = temp0_2[1];
+        r5 = temp0_2[2];
+        int16_t* r0_4 = sp + arg6 + 4;
+        arg7 = r7_3 - 0xa3;
+        *r0_4 = arg7;
+        r4 = r5 + 0x12;
+        *r0_4 = r4;
+        
+        if (r5 <= 0xffffffee)
+        {
+            int32_t* r0_5 = *(r4 + 0x1c);
+            int32_t r2_3 = *(r4 + 0x30);
+            int32_t* r4_11 = *(r4 + 0x34);
+            *r4_11;
+            r4_11[1];
+            r4 = r4_11[2];
+            /* unimplemented  {stc2 p0, c2, [r3], #-8} */
+            /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+            /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+            /* unimplemented  {mcrr2 p0, #0, r2, pc, c2} */
+            /* unimplemented  {stc2 p0, c2, [pc, #-8]} */
+            /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+            /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+            /* unimplemented  {ldc2 p0, c2, [r3, #8]!} */
+            /* unimplemented  {stc2 p0, c4, [r3], #-0x3c} */
+            /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+            *(r0_5 + r4) = r4_11[3];
+            uint32_t r1_4 = arg7 >> 9;
+            arg1 = &*(nullptr + 3);
+            
+            if (r4 >> 0x10)
+            {
+                *arg1 = 0xfa;
+                0x409526(arg1 + 0x52, r1_4);
+                label_5bfe:
+                sp[1];
+                sp[2];
+                return *sp;
+            }
+            
+            uint32_t r4_13 = r1_4 >> 0x1f;
+            int16_t r3_15 = r4_13 >> 0x12;
+            *r4_13 = r3_15;
+            /* unimplemented  {stc2 p9, c4, [r11], #0x30} */
+            *((r2_3 << 0x1e) - 0xf0) = r3_15;
+            void* r0_8;
+            int32_t* r1_6;
+            int16_t r3_16;
+            r0_8 = (&*(nullptr + 3))(&*(nullptr + 3));
+            *(r0_8 + 0x22) = r3_16;
+            uint32_t r4_14 = r1_6 >> 0x1e;
+            *r4_14 = r4_14 >> 0x12;
+            /* unimplemented  {stc2 p9, c4, [r11], #0x14} */
+            *(r1_6 + r0_8);
+            sp[1];
+            sp[2];
+            return *sp;
+        }
+        
+        label_59fe:
+        *(r4 + 0x1c) = arg4;
+        n = false;
+        c = true;
+        v_2 = 0x2002fca3 - 4;
+    }
+}
+
+int32_t sub_58ec(int32_t arg1 @ r8)
+{
+    /* jump -> arg1 */
+}
+
+int32_t sub_5908(int32_t arg1, void* arg2, int32_t arg3 @ r7, int32_t arg4, int32_t arg5, int32_t arg6, int32_t arg7, int32_t arg8, int32_t arg9)
+{
+    int32_t r3 = arg1 + 1;
+    int32_t* r6 = &arg_38c;
+    int32_t r0;
+    uint32_t r4;
+    
+    if (arg1 - 0x21 >= 0)
+    {
+        /* unimplemented  {ldc2l p0, c2, [sp, #8]} */
+        /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+        /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+        r0 = 3;
+        /* unimplemented  {stc2l p0, c2, [r9, #8]} */
+        r4 = 0x2b + arg3;
+        r3 = 0x5239497a;
+    }
+    else
+    {
+        r0 = 0x21;
+        /* unimplemented  {stc p9, c15, [r4], #-0x114} */
+        *(arg2 + 0x44) = r3;
+        r4 = 0x4200000;
+    }
+    
+    int32_t r5_2 = r0 << 0x19;
+    *0x683742eb = r3;
+    int32_t r7_1 = arg3 - 0x2b;
+    bool n = false;
+    bool c = true;
+    bool v = 0x683742a7 - 3;
+    
+    if (!v)
+    {
+        /* unimplemented  {stc p8, c15, [r4], #-0x1ec} */
+        /* unimplemented  {stc p8, c15, [r4], #-0x3cc} */
+        r3 = r0;
+        n = r4 - 0x23 < 0;
+        c = r4 >= 0x23;
+        v = r4 - 0x23;
+        *(r0 + r4) = r5_2;
+        /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+    }
+    else
+    {
+        arg_38c = r3;
+        
+        if (false != v)
+        {
+            *(r5_2 + 0x20) = r4;
+            r4 = 0xe1f80000;
+            n = true;
+            c = TEST_BIT(0x2002fc3f, 0xd);
+        }
+    }
+    
+    /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {stc2 p0, c2, [r5], #-8} */
+    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+    
+    if (r3)
+    {
+        *r5_2;
+        *(r5_2 + 4);
+        *(r5_2 + 8);
+        r3 = *(r5_2 + 0xc);
+        r4 = *(r5_2 + 0x10);
+        r5_2 = *(r5_2 + 0x14);
+        goto label_59fe;
+    }
+    
+    while (true)
+    {
+        int32_t* sp;
+        
+        if (!n)
+        {
+            *(r4 + 0x40) = r3;
+            int32_t r2_1;
+            int32_t* lr;
+            r2_1 = sub_3f2e(0x495db21b);
+            sp = &sp[5];
+            /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+            /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+            /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+            /* unimplemented  {stc2 p0, c2, [r3], #8} */
+            *0x2002fc4f = r5_2 >> 0x12;
+            r7_1 = 0x2002fe35;
+            v = (r5_2 >> 0xc) - 4;
+            c = TEST_BIT(r6, 0x1f);
+            r6 = lr;
+        }
+        
+        *r7_1;
+        
+        if (!c)
+        {
+            &*(data_28 + 1);
+            
+            if (false != v)
+                /* undefined */
+            
+            goto label_5bfe;
+        }
+        
+        int32_t* r7_4 = *0xffffff4e;
+        *r7_4;
+        r3 = r7_4[1];
+        r5_2 = r7_4[2];
+        int16_t* r0_5 = sp + &r6[1];
+        r7_1 = r7_4 - 0xa3;
+        *r0_5 = r7_1;
+        r4 = r5_2 + 0x12;
+        *r0_5 = r4;
+        
+        if (r5_2 <= 0xffffffee)
+        {
+            int32_t r0_6 = *(r4 + 0x1c);
+            int32_t r2_3 = *(r4 + 0x30);
+            int32_t* r4_9 = *(r4 + 0x34);
+            *r4_9;
+            r4_9[1];
+            r4 = r4_9[2];
+            /* unimplemented  {stc2 p0, c2, [r3], #-8} */
+            /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+            /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+            /* unimplemented  {mcrr2 p0, #0, r2, pc, c2} */
+            /* unimplemented  {stc2 p0, c2, [pc, #-8]} */
+            /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+            /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+            /* unimplemented  {ldc2 p0, c2, [r3, #8]!} */
+            /* unimplemented  {stc2 p0, c4, [r3], #-0x3c} */
+            /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+            *(r0_6 + r4) = r4_9[3];
+            uint32_t r1_4 = r7_1 >> 9;
+            r0 = 3;
+            
+            if (r4 >> 0x10)
+            {
+                *r0 = 0xfa;
+                0x409526(r0 + 0x52, r1_4);
+                label_5bfe:
+                sp[1];
+                sp[2];
+                return *sp;
+            }
+            
+            uint32_t r4_11 = r1_4 >> 0x1f;
+            int16_t r3_16 = r4_11 >> 0x12;
+            *r4_11 = r3_16;
+            /* unimplemented  {stc2 p9, c4, [r11], #0x30} */
+            *((r2_3 << 0x1e) - 0xf0) = r3_16;
+            void* r0_9;
+            int32_t* r1_6;
+            int16_t r3_17;
+            r0_9 = (&*(nullptr + 3))(&*(nullptr + 3));
+            *(r0_9 + 0x22) = r3_17;
+            uint32_t r4_12 = r1_6 >> 0x1e;
+            *r4_12 = r4_12 >> 0x12;
+            /* unimplemented  {stc2 p9, c4, [r11], #0x14} */
+            *(r1_6 + r0_9);
+            sp[1];
+            sp[2];
+            return *sp;
+        }
+        
+        label_59fe:
+        *(r4 + 0x1c) = r3;
+        n = false;
+        c = true;
+        v = 0x2002fca3 - 4;
+    }
+}
+
+int32_t sub_59b0(int32_t arg1, int32_t arg2, int32_t arg3, int32_t* arg4 @ r5, int32_t* arg5 @ r6, void* arg6 @ r7)
+{
+    /* unimplemented  {usat r12, #3, r6, lsl #8} */
+    void** r0 = *arg5;
+    uint32_t r4 = arg5[2];
+    int32_t* r6 = &arg5[3];
+    
+    if (r4 << 0xf)
+        /* undefined */
+    
+    *(r4 + 0x40) = r4;
+    void* r7_1 = arg6 + arg4 - 0x34;
+    *r0 = r4;
+    0xffc23bda(r0, arg2, arg3 + 4, 2);
+    int32_t* r0_1;
+    int16_t* r1;
+    int32_t r2_1;
+    int32_t* lr;
+    r0_1 = 0xffc251ba();
+    /* unimplemented  {stc p8, c15, [r4], #-0x1ec} */
+    /* unimplemented  {stc p8, c15, [r4], #-0x3cc} */
+    int32_t* r3_1 = r0_1;
+    bool n = r4 - 0x23 < 0;
+    bool c = r4 >= 0x23;
+    bool v = r4 - 0x23;
+    *(r0_1 + r4) = arg4;
+    /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+    /* unimplemented  {ldc2l p0, c2, [r11], #8} */
+    /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+    /* unimplemented  {stc2 p0, c2, [r5], #-8} */
+    /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+    
+    if (r3_1)
+    {
+        *arg4;
+        arg4[1];
+        arg4[2];
+        r3_1 = arg4[3];
+        r4 = arg4[4];
+        arg4 = arg4[5];
+        goto label_59fe;
+    }
+    
+    while (true)
+    {
+        int32_t* sp;
+        
+        if (!n)
+        {
+            *(r4 + 0x40) = r3_1;
+            int32_t r2_2;
+            r2_2 = sub_3f2e(0x495db21b);
+            sp = &sp[5];
+            /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+            /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+            /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+            /* unimplemented  {stc2 p0, c2, [r3], #8} */
+            *0x2002fc4f = arg4 >> 0x12;
+            r7_1 = 0x2002fe35;
+            v = (arg4 >> 0xc) - 4;
+            c = TEST_BIT(r6, 0x1f);
+            r6 = lr;
+        }
+        
+        *r7_1;
+        
+        if (!c)
+        {
+            &*(data_28 + 1);
+            
+            if (false != v)
+                /* undefined */
+            
+            goto label_5bfe;
+        }
+        
+        uint32_t r7_2 = *0xffffff4e;
+        *r7_2;
+        r3_1 = *(r7_2 + 4);
+        arg4 = *(r7_2 + 8);
+        void* r0_5 = sp + &r6[1];
+        r7_1 = r7_2 - 0xa3;
+        *r0_5 = r7_1;
+        r4 = arg4 + 0x12;
+        *r0_5 = r4;
+        
+        if (arg4 <= 0xffffffee)
+        {
+            int32_t r0_6 = *(r4 + 0x1c);
+            int32_t r2_4 = *(r4 + 0x30);
+            int32_t* r4_6 = *(r4 + 0x34);
+            *r4_6;
+            r4_6[1];
+            r4 = r4_6[2];
+            /* unimplemented  {stc2 p0, c2, [r3], #-8} */
+            /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+            /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+            /* unimplemented  {mcrr2 p0, #0, r2, pc, c2} */
+            /* unimplemented  {stc2 p0, c2, [pc, #-8]} */
+            /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+            /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+            /* unimplemented  {ldc2 p0, c2, [r3, #8]!} */
+            /* unimplemented  {stc2 p0, c4, [r3], #-0x3c} */
+            /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+            *(r0_6 + r4) = r4_6[3];
+            uint32_t r1_2 = r7_1 >> 9;
+            r0_1 = &*(nullptr + 3);
+            
+            if (r4 >> 0x10)
+            {
+                *r0_1 = 0xfa;
+                0x409526(r0_1 + 0x52, r1_2);
+                label_5bfe:
+                sp[1];
+                sp[2];
+                return *sp;
+            }
+            
+            uint32_t r4_8 = r1_2 >> 0x1f;
+            int16_t r3_14 = r4_8 >> 0x12;
+            *r4_8 = r3_14;
+            /* unimplemented  {stc2 p9, c4, [r11], #0x30} */
+            *((r2_4 << 0x1e) - 0xf0) = r3_14;
+            void* r0_9;
+            int32_t* r1_4;
+            int16_t r3_15;
+            r0_9 = (&*(nullptr + 3))(&*(nullptr + 3));
+            *(r0_9 + 0x22) = r3_15;
+            uint32_t r4_9 = r1_4 >> 0x1e;
+            *r4_9 = r4_9 >> 0x12;
+            /* unimplemented  {stc2 p9, c4, [r11], #0x14} */
+            *(r1_4 + r0_9);
+            sp[1];
+            sp[2];
+            return *sp;
+        }
+        
+        label_59fe:
+        *(r4 + 0x1c) = r3_1;
+        n = false;
+        c = true;
+        v = 0x2002fca3 - 4;
+    }
+}
+
+int32_t sub_5a14(int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4 @ r4, int32_t arg5 @ r5, int32_t* arg6 @ r6, int32_t arg7 @ r7)
+{
+    int32_t r3_19 = arg4 << 7;
+    int32_t r4;
+    int32_t r7;
+    
+    if (r3_19 >= 0)
+    {
+        r7 = arg7 + arg5;
+        r4 = arg5 << 0xe;
+    }
+    
+    if (r3_19 < 0 || r4)
+        /* unimplemented  {ldc2l p9, c11, [r3, #-0xcc]!} */
+    else
+    {
+        *(r4 + 0x40) = r3_19;
+        int32_t r3 = arg1 << 0x19;
+        
+        if (!r3)
+            goto label_5a7a;
+        
+        *(r4 + 0x20) = r3;
+        arg6[1];
+        arg5 = arg6[2];
+        arg6 = &arg6[3];
+        *(arg2 - 2) = 0x32;
+    }
+    
+    while (true)
+    {
+        /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+        /* unimplemented  {ldc2 p0, c2, [pc], #-8} */
+        /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+        /* unimplemented  {stc2 p0, c2, [r3], #8} */
+        *0x2002fc4f = arg5 >> 0x12;
+        r7 = 0x2002fe35;
+        bool v = (arg5 >> 0xc) - 4;
+        label_5a7a:
+        bool c_1 = TEST_BIT(arg6, 0x1f);
+        int32_t* lr;
+        arg6 = lr;
+        *r7;
+        
+        if (!c_1)
+        {
+            &*(data_28 + 1);
+            
+            if (false != v)
+                /* undefined */
+            
+            goto label_5bfe;
+        }
+        
+        uint32_t r7_1 = *0xffffff4e;
+        *r7_1;
+        int32_t r3_6 = *(r7_1 + 4);
+        arg5 = *(r7_1 + 8);
+        int32_t* sp;
+        void* r0_4 = sp + &arg6[1];
+        r7 = r7_1 - 0xa3;
+        *r0_4 = r7;
+        r4 = arg5 + 0x12;
+        *r0_4 = r4;
+        
+        if (arg5 <= 0xffffffee)
+        {
+            int32_t* r0_5 = *(r4 + 0x1c);
+            int32_t r2_1 = *(r4 + 0x30);
+            int32_t* r4_6 = *(r4 + 0x34);
+            *r4_6;
+            r4_6[1];
+            r4 = r4_6[2];
+            /* unimplemented  {stc2 p0, c2, [r3], #-8} */
+            /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+            /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+            /* unimplemented  {mcrr2 p0, #0, r2, pc, c2} */
+            /* unimplemented  {stc2 p0, c2, [pc, #-8]} */
+            /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+            /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+            /* unimplemented  {ldc2 p0, c2, [r3, #8]!} */
+            /* unimplemented  {stc2 p0, c4, [r3], #-0x3c} */
+            /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+            *(r0_5 + r4) = r4_6[3];
+            uint32_t r1_2 = r7 >> 9;
+            int32_t r0_2 = 3;
+            
+            if (r4 >> 0x10)
+            {
+                *r0_2 = 0xfa;
+                0x409526(r0_2 + 0x52, r1_2);
+                label_5bfe:
+                sp[1];
+                sp[2];
+                return *sp;
+            }
+            
+            uint32_t r4_8 = r1_2 >> 0x1f;
+            int16_t r3_14 = r4_8 >> 0x12;
+            *r4_8 = r3_14;
+            /* unimplemented  {stc2 p9, c4, [r11], #0x30} */
+            *((r2_1 << 0x1e) - 0xf0) = r3_14;
+            void* r0_8;
+            int32_t* r1_4;
+            int16_t r3_15;
+            r0_8 = (&*(nullptr + 3))(&*(nullptr + 3));
+            *(r0_8 + 0x22) = r3_15;
+            uint32_t r4_9 = r1_4 >> 0x1e;
+            *r4_9 = r4_9 >> 0x12;
+            /* unimplemented  {stc2 p9, c4, [r11], #0x14} */
+            *(r1_4 + r0_8);
+            sp[1];
+            sp[2];
+            return *sp;
+        }
+        
+        *(r4 + 0x1c) = r3_6;
+        *(r4 + 0x40) = r3_6;
+        arg3 = sub_3f2e(0x495db21b);
+        sp = &sp[5];
+    }
+}
+
+int32_t sub_5b20(char* arg1, int32_t arg2, int32_t arg3, char arg4, int32_t arg5 @ r4, void*** arg6 @ r6, void* arg7 @ r7, int32_t arg8, int32_t arg9, int32_t arg10)
+{
+    &*(data_28 + 1);
+    bool v;
+    
+    if (false == v)
+        return arg8;
+    
+    /* undefined */
+}
+
+int32_t sub_5b88(char* arg1, int32_t arg2, int32_t arg3, char arg4, int32_t arg5 @ r4, void* arg6 @ r5, void* arg7 @ r6, void* arg8 @ r7, int32_t arg9, int32_t arg10, int32_t arg11)
+{
+    /* unimplemented  {mcr2 p5, #5, sp, c4, c6, #0} */
+    *(arg7 + 0x12) = arg8;
+    char r6;
+    
+    if (arg1 >= 0x25)
+    {
+        *0xbd13f4a0 = arg4;
+        
+        if (arg1 > 0x25)
+        {
+            *arg1 = 0xfa;
+            0x409526(&arg1[0x52], 0xbd13f494);
+        }
+        else
+        {
+            arg3 = arg5 << 6;
+            *data_4 = 0xbd13f51a;
+            r6 = *(arg6 + 0x70);
+            *data_4 = arg1;
+            arg8 = &arg1[arg3];
+            *(arg3 + 2) = arg8;
+            
+            if (arg1 <= -(arg3))
+                goto label_5bb6;
+        }
+    }
+    else
+    {
+        r6 = *(arg6 + 0x70);
+        label_5bb6:
+        *(arg3 + 2) = r6;
+        void** r0;
+        int32_t r2;
+        r0 = 0xffc2478e();
+        /* unimplemented  {stc2 p0, c2, [r3], #-8} */
+        /* unimplemented  {ldc2l p0, c2, [pc], #8} */
+        /* unimplemented  {ldc2 p0, c2, [r11], #-8} */
+        /* unimplemented  {mcrr2 p0, #0, r2, pc, c2} */
+        /* unimplemented  {stc2 p0, c2, [pc, #-8]} */
+        /* unimplemented  {cdp2 p0, #3, c2, c5, c2, #0} */
+        /* unimplemented  {ldc2 p0, c2, [r11, #8]!} */
+        /* unimplemented  {ldc2 p0, c2, [r3, #8]!} */
+        /* unimplemented  {stc2 p0, c4, [r3], #-0x3c} */
+        /* unimplemented  {mcrr2 p0, #0, r2, r3, c2} */
+        *(r0 + arg5) = arg6;
+        uint32_t r1 = arg8 >> 9;
+        arg1 = &*(nullptr + 3);
+        
+        if (!(arg5 >> 0x10))
+        {
+            uint32_t r4_1 = r1 >> 0x1f;
+            int16_t r3_1 = r4_1 >> 0x12;
+            *r4_1 = r3_1;
+            /* unimplemented  {stc2 p9, c4, [r11], #0x30} */
+            *((r2 << 0x1e) - 0xf0) = r3_1;
+            void* r0_3;
+            int32_t* r1_2;
+            int16_t r3_2;
+            r0_3 = (&*(nullptr + 3))(&*(nullptr + 3));
+            *(r0_3 + 0x22) = r3_2;
+            uint32_t r4_2 = r1_2 >> 0x1e;
+            *r4_2 = r4_2 >> 0x12;
+            /* unimplemented  {stc2 p9, c4, [r11], #0x14} */
+            *(r1_2 + r0_3);
+            return arg9;
+        }
+        
+        *arg1 = 0xfa;
+        0x409526(&arg1[0x52], r1);
+    }
+    return arg9;
+}
+
+int32_t sub_5c02(int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4, int32_t arg5, int32_t arg6)
+{
+    uint32_t r4 = arg2 >> 0x1f;
+    int16_t r3 = r4 >> 0x12;
+    *r4 = r3;
+    /* unimplemented  {stc2 p9, c4, [r11], #0x30} */
+    ((arg3 << 0x1e) - 0xf3)[arg1] = r3;
+    void* r0;
+    int32_t* r1;
+    int16_t r3_1;
+    r0 = arg1();
+    *(r0 + 0x22) = r3_1;
+    uint32_t r4_1 = r1 >> 0x1e;
+    *r4_1 = r4_1 >> 0x12;
+    /* unimplemented  {stc2 p9, c4, [r11], #0x14} */
+    *(r1 + r0);
+    return arg4;
+}
+
+int32_t sub_5e02(int32_t arg1, int32_t arg2, int32_t arg3 @ r4, void* arg4 @ r5, int32_t arg5 @ r11)
+{
+    *(arg4 + 0x1d) = &arg_0;
+    /* jump -> &data_5e10 + arg5 */
+}
+
+int32_t sub_7236(int32_t arg1, int32_t arg2, int32_t arg3, int32_t arg4 @ r4, int32_t arg5 @ r5)
+{
+    /* unimplemented  {cdp2 p1, #0, c0, c14, c7, #4} */
+    /* unimplemented  {ldc2l p2, c1, [r8, #-0x3e4]} */
+    int32_t r3 = arg4 >> 0xa;
+    /* unimplemented  {cdp2 p3, #6, c3, c3, c2, #0} */
+    int32_t r7_1 = arg4 << 0x19;
+    *(r7_1 + 4);
+    data_30 = *r7_1;
+    
+    if (arg3 >= 0x11)
+        /* undefined */
+    
+    *(arg3 + 7) = arg5 >> 0x1b;
+    /* unimplemented  {cdp2 p2, #3, c8, c0, c15, #0} */
+    /* unimplemented  {ssat r9, #0xf, pc, asr #24} */
+    *r3;
+    *(r3 + 4);
+    *(r3 + 8);
+    void* r5_2 = *(r3 + 0xc);
+    *(r5_2 + 0x30) = r5_2;
+    /* jump -> 0x7886 */
+}
+

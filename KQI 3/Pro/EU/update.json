@@ -1,0 +1,15 @@
+{
+    "data": {
+        "items": [
+            {
+                "devicetype": "FOC",
+                "hasnew": true,
+                "version": "K3E01J23",
+                "date": "1659087833071",
+                "size": "27576",
+                "url": "https://github.com/scooterhacking/niu_scooters/raw/main/KQI3/Pro/EU/OTA_NIU_K3E01J23_25KPH_Pro_220718.bin",
+                "md5": "a41e8c3e1c8f5bf2f7e65025a3b81940"
+            }
+        ]
+    }
+}

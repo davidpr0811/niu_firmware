@@ -6,7 +6,7 @@ The repository also contains some decompiled files:
 - The decompiled **H07 bootloader** can be found in the KQI3 folder.
 - A decompiled version of the **KQI 300X DE firmware** is located in the "KQI300X" folder.
 
-If you own the KQI 300 X/P version from the USA or the EU and are interested in making the firmware flashable, feel free to contact me.
+If you own the KQI 300 X/P version from the USA or the EU and are interested in making the firmware flashable, feel free to [contact me](mailto://david635883@proton.me).
 
 ### Tutorial
 A tutorial (in Spanish, but with subtitles): [YouTube Link](https://www.youtube.com/watch?v=40BTCnkcEHg)

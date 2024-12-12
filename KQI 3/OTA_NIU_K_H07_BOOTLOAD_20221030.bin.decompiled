@@ -1,0 +1,27 @@
+int32_t __convention("regparm") sub_af9(uint224_t* arg1, int32_t, int32_t arg3, int32_t arg4 @ ebp)
+{
+    int32_t var_4 = arg4;
+    void* esp = (&var_4 & arg3);
+    int32_t* ebx;
+    *ebx;
+    *ebx &= ebx;
+    *arg3[1] = 0xcf;
+    int16_t x87status;
+    uint224_t temp0;
+    temp0 = __fnstenv_memmem28();
+    *arg1 = temp0;
+    *0xe3db8088 = arg1;
+    
+    if (arg3 != 0)
+    {
+        *(esp + (ebx << 3)) = (RLCB(*(esp + (ebx << 3)), 1, false));
+        /* undefined */;
+    }
+    
+    int32_t eflags;
+    __out_immb_al(0x8b, arg1, eflags);
+    *ebx[1] = 0x45;
+    *((arg4 + (arg1 << 3)) - 0x15d9766d);
+    /* undefined */;
+}
+

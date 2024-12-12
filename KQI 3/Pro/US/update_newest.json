@@ -1,0 +1,19 @@
+{
+  "data": {
+    "items": [
+      {
+        "devicetype": "FOC",
+        "hasnew": true,
+        "version": "K3E13J23",
+        "date": "1659087865344",
+        "size": "27608",
+        "url": "https://github.com/davidpr0811/niu_firmware/raw/main/KQI%203/Pro/US/OTA_NIU_K3E13J23_32KPH_Pro_220718(1).bin",
+        "md5": "f267201d75b73be6adc948750c34a3ab",
+        "devicetype_name": "Motor Control Unit",
+        "soft_version": "K3E13J23",
+        "trans_encryption": 2,
+        "desc": "1. Increase the regenerative braking strength when the scooter is fully charged.\n2. Charging time is not recorded in riding statistics.\n3. Turn off the tail light automatically when charging.\n4. When the scooter is turned off, charge it then it will be turned on automatically.\n5. Fix the issue that no alarm sounds when pushing the locked scooter.\n6. Increase the locking strength for motor when the scooter is locked.\n7. Fix some occasional issues. It is recommended to update."
+      }
+    ]
+  }
+}

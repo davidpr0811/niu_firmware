@@ -1,0 +1,93 @@
+import numpy as np
+
+def pad_files(us_firmware, de_firmware):
+    """Passt die Firmware-Dateien auf gleiche Länge an"""
+    len_us = len(us_firmware)
+    len_de = len(de_firmware)
+
+    if len_us > len_de:
+        de_firmware = np.pad(de_firmware, (0, len_us - len_de), 'constant', constant_values=0)
+    elif len_de > len_us:
+        us_firmware = np.pad(us_firmware, (0, len_de - len_us), 'constant', constant_values=0)
+
+    return us_firmware, de_firmware
+
+def detect_xor_key(us_firmware, de_firmware):
+    """Ermittelt den XOR-Schlüssel durch Vergleich zweier Firmware-Versionen"""
+    xor_key = np.bitwise_xor(us_firmware[:256], de_firmware[:256])
+
+    if np.all(xor_key == xor_key[0]):
+        print(f"[INFO] Einfache XOR-Verschlüsselung erkannt: {hex(xor_key[0])}")
+        return xor_key[0]
+
+    for length in range(1, 64):  
+        if np.all(xor_key[:length] == xor_key[length:2*length]):
+            print(f"[INFO] Wiederkehrendes XOR-Muster erkannt mit Länge {length} Bytes")
+            return xor_key[:length]
+
+    print("[WARNUNG] XOR-Schlüssel konnte nicht sicher bestimmt werden.")
+    return None
+
+def xor_decrypt(firmware, xor_key):
+    """Entschlüsselt eine Firmware mit dem erkannten XOR-Schlüssel"""
+    if isinstance(xor_key, np.ndarray):
+        xor_key_pattern = np.tile(xor_key, len(firmware) // len(xor_key) + 1)[:len(firmware)]
+        return np.bitwise_xor(firmware, xor_key_pattern)
+    elif isinstance(xor_key, int):
+        return np.bitwise_xor(firmware, xor_key)
+    else:
+        raise ValueError("Kein gültiger XOR-Schlüssel gefunden.")
+
+def find_speed_indices(firmware, speed_old):
+    """Sucht Positionen der aktuellen Geschwindigkeit"""
+    return np.where(firmware == speed_old)[0]
+
+def modify_firmware(us_firmware_path, de_firmware_path, output_path, new_speed=50):
+    """Führt die Modifikation der Firmware durch"""
+    with open(us_firmware_path, "rb") as f:
+        us_firmware = np.frombuffer(f.read(), dtype=np.uint8)
+
+    with open(de_firmware_path, "rb") as f:
+        de_firmware = np.frombuffer(f.read(), dtype=np.uint8)
+
+    # Dateigröße angleichen
+    us_firmware, de_firmware = pad_files(us_firmware, de_firmware)
+
+    xor_key = detect_xor_key(us_firmware, de_firmware)
+    if xor_key is None:
+        print("[FEHLER] XOR-Schlüssel konnte nicht bestimmt werden. Verwende alternative Methode.")
+        xor_diff = np.bitwise_xor(us_firmware[:1024], de_firmware[:1024])
+        most_common_xor = np.bincount(xor_diff).argmax()
+        print(f"[INFO] Alternativer XOR-Schlüssel: {hex(most_common_xor)}")
+        xor_key = most_common_xor
+
+    us_firmware_decrypted = xor_decrypt(us_firmware, xor_key)
+    de_firmware_decrypted = xor_decrypt(de_firmware, xor_key)
+
+    index_speed_de = find_speed_indices(de_firmware_decrypted, 20)
+    index_speed_us = find_speed_indices(us_firmware_decrypted, 32)
+
+    index_speed_match = np.intersect1d(index_speed_de, index_speed_us)
+
+    if len(index_speed_match) == 0:
+        print("[FEHLER] Geschwindigkeitswerte konnten nicht gefunden werden.")
+        return
+
+    modified_firmware = us_firmware_decrypted.copy()
+    for index in index_speed_match:
+        modified_firmware[index] = new_speed
+
+    modified_firmware_encrypted = xor_decrypt(modified_firmware, xor_key)
+
+    with open(output_path, "wb") as f:
+        f.write(modified_firmware_encrypted.tobytes())
+
+    print(f"[ERFOLG] Firmware erfolgreich modifiziert: {output_path}")
+
+if __name__ == "__main__":
+    modify_firmware(
+        us_firmware_path="OTA_NIU_K3E13J23_32KPH_Pro_220718.bin",
+        de_firmware_path="OTA_NIU_K3E38J23_20KPH_Pro_220718.bin",
+        output_path="OTA_NIU_K3E13J23_50KPH_Custom.bin",
+        new_speed=50
+    )

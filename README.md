@@ -2,11 +2,36 @@
 
 This repository provides firmware files for KQI3 and KQI2 scooters, collected from various sources. Additionally, JSON descriptors are included with information such as file names, types, and MD5 checksums.
 
-The repository also contains some decompiled files:
-- The decompiled **H07 bootloader** can be found in the KQI3 folder.
-- A decompiled version of the **KQI 300X DE firmware** is located in the "KQI300X" folder.
+The repository also contains reverse engineered files:
+- **All firmware binaries** have been reverse engineered to `.decompiled` files containing ARM assembly disassembly
+- The decompiled **H07 bootloader** can be found in the KQI3 folder (original decompiled version)
+- A decompiled version of the **KQI 300X DE firmware** is located in the "KQI300X" folder (original decompiled version)
+- **New**: All other firmware files now have corresponding `.decompiled` files with ARM assembly disassembly generated using `reverse_firmware.py`
 
 If you own the KQI 300 X/P version from the USA or the EU and are interested in making the firmware flashable, feel free to [contact me](mailto://david635883@proton.me).
+
+## Reverse Engineering
+
+This repository includes reverse engineered versions of all firmware files. Each `.bin` firmware file has a corresponding `.decompiled` file containing ARM assembly disassembly.
+
+### Using the Reverse Engineering Tool
+
+The repository includes `reverse_firmware.py`, a Python script that automatically generates ARM assembly disassembly for firmware files:
+
+```bash
+python3 reverse_firmware.py
+```
+
+The script will:
+- Find all `.bin` files that don't have corresponding `.decompiled` files
+- Generate ARM assembly disassembly using `arm-linux-gnueabi-objdump`
+- Save the output to `.decompiled` files with proper headers
+
+### Prerequisites
+
+To run the reverse engineering tool, you need:
+- Python 3
+- ARM cross-compilation tools: `sudo apt install gcc-arm-linux-gnueabi binutils-arm-linux-gnueabi`
 
 ### Tutorial
 A tutorial (in Spanish, but with subtitles): [YouTube Link](https://www.youtube.com/watch?v=40BTCnkcEHg)
